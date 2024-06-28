@@ -1,0 +1,103 @@
+[
+  
+    
+  {
+    "title": "project 1 title",
+    "url": "/projects/test/", 
+ 
+     "tag": [  "community", "generative text", "literature",    ],
+
+ "ingredient":[  
+      "experimental",
+    
+   
+      "emotional",
+    
+   
+      "storytelling",
+    
+   
+      "whimsy",
+    
+    ]
+  },
+
+  
+  {
+    "title": "project 2 title",
+    "url": "/projects/test2/", 
+ 
+     "tag": [  "commission", "threejs", "theatre",    ],
+
+ "ingredient":[  
+      "experimental",
+    
+   
+      "inclusive",
+    
+   
+      "tribe",
+    
+   
+      "repurpose",
+    
+   
+      "participatory",
+    
+   
+      "friendly",
+    
+    ]
+  },
+
+  
+  {
+    "title": "project 3 title",
+    "url": "/projects/test3/", 
+ 
+     "tag": [  "commission", "generative text", "AI",    ],
+
+ "ingredient":[  
+      "playful",
+    
+   
+      "experimental",
+    
+   
+      "meaningful",
+    
+   
+      "diverse",
+    
+    ]
+  },
+
+  
+  {
+    "title": "project 4 title",
+    "url": "/projects/test4/", 
+ 
+     "tag": [  "commission", "threejs", "theatre",    ],
+
+ "ingredient":[  
+      "playful",
+    
+   
+      "inclusive",
+    
+   
+      "emotional",
+    
+   
+      "repurpose",
+    
+   
+      "participatory",
+    
+   
+      "whimsy",
+    
+    ]
+  }
+
+]
