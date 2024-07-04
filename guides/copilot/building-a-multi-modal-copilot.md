@@ -84,7 +84,7 @@ We support incoming and outgoing languages from Whisper v3 + v2, Google Chirp, M
 
 \- Decide how the bot should handle questions when sufficient information is not available in the Bible:
 
-&#x20; \- Choose to either refuse to answer or attempt to provide a relevant response.
+to refuse either  - Choose to either refuse to answer or attempt to provide a relevant response.
 
 \- Set limitations on the topics the bot can discuss, focusing on the Bible and Christianity.
 

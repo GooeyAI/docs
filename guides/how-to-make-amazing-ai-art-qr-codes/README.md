@@ -67,7 +67,7 @@ Try it here:
 
 {% embed url="https://gooey.ai/qr-code/" %}
 
-Our system will then generate a QR image, which is cleaned up and processed using control net and stable diffusion to create unique outputs. You can use your phone to scan and test the readability of these QR codes.
+Our system will then generate a QR image, which is cleaned up and processed using Controlnet and Stable Diffusion to create unique outputs. You can use your phone to scan and test the readability of these QR codes.
 
 ### Advanced Settings
 
@@ -103,6 +103,6 @@ Our tool also allows for customization of the QR code's shape and placement with
 
 \- **Output Options:** Select the number of outputs and their quality.
 
-\- A**rtistic Pressure:** Adjust the level of artistic influence on the QR code.
+\- **Artistic Pressure:** Adjust the level of artistic influence on the QR code.
 
 ### Enjoy crafting your custom AI Art QR codes!

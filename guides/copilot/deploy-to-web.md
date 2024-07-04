@@ -43,13 +43,13 @@ Use the “Embed Settings” to choose between “inline”, “pop-up” or “
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-05-25 at 11.33.17 AM.png" alt=""><figcaption><p> Demo of fullscreen AI Copilot</p></figcaption></figure>
 
-**Add the code to website**
+**Add the code to the website**
 
 Copy the Embed code from the “Copy Embed Code” button and paste it into your website \`\`\`\<body\`\`\` tag.
 
 ![](<../../.gitbook/assets/4 (3).png>)
 
-**EXAMPLE SNNIPET**
+**EXAMPLE SNIPPET**
 
 {% code overflow="wrap" %}
 ```html

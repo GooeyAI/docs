@@ -13,10 +13,10 @@ Navigate to the [integrations tab](https://gooey.ai/copilot/integrations) on the
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>The Broadcast Widget. Allows entering text and uploading audio, video, and miscellaneous file attachments. Hit "Send Broadcast" and subsequently click "confirm" to send a message to all your users!</p></figcaption></figure>
 
-Enter your message and upload audio, video, and other documents as desired. Make sure the file type is supported by the relevant platform. WhatsApp currently supports `audio/aac`, `audio/mp4`, `audio/mpeg`, `audio/amr`, and `audio/ogg`. Slack has best support for `audio/mp4` or `audio/mpeg`. Once you're ready to send the messages, click "Send Broadcast" and you'll be prompted for confirmation. Upon confirmation, the messages will start sending. Depending on how many users you have, it can take a few minutes for all of them to be notified.
+Enter your message and upload audio, video, and other documents as desired. Make sure the file type is supported by the relevant platform. WhatsApp currently supports `audio/aac`, `audio/mp4`, `audio/mpeg`, `audio/amr`, and `audio/ogg`. Slack has the best support for `audio/mp4` or `audio/mpeg`. Once you're ready to send the messages, click "Send Broadcast" and you'll be prompted for confirmation. Upon confirmation, the messages will start sending. Depending on how many users you have, it can take a few minutes for all of them to be notified.
 
 {% hint style="info" %}
-Note that WhatsApp restricts free-form message sending to users who have contacted you within the last 24 hours to prevent spam. To sidestep this issue, you can have your message templates [approved by WhatsApp](https://www.facebook.com/business/help/2055875911147364). To do this, you must use a custom WhatsApp business integration on Gooey and not one were we manage the number for you. If you have questions, don't hesitate to contact us via [support@gooey.ai](mailto:support@gooey.ai).
+Note that WhatsApp restricts free-form message sending to users who have contacted you within the last 24 hours to prevent spam. To sidestep this issue, you can have your message templates [approved by WhatsApp](https://www.facebook.com/business/help/2055875911147364). To do this, you must use a custom WhatsApp business integration on Gooey and not one where we manage the number for you. If you have questions, don't hesitate to contact us via [support@gooey.ai](mailto:support@gooey.ai).
 {% endhint %}
 
 ## Programmatic Access via API
@@ -27,11 +27,11 @@ The API supports a few extra features including only sending the message to some
 
 ### Specifying which Integration to Broadcast through
 
-You'll use some combination of the `example_id` and `run_id` query parameters to specify which of your connected published runs you want to broadcast through. These are the same parameters you'll see in the URL on Gooey.AI when you are [editing your run](https://gooey.ai/copilot) or on the [integrations tab](https://gooey.ai/copilot/integrations). To find your run, find it in your history and click on the title to activate it. Then inspect the url, e.g. "[https://gooey.ai/copilot/farmerchat-with-vision/?example\_id=nuwsqmzp](https://gooey.ai/copilot/farmerchat-with-vision/?example\_id=nuwsqmzp)" -- in this case we only have the "example\_id" query parameter so "https://api.gooey.ai/v2/video-bots/broadcast/send/?example\_id=nuwsqmzp" would be our API endpoint URL.
+You'll use some combination of the `example_id` and `run_id` query parameters to specify which of your connected published runs you want to broadcast through. These are the same parameters you'll see in the URL on Gooey.AI when you are [editing your run](https://gooey.ai/copilot) or on the [integrations tab](https://gooey.ai/copilot/integrations). To find your run, find it in your history and click on the title to activate it. Then inspect the URL, e.g. "[https://gooey.ai/copilot/farmerchat-with-vision/?example\_id=nuwsqmzp](https://gooey.ai/copilot/farmerchat-with-vision/?example\_id=nuwsqmzp)" -- in this case, we only have the "example\_id" query parameter so "https://api.gooey.ai/v2/video-bots/broadcast/send/?example\_id=nuwsqmzp" would be our API endpoint URL.
 
 ### Example Code
 
-Once you have your API endpoint, you are ready to start making requests. Here's some sample code in Python, NodeJS and via [CURL](https://everything.curl.dev/get):
+Once you have your API endpoint, you are ready to start making requests. Here's some sample code in Python, NodeJS, and via [CURL](https://everything.curl.dev/get):
 
 ```python
 # $ python3 -m pip install requests

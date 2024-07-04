@@ -1,5 +1,5 @@
 ---
-description: Use stable diffusion with your own image and make a unique avatar!
+description: Use Stable Diffusion with your own image and make a unique avatar!
 ---
 
 # Build your avatar with AI

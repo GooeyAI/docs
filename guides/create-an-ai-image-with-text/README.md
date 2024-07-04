@@ -8,21 +8,23 @@ description: How to create amazing visuals with AI
 
 `I want an image of an astronaut in a space suit walking on the streets of Mumbai.`
 
-### **Step 2: Think about your descriptors and break it down as follows:**
+### **Step 2: Think about your descriptors and break them down as follows:**
 
 * What is the Medium of this image?\
-  eg. It is a painting, a sculpture, an old photograph, portrait, 3D render, etc.
+  eg. It is a painting, a sculpture, an old photograph, a portrait, a 3D render, etc.
 * What/Who are the Subject(s) or Main Object(s) in the image?\
-  eg. A human, an animal, an identity like gender, race, or occupation like dancer, astronaut etc.
+  eg. A human, an animal, an identity like gender, race, or occupation like a dancer, astronaut, etc.
 * What is the Style?\
-  eg. Is it Analogue photography, a watercolor, a line drawing, digital painting etc.
+  eg. Is it Analogue photography, watercolor, line drawing, digital painting etc.
 * What are the Details?\
-  eg. facial features or expressions, the space and landscape, lighting or the colours etc.
+  eg. facial features or expressions, the space, landscape, lighting or colors etc.
 
 ### **Step 3: Construct your prompt:**
 
 `An analogue film still of an astronaut in a space suit walking on the busy streets of Mumbai, golden light on the astronaut, 4k`\
-[example](https://gooey.ai/compare-ai-image-generators?example\_id=s9nmzy34)
+
+
+{% embed url="https://gooey.ai/compare-ai-image-generators/untitled-s9nmzy34/" %}
 
 You can keep editing your prompt until you have your desired output. Consider AI generators as a collaborative tool.
 

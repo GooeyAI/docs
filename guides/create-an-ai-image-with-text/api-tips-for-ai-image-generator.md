@@ -111,5 +111,3 @@ Try it here:&#x20;
 If you want to know more about DALL-E 3 prompting and settings - have a look at this cookbook!&#x20;
 
 [https://cookbook.openai.com/articles/what\_is\_new\_with\_dalle\_3](https://cookbook.openai.com/articles/what\_is\_new\_with\_dalle\_3)
-
-\
