@@ -160,6 +160,6 @@ curl https://api.gooey.ai/v2/LipsyncTTS/ \
 }
 ```
 
-{% swagger src="../.gitbook/assets/openapi (2).json" path="/v1/balance/" method="get" %}
-[openapi (2).json](<../.gitbook/assets/openapi (2).json>)
+{% swagger src="../.gitbook/assets/openapi (2) (2).json" path="https://api.gooey.ai/v1/balance/" method="get" %}
+[openapi (2) (2).json](<../.gitbook/assets/openapi (2) (2).json>)
 {% endswagger %}
