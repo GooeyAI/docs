@@ -34,21 +34,21 @@ Our approach with Gooey.AI is that we learn best when we can see work of others 
 
 [Gooey.AI's Copilot](https://gooey.ai/copilot) is the most advanced chatbot maker in the industry. It offers:
 
-* Selection of multiple [Large Language Models](https://gooey.ai/llm) (OpenAI GPT3.5, GPT4, GPT4-Turbo, GPT4-Vision, Meta's LLaMa2, Google PaLM2 and Gemini)
+* Selection of multiple [Large Language Models](https://gooey.ai/llm) (OpenAI GPT4o, GPT4o-mini, GPT4-Turbo, GPT4-Vision, Meta's LLaMa2, Google PaLM2 and Gemini 1.5 Pro and Claude 3.5)
 * Document OCR and Vision (examples: [simple](https://gooey.ai/copilot/?example\_id=v1xm6uhp), [BibleBot](https://gooey.ai/copilot/?example\_id=iiyv5ch7) and another that [fills out a form from photos](https://gooey.ai/copilot/?example\_id=n13jrsob))
-* Integrations with Facebook, Slack, Whatsapp, Instagram and Websites (via landbot). Or publish your bot as API to integration into your own app.
+* Integrations with Facebook, Slack, [Whatsapp](deploy-on-whatsapp.md), Instagram and Websites (via [custom one-click web widget](deploy-to-web.md)). Or publish your bot as API to integration into your own app.
 * [Synthetic Data Extraction](prepare-synthetic-data.md) (e.g. to turn video transcripts into FAQs)
-  * This allows you to transform both PDFs and videos into editable google sheets, with all the text/transcript extracted and optionally translated. Additionally, it allows you to build an automatic FAQ for each page, with citations given to the particular page number. We’ve found this dramatically improves search results.
+  * This allows you to transform both PDFs and videos into editable Google sheets, with all the text/transcript extracted and optionally translated. Additionally, it allows you to build an automatic FAQ for each page, with citations given to the particular page number. We’ve found this dramatically improves search results.
 * Built-in feedback buttons and [configurable conversation analysis](conversation-analysis.md)
-* Retrieval Augmented Generation (with a Google doc, PDF, or Excel.) + advanced features  including:
+* [Retrieval Augmented Generation](./#what-is-retrieval-augmented-generation) (with a Google doc, PDF, or Excel and even Weblinks) + advanced features  including:
   * Dense Embeddings&#x20;
   * Keyword Search Extraction - useful for highly technical knowledge bases with lots of jargon&#x20;
   * Conversation summarization - to create better vector DB queries
-* [Speech Recognition & Translation](https://gooey.ai/speech) to understand incoming audio messages, powered by the latest models from Azure, Google, Meta, OpenAI and Bhashini.
-* Language translations (including Google Translate, Bhashini, Seamless)
-* Text-to-Speech from Google, Uberduck, and EvelenLabs (so the bot can send back audio responses)
+* [Speech Recognition & Translation](https://gooey.ai/speech) to understand incoming audio messages, powered by the latest models from Azure, Google, Meta, OpenAI, and Bhashini.
+* [Language translations (including Google Translate, Bhashini, Seamless)](https://app.gitbook.com/s/leYcqBx5FRZcVr3wI4f4/global-language-understanding-for-ais)
+* Text-to-speech from Google, Uberduck, and EvelenLabs (so the bot can send back audio responses)
 * Video generation with[ LipSync with Text-to-Speech.](https://gooey.ai/lipsynctts)&#x20;
-* Bulk Evaluation. With this you specify a set of test questions and golden answers and then the tool automatically compares and score competing versions of your bot.
+* Bulk Evaluation: with this, you specify a set of test questions and golden answers, and then the tool automatically compares and scores competing versions of your bot.
 
 ## How it works?
 
@@ -62,13 +62,13 @@ Your data is prepared and indexed and when the user queries the AI Copilot searc
 
 1. Remains accurate and up-to-date&#x20;
 2. It avoids hallucinating for a response
-3. Do not respond to queries beyond the scope of your knowledge (unless you want it to). &#x20;
+3. It does not respond to queries beyond the scope of your **Knowledge Base** (unless you want it to). &#x20;
 4. Mitigates risk to the organization
 5. Builds users' trust by providing relevant information
 
 #### How does RAG LLM work?
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<figure><img src="../../.gitbook/assets/How does RAG-based document search work_.jpg" alt=""><figcaption></figcaption></figure>
 
 ### REAL-WORLD OVERVIEW OF COPILOT VIA FARMER.CHAT
 

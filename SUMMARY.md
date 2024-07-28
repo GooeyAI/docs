@@ -36,6 +36,11 @@
 * [📊 How to create language evaluation for ASR?](guides/how-to-create-language-evaluation-for-asr.md)
 * [How does RAG-based document search work?](guides/how-does-rag-based-document-search-work.md)
 
+## 😇 CONTRIBUTING
+
+* [Contributing](contributing/contributing.md)
+* [Documentation Style Guide](contributing/documentation-style-guide.md)
+
 ## 🤓 API REFERENCE
 
 * [Getting started](api-reference/getting-started.md)
