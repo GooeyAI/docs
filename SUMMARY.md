@@ -35,6 +35,7 @@
 * [Generate “People Also Ask” SEO Content](guides/generate-people-also-ask-seo-content.md)
 * [📊 How to create language evaluation for ASR?](guides/how-to-create-language-evaluation-for-asr.md)
 * [How does RAG-based document search work?](guides/how-does-rag-based-document-search-work.md)
+* [🧩 How to use Gooey Functions?](guides/how-to-use-gooey-functions.md)
 
 ## 😇 CONTRIBUTING
 
