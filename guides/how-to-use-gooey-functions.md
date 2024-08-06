@@ -6,9 +6,11 @@ In this guide, we will look at the steps of creating a functions call on Gooey.A
 
 Head over the [Functions workflow](https://gooey.ai/functions/)
 
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-06 at 11.24.55 PM.png" alt=""><figcaption></figcaption></figure>
+
 ### **Step 2**
 
-Create your POST Request with AFTER Function
+Create your POST Request with AFTER Function:
 
 {% code title="A basic fetch call" lineNumbers="true" %}
 ```javascript
