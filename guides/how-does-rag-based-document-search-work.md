@@ -1,3 +1,7 @@
+---
+icon: database
+---
+
 # How does RAG-based document search work?
 
 Large Language Models are trained on a huge amount of data, yet when you search for your organization or brand, you might find that it usually can’t respond accurately. This means that LLMs might hallucinate (or “make up”) irrelevant or inaccurate information for your business needs.
