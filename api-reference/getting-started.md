@@ -159,9 +159,3 @@ curl https://api.gooey.ai/v2/LipsyncTTS/ \
   }
 }
 ```
-
-## TEST YOUR API CALL HERE
-
-{% swagger src="../.gitbook/assets/openapi (2) (2).json" path="/v3/Lipsync/async/" method="post" %}
-[openapi (2) (2).json](<../.gitbook/assets/openapi (2) (2).json>)
-{% endswagger %}
