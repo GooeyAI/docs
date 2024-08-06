@@ -149,7 +149,7 @@ curl https://api.gooey.ai/v2/LipsyncTTS/ \
 
 #### This is what the example response will look like:
 
-```
+```json
 {
   "id": "aghpjaxi",
   "url": "https://gooey.ai/lipsync-maker/?run_id=aghpjaxi&uid=fm165fOmucZlpa5YHupPBdcvDR02",
@@ -159,3 +159,9 @@ curl https://api.gooey.ai/v2/LipsyncTTS/ \
   }
 }
 ```
+
+## TEST YOUR API CALL HERE
+
+{% swagger src="../.gitbook/assets/openapi (2) (2).json" path="/v3/Lipsync/async/" method="post" %}
+[openapi (2) (2).json](<../.gitbook/assets/openapi (2) (2).json>)
+{% endswagger %}
