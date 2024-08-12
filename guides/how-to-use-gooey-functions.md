@@ -6,11 +6,13 @@ We'll take the example of our Copilot Analysis Scripts. All copilots have an int
 
 ### Scenario
 
-In this example, we will take the "[Gooey Chat Bot Analysis Script](https://gooey.ai/compare-large-language-models/gooey-bot-chat-analysis-script-27lrilywfzmv/)". This LLM script analyzes the incoming messages to our [Gooey.AI Support Bot](https://gooey.ai/copilot/the-gooeyai-support-bot-3dwfcqvcwl04/) and categorizes the user's query into buckets like API Usage, Pricing, Sales, etc.&#x20;
+We will take the "Gooey Chat Bot Analysis Script" in this example. This LLM script analyzes the incoming messages to our [Gooey.AI Support Bot](https://gooey.ai/copilot/the-gooeyai-support-bot-3dwfcqvcwl04/) and categorizes the user's query into buckets like API Usage, Pricing, Sales, etc.&#x20;
 
 We want to push this output to our CRM so we get deeper analytics which helps us respond better to our customers.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-09 at 1.54.11 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hubspot.jpg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-09 at 1.54.11 PM.png" alt=""><figcaption><p>Gooey Support Bot's Analysis script, on the left is the LLM prompt with the incoming message and on the right is the category output</p></figcaption></figure>
 
 {% embed url="https://gooey.ai/compare-large-language-models/gooey-bot-chat-analysis-script-27lrilywfzmv/" %}
 LINK TO THE LLM ANAYLSIS SCRIPT
@@ -22,11 +24,13 @@ LINK TO THE LLM ANAYLSIS SCRIPT
 
 Head over the [Functions workflow](https://gooey.ai/functions/)
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-06 at 11.24.55 PM.png" alt=""><figcaption></figcaption></figure>
-
 ### **Step 2**
 
 Create your POST Request with AFTER Function:
+
+Here is a basic fetch call, you can copy or edit this code as per your needs, and paste it in the code editor on the Functions workflow.&#x20;
+
+**Currently, we have added httpbin for our POST request, you can change this for your preferred API. You can find more** [**examples here**](https://gooey.ai/functions/examples)
 
 {% code title="A basic fetch call" lineNumbers="true" %}
 ```javascript
@@ -43,9 +47,7 @@ async (variables) => {
 ```
 {% endcode %}
 
-**Currently, we have added httpbin for our POST request, you can change this for your preferred API. You can find more** [**examples here**](https://gooey.ai/functions/examples)**.**
-
-<figure><img src="../.gitbook/assets/hubspot.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-09 at 9.58.52 PM.png" alt=""><figcaption><p>Functions workflow with the code editor to the left</p></figcaption></figure>
 
 ### **Step 3**
 
@@ -55,7 +57,7 @@ Add your relevant variables.&#x20;
 
 ### **Step 4**
 
-Hit Submit, if your code is working fine. Use the “Save as New” button and update the run name.
+Hit Submit, if your code is working fine you will get your outputs on the right side. Use the “Save as New” button and update the run name.
 
 <figure><img src="../.gitbook/assets/saveasnew.gif" alt=""><figcaption></figcaption></figure>
 
