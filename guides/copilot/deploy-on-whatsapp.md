@@ -15,7 +15,7 @@ description: One-click integration for your AI Copilot
 
 Click on the [Integrations tab](https://gooey.ai/copilot/integrations/) in the copilot workflow
 
-![](../../.gitbook/assets/0.png)
+![](<../../.gitbook/assets/0 (1).png>)
 
 * Use the “WhatsApp” button
 * You’ll be redirected to Facebook Login Page

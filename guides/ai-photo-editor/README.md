@@ -2,7 +2,7 @@
 description: Create amazing and vivid effects and styles on your images
 ---
 
-# AI Photo Editor
+# 📸 AI Photo Editor
 
 ### What can Gooey's Photo Editor do:
 

@@ -2,7 +2,7 @@
 description: How to create amazing visuals with AI
 ---
 
-# Create an AI Image with text
+# 🖼️ Create an AI Image with text
 
 ### **Step 1: Create an idea or visualization in your mind.**
 

@@ -2,7 +2,7 @@
 description: Make SEO super easy with AI!
 ---
 
-# How to create SEO-Optimized content with AI?
+# 🌐 How to create SEO-Optimized content with AI?
 
 Gooey.AI can help you craft the perfect SEO-optimized titles and paragraphs, even if you're not an SEO expert. With a user-friendly interface and powerful tools, Gooey.AI simplifies the process of boosting your website’s visibility.
 

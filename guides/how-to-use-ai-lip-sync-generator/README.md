@@ -2,7 +2,7 @@
 description: AI-powered lip-sync in seconds!
 ---
 
-# How to use AI Lip Sync Generator?
+# 👄 How to use AI Lip Sync Generator?
 
 Gooey.AI offers a simple and no-code solution for lipsyncing in any language. Lip sync Animation can be handy in corporate training modules, AD campaigns, retail and hospitality sectors, and other video content sources where you have multilingual content.
 

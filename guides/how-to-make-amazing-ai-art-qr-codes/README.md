@@ -2,7 +2,7 @@
 description: AI QR codes have taken the world by storm, build your own in seconds.
 ---
 
-# How to make amazing AI Art QR Codes?
+# 🤳 How to make amazing AI Art QR Codes?
 
 ## How to Create AI Art QR Codes
 

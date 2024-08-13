@@ -2,7 +2,7 @@
 description: A super simple guide to using our most popular workflow!
 ---
 
-# How to create AI Animations?
+# 🎞️ How to create AI Animations?
 
 AI Animation Generator is an amazing tool that can create beautiful animations from your AI text prompts. You can use this tool to create AI generated music videos, create short clips to include in your videos and other amazing creative outputs without any film editing software.
 

@@ -1,4 +1,4 @@
-# Generate “People Also Ask” SEO Content
+# 🔍 Generate “People Also Ask” SEO Content
 
 By tapping into Google's "People also ask" section, this tool helps you discover the questions your audience is eager to find answers to. This workflow not only identifies related queries to your Google search but also delves into URLs you provide, extracting and summarizing all relevant information.
 

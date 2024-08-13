@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# How to build an AI Copilot?
+# 🤖 How to build an AI Copilot?
 
 ## What is an AI Copilot?
 
