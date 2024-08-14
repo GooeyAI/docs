@@ -18,6 +18,5 @@ Each subsequent row is then one glossary term in multiple languages. Read more [
 
 **Notes**:
 
-* MinT does not support Glossaries and Google Translate does not support Glossaries when transliterating. In these cases, the glossaries are ignored
 * By default, each glossary term is not case-sensitive. This parameter can be changed in the gooey-server code.
 * Glossary entries for stopwords are[ignored by the Google Translate API](https://cloud.google.com/translate/docs/advanced/stopwords)

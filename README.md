@@ -30,5 +30,3 @@ Welcome to our docs center. Here you'll find guides, tips, and how-tos to get th
 Start here to understand Gooey.AI, why we exist & how our platform works.
 
 {% embed url="https://www.loom.com/share/dbf28cd1616c411a9d6631be5eb5fcc1?sid=0d588df0-8a06-4cd6-a8e8-9063fe29d854" %}
-
-\
