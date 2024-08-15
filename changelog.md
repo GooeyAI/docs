@@ -23,9 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
     <figure><img src=".gitbook/assets/Auto-play (1).png" alt=""><figcaption></figcaption></figure>
 
-    ### 8-Aug-2024
-
-
+### 8-Aug-2024
 
 #### Added
 
