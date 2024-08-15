@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).&#x20;
 
-### Unreleased
+## Unreleased
 
 * Support for using Seamless M4T v2 for translation and TTS will be made available in the UI soon!
 
@@ -23,7 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
     <figure><img src=".gitbook/assets/Auto-play (1).png" alt=""><figcaption></figcaption></figure>
 
-### 8-Aug-2024
+## 8-Aug-2024
 
 #### Added
 
@@ -48,7 +48,7 @@ _NEW OUTPUT_
 
 * **Lipsync**: bug fixes for short input audio and reference inputs &#x20;
 
-### 24-Jul-2024
+## 24-Jul-2024
 
 #### Fixed
 
