@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🗃️ Gooey.AI Docs](README.md)
+* [Changelog](changelog.md)
 
 ## 📖 Guides
 
