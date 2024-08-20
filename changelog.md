@@ -18,7 +18,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 * [**LLM**](https://gooey.ai/compare-large-language-models): Updated [Sarvam](https://www.sarvam.ai/), GPT-4o Mini, [SEA-LION-v2](https://aisingapore.org/aiproducts/sea-lion/). Head over to our Compare LLM Generator to see it in action, [SEA-LION v2](https://gooey.ai/compare-large-language-models/compare-llms-sea-lion-vs-sota-h6anugije1jf/) and [Sarvam](https://gooey.ai/compare-large-language-models/compare-smol-models-ffutnq5io8g4/) available here!
 * [**Functions**](https://gooey.ai/functions): Revamped functions editor with an in-built linter.
-* [**AI Standards**](https://gooey.ai/standards): Gooey.AI proposes AI Standards. Check out our proposal to the Library of Congress and Rockefeller Foundation [here](https://gooey.ai/standards). We propose that shared AI workflows can catalyze innovation everywhere.
+* [**AI Standards**](https://gooey.ai/standards): Our proposal to the Library of Congress and Rockefeller Foundation on how shared AI workflows can catalyze innovation everywhere.
 * [**Impact**](https://gooey.ai/impact): Understand how you can use GenAI for your Impact Organization.
 
 ## 14-Aug-2024
