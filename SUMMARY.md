@@ -51,6 +51,7 @@
 
 * [Getting started](api-reference/getting-started.md)
 * [API Generator](https://gooey.ai/api/)
+* [Rate Limits](api-reference/rate-limits.md)
 
 ## 🍭 ENDPOINTS
 
