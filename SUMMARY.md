@@ -11,7 +11,6 @@
   * [Prepare Synthetic Data](guides/copilot/prepare-synthetic-data.md)
   * [Craft your AI Copilot's personality](guides/copilot/craft-your-ai-copilots-personality.md)
   * [Advanced Settings](guides/copilot/advanced-settings.md)
-  * [Bulk Evaluation](guides/copilot/bulk-evaluation.md)
   * [Conversation Analysis](guides/copilot/conversation-analysis.md)
   * [Deploy to Slack](guides/copilot/deploy-to-slack.md)
   * [Deploy to Facebook](guides/copilot/deploy-to-facebook.md)
@@ -21,7 +20,7 @@
   * [📢 Broadcast Messages (via web or API)](guides/copilot/broadcast-messages-via-web-or-api.md)
 * [🎞️ How to create AI Animations?](guides/how-to-create-ai-animations.md)
 * [🖼️ Create an AI Image with text](guides/create-an-ai-image-with-text/README.md)
-  * [AI Image Prompting ](https://docs.google.com/presentation/d/1RaoMP0l7FnBZovDAR42zVmrUND9W5DW6eWet-pi6kiE/edit#slide=id.p)
+  * [AI Image Prompting](https://docs.google.com/presentation/d/1RaoMP0l7FnBZovDAR42zVmrUND9W5DW6eWet-pi6kiE/edit#slide=id.p)
   * [API Tips for AI Image Generator](guides/create-an-ai-image-with-text/api-tips-for-ai-image-generator.md)
 * [👄 How to use AI Lip Sync Generator?](guides/how-to-use-ai-lip-sync-generator/README.md)
   * [Lip Sync Animation Generator (WITH AUDIO FILES)](guides/how-to-use-ai-lip-sync-generator/lip-sync-animation-generator-with-audio-files.md)
@@ -39,6 +38,9 @@
 * [🧩 How to use Gooey Functions?](guides/how-to-use-gooey-functions.md)
 * [How to use Compare AI Translations?](guides/how-to-use-compare-ai-translations/README.md)
   * [Google Translate Glossary](guides/how-to-use-compare-ai-translations/google-translate-glossary.md)
+* [⚖️ Understanding Bulk Runner and Evaluation](guides/understanding-bulk-runner-and-evaluation/README.md)
+  * [💪 How to set up Bulk Runner?](guides/understanding-bulk-runner-and-evaluation/how-to-set-up-bulk-runner.md)
+  * [🕵️‍♀️ How to set up Evaluations?](guides/understanding-bulk-runner-and-evaluation/how-to-set-up-evaluations.md)
 
 ## 😇 CONTRIBUTING
 

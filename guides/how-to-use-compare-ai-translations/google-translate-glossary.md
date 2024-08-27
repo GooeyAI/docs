@@ -12,7 +12,7 @@ These sheets contain the glossary information for Google Translate translations 
 
 This sheet contains the glossary terms. The first row should be [ISO-639](https://wikipedia.org/wiki/ISO\_639) or [BCP-47](https://tools.ietf.org/html/bcp47) language codes. Two extra columns are allowed: “pos” to specify part of speech and “description” (these columns are currently ignored by the Google Translate API but may be used in the future):
 
-<figure><img src="../../.gitbook/assets/0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/0 (1).png" alt=""><figcaption></figcaption></figure>
 
 Each subsequent row is then one glossary term in multiple languages. Read more [here](https://cloud.google.com/translate/docs/advanced/glossary#translate\_v3\_translate\_text\_with\_glossary-drest). Changes made to this file are automatically uploaded to a Google Cloud Bucket to be used as a translation Glossary in gooey-server Google Translate requests.
 

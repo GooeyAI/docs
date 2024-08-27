@@ -88,7 +88,7 @@ Try it here:
 
 You can use the “Face Padding” settings to improve the accuracy of the detected face in the image/video. This ensures that the Lip Sync video looks more realistic.
 
-![](<../../.gitbook/assets/2 (1).png>)
+![](<../../.gitbook/assets/2 (1) (1).png>)
 
 #### &#x20;<a href="#id-5272lwq3flrn" id="id-5272lwq3flrn"></a>
 
@@ -108,7 +108,7 @@ How to use the settings:
 
 Note: If you are looking for consistent, long-form speech across many languages, then Google is an excellent choice. But, the voice will sound a little robotic, and many not work for uses that require expressive and emotional speech synthesis.
 
-![](../../.gitbook/assets/3.png)
+![](<../../.gitbook/assets/3 (1).png>)
 
 **ElevenLabs**
 
@@ -128,21 +128,21 @@ You can learn more about custom voice settings here
 
 {% embed url="https://gooey.ai/docs/guides/lipsync-videos-with-custom-voices" %}
 
-![](../../.gitbook/assets/4.png)
+![](<../../.gitbook/assets/4 (1).png>)
 
-![](../../.gitbook/assets/5.png)
+![](<../../.gitbook/assets/5 (1).png>)
 
 **UberDuck.AI**
 
 UberDuck offers low-latency text-to-speech generation.&#x20;
 
-![](../../.gitbook/assets/6.png)
+![](<../../.gitbook/assets/6 (1).png>)
 
 **Bark (Suno.AI)**
 
 Bark is also a great service with several voice options. You can find all the various voice samples [here](https://suno-ai.notion.site/8b8e8749ed514b0cbf3f699013548683?v=bc67cff786b04b50b3ceb756fd05f68c).
 
-![](../../.gitbook/assets/7.png)
+![](<../../.gitbook/assets/7 (1).png>)
 
 #### Speech Provider Samples <a href="#nvegkpa38hjm" id="nvegkpa38hjm"></a>
 

@@ -28,7 +28,7 @@ Gooey.AI provides pre-filled instructions, but you can tailor them to your speci
 
 You can use the “web search tools” based on your target demographic’s geography.
 
-![](../.gitbook/assets/2.png)
+![](<../.gitbook/assets/2 (1).png>)
 
 ### 3. Review and Adjust SEO Content
 
