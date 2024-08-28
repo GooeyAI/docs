@@ -4,13 +4,26 @@ icon: clock-rotate-left
 
 # Changelog
 
-All notable changes to this project will be documented in this file. It keeps track of changes to the GooeyAI repository - [gooey-server](https://github.com/gooeyAI/gooey-server)
+All notable changes to this project will be documented in this file. It keeps track of changes to the GooeyAI repository - [gooey-server](https://github.com/gooeyAI/gooey-server) and other changes to the [Documentation](https://docs.gooey.ai/) and the [Gooey.AI](https://gooey.ai/) website.&#x20;
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## Unreleased
 
 * Support for using Seamless M4T v2 for translation and TTS will be made available in the UI soon!
+
+## 28-Aug-2024
+
+#### Added
+
+* [Allow auto-recharge for users without a paid subscription](https://github.com/GooeyAI/gooey-server/commit/bb334bc7314577c6fb13d0c0d6a12e15343ac39a)
+* Allow saving payment method after a top-up for easier payments in the future
+* Updated meta descriptions for: https://gooey.ai/llm and https://gooey.ai/copilot&#x20;
+* [Rate limits page](https://docs.gooey.ai/api-reference/rate-limits)
+
+#### Fixed&#x20;
+
+* [Regression on top-up payments with PayPal](https://github.com/GooeyAI/gooey-server/commit/200d559250b43cebbd02f8c19e9438b64306923f)
 
 ## 20-Aug-2024
 
