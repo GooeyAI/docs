@@ -20,7 +20,7 @@ Rate limits are a common practice for APIs, and they're put in place for a few d
 | **Creator**  | 4 concurrent runs, 10 requests/min |
 | **Business** | 4 concurrent runs, 10 requests/min |
 
-### If you require a higher number of concurrent requests, please reach out to our Sales team via (sales \[at] gooey \[dot] ai).How do these rate limits work? <a href="#jtp4v5fk0x48" id="jtp4v5fk0x48"></a>
+### How do these rate limits work? <a href="#jtp4v5fk0x48" id="jtp4v5fk0x48"></a>
 
 At Gooey.AI, we measure rate limits in two ways:
 
@@ -34,4 +34,4 @@ Note:
 * Rate limits are defined at the user and org level
 * Rate limits may vary by the model being used at the model provider level.
 
-If you require a higher number of concurrent requests, please reach out to our Sales team via (sales \[at] gooey \[dot] ai).
+**If you require a higher number of concurrent requests, please reach out to our Sales team via (sales \[at] gooey \[dot] ai).**
