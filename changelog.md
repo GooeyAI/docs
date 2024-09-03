@@ -16,8 +16,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 #### Added
 
-* [LLM](https://gooey.ai/compare-large-language-models):  [Updated GPT-4o to `gpt-4o-2024-08-06`, and Gemini 1.5 Flash models ](https://github.com/GooeyAI/gooey-server/commit/8274b3d4513ce4fcc63a125f386fd582d24b029c)
-* [LLM](https://gooey.ai/compare-large-language-models): support for JSON mode on Gemini and Claude
+* [Updated GPT-4o to `gpt-4o-2024-08-06` with support for **16,384 output tokens**](https://github.com/GooeyAI/gooey-server/commit/8274b3d4513ce4fcc63a125f386fd582d24b029c)
+* Added support for [Gemini 1.5 Flash](https://deepmind.google/technologies/gemini/flash/) and [ChatGPT-4o models](https://platform.openai.com/docs/models/gpt-4o)
+* Support for JSON mode on Gemini 1.5 Pro, Gemini 1.5 Flash, and Claude
   * Try here:  [LLM JSON Output](https://gooey.ai/compare-large-language-models/lesson-plan-json-mode-bfmfw2xqksd7/)
 
 ## 28-Aug-2024
