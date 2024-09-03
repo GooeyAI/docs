@@ -12,6 +12,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 * Support for using Seamless M4T v2 for translation and TTS will be made available in the UI soon!
 
+## 03-Sep-2024
+
+#### Added
+
+* [LLM](https://gooey.ai/compare-large-language-models):  [Updated GPT-4o to `gpt-4o-2024-08-06`, and Gemini 1.5 Flash models ](https://github.com/GooeyAI/gooey-server/commit/8274b3d4513ce4fcc63a125f386fd582d24b029c)
+* [LLM](https://gooey.ai/compare-large-language-models): support for JSON mode on Gemini and Claude
+  * Try here:  [LLM JSON Output](https://gooey.ai/compare-large-language-models/lesson-plan-json-mode-bfmfw2xqksd7/)
+
 ## 28-Aug-2024
 
 #### Added
