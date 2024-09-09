@@ -1,6 +1,6 @@
 # Error Codes
 
-If you are facing some errors in your API and SDK calls, you may encounter some "error codes" in the response. Have a look at the error codes to know more:
+If you encountered some error in your API and SDK calls, chances are there is an "error code" in the response message. Have a look at the error codes to know more and head to the bottom of the page to [handle errors programmatically](error-codes.md#handling-errors):
 
 ## API Errors
 
