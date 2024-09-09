@@ -18,6 +18,7 @@
   * [Deploy to Web](guides/copilot/deploy-to-web.md)
   * [Building a Multi-Modal Copilot](guides/copilot/building-a-multi-modal-copilot.md)
   * [📢 Broadcast Messages (via web or API)](guides/copilot/broadcast-messages-via-web-or-api.md)
+  * [Frequently Asked Questions about AI Copilot](guides/copilot/frequently-asked-questions-about-ai-copilot.md)
 * [🎞️ How to create AI Animations?](guides/how-to-create-ai-animations.md)
 * [🖼️ Create an AI Image with text](guides/create-an-ai-image-with-text/README.md)
   * [AI Image Prompting](https://docs.google.com/presentation/d/1RaoMP0l7FnBZovDAR42zVmrUND9W5DW6eWet-pi6kiE/edit#slide=id.p)
