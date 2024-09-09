@@ -54,3 +54,19 @@ You are an AI Bot that runs the front-desk of a Dentist's clinic.
 ```
 
 Here the Jinja templating language uses an `if statement` to provide the prompt with a condition to output the text in a particular way based on the platform the bot is integrated into.
+
+### Q: How many last messages (conversation history) does the copilot accept while answering the user's next question?
+
+A: We retain up to 50 conversations in the conversation history.&#x20;
+
+### Q: Can LLM "temperature" be increased beyond 1 if I want more creative responses?
+
+A: We host several AI models, and the LLM "temperature" settings can vary. Here are the temperature settings per model:&#x20;
+
+| AI Model                                                                                                             | Temperature Settings |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| OpenAI                                                                                                               | 0.0 to 2.0           |
+| [Claude 3.5 Sonnet](https://docs.anthropic.com/en/api/complete)                                                      | 0.0 to 1.0           |
+| [Gemini 1.5 Pro](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/adjust-parameter-values)        | 0.0 to 2.0           |
+| [Gemini 1.5 Flash](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/adjust-parameter-values)      | 0.0 to 2.0           |
+| [Gemini 1.0 Pro Vision](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/adjust-parameter-values) | 0.0 to 1.0           |
