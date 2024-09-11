@@ -12,6 +12,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 * Support for using Seamless M4T v2 for translation and TTS will be made available in the UI soon!
 
+## 11-Sep-2024
+
+#### Added
+
+* Updated web widget chat with a [sidebar to contain conversation history](https://github.com/GooeyAI/gooey-web-widget/commit/0dccc94c36a276fd49c91aa247fdfb2e073b0daa)
+* [All error codes are available in documentation](https://docs.gooey.ai/api-reference/error-codes)
+
 ## 03-Sep-2024
 
 #### Added
