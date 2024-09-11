@@ -91,9 +91,9 @@ The iterative bulk runs and systematic comparison provide a framework for improv
 
 ## When do you use Bulk vs Bulk+Eval vs Eval? <a href="#z8de5cdl1xxq" id="z8de5cdl1xxq"></a>
 
-* **Bulk workflow only** - If you want to test your Copilot’s functionality for regression tests, monitoring and observability, and bugs.
-* **Bulk and Eval** - If you are testing improvements on your prompts, or updating your documents, want to consider A/B testing.
-* **Eval** **workflow only**- If you already have test data and want to use “LLM as Judge” to evaluate it
+* [**Bulk workflow only**](https://gooey.ai/bulk/farmerchat-bulk-evaluator-regression-only-ggzy9gld1eae/) - If you want to test your Copilot’s functionality for regression tests, monitoring and observability, and bugs.
+* [**Bulk and Eval** ](https://gooey.ai/bulk/farmerchat-bulk-evaluator-gpt-4o-mixtral-claude-vs-gemini-pro-15-b0o8aos3rj8y/)- If you are testing improvements on your prompts, or updating your documents, want to consider A/B testing.
+* [**Eval** **workflow only**](https://gooey.ai/eval/copilot-evaluator-artpuhzwvily/)- If you already have test data and want to use “LLM as Judge” to evaluate it
 
 ### Common terms <a href="#id-3yvzoyislzdo" id="id-3yvzoyislzdo"></a>
 

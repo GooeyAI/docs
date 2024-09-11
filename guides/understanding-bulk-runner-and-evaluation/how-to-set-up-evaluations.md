@@ -2,6 +2,8 @@
 
 In this example scenario, we are comparing and evaluating the quality of the answers of various AI Copilots that have all the same settings and functionalities except for different LLMs.&#x20;
 
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Check out the example run here: Evaluation only</strong> </td><td><a href="https://gooey.ai/eval/copilot-evaluator-artpuhzwvily/">https://gooey.ai/eval/copilot-evaluator-artpuhzwvily/</a></td></tr></tbody></table>
+
 ### Step 1: Select Gooey Workflows to evaluate <a href="#mj1hmvoaayxg" id="mj1hmvoaayxg"></a>
 
 Choose the “SAVED” run from Gooey.AI Workflows that you would like to use.
