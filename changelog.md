@@ -12,6 +12,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 * Support for using Seamless M4T v2 for translation and TTS will be made available in the UI soon!
 
+## 17-Sep-2024
+
+#### Added
+
+* Beta release of Python SDK - [https://github.com/gooeyai/python-sdk](https://github.com/gooeyai/python-sdk) and [https://pypi.org/project/gooeyai/](https://pypi.org/project/gooeyai/)
+* Improve OpenAPI spec to use the standard security scheme definition for Bearer
+
+#### Fixed:
+
+* Bug fix for SERP search location when set to st
+
 ## 11-Sep-2024
 
 #### Added
