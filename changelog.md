@@ -10,7 +10,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## Unreleased
 
-* Support for using Seamless M4T v2 for translation and TTS will be made available in the UI soon!
+* Support for using Seamless M4T v2 for translation and TTS will be available in the UI soon!
+
+## 11-Oct-2024
+
+**Fixed**
+
+* Render correct run cost estimate when something on the page changes [#475](https://github.com/GooeyAI/gooey-server/pull/475)
+
+**Added**
+
+* Ability to select LLM on /eval [#472](https://github.com/GooeyAI/gooey-server/pull/472)
+* UX improvements to "save as new" / "save" for anon & logged in users ([#453](https://github.com/GooeyAI/gooey-server/pull/453), [#481](https://github.com/GooeyAI/gooey-server/pull/481))
+* New "share" dialog for published runs [#453](https://github.com/GooeyAI/gooey-server/pull/453)
 
 ## 17-Sep-2024
 
@@ -28,7 +40,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 #### Added
 
 * Updated web widget chat with a [sidebar to contain conversation history](https://github.com/GooeyAI/gooey-web-widget/commit/0dccc94c36a276fd49c91aa247fdfb2e073b0daa)
-* [All error codes are available in documentation](https://docs.gooey.ai/api-reference/error-codes)
+* [All error codes are available in the documentation](https://docs.gooey.ai/api-reference/error-codes)
 
 ## 03-Sep-2024
 
