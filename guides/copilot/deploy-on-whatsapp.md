@@ -66,12 +66,12 @@ A: There could be a few reasons why this isn't working, please AVOID these steps
 
 Please avoid this, you will not be able to integrate Gooey Copilot on that number until you deactivate all these things.&#x20;
 
-**Q: The integration worked successfully, but now it's not working now. Why is this?**
+**Q: The integration worked successfully, but it's not working now. Why is this?**
 
-A: We have commonly found that after successful integration users/organizations are trying to use the connected phone number on the WhatsApp client for messages sent by human experts. Once you have integrated the WhatsApp bot with your AI Copilot, you can't have additional human-sent messages like other WhatsApp Business Accounts.&#x20;
+A: We have commonly found that after successful integration users/organizations try to use the connected phone number on the WhatsApp client for messages sent by human experts. Once you have integrated the WhatsApp bot with your AI Copilot, you can't have additional human-sent messages like other WhatsApp Business Accounts.&#x20;
 
 **Q: The integration worked successfully, why did the bot stop working after the first day?**
 
 A: If you don't connect a credit card to your Facebook Account for the bot, it will deactivate in 24 hours.  There won't be any additional charge from Facebook but they require a credit card to activate the account. Once you add a card there will be a business verification process.
 
-**Contact us at support@gooey.ai if you would like to connect your bot to a WhatsApp from Gooey.**
+Get a WhatsApp number from Gooey by upgrading to a business plan at [https://gooey.ai/pricing](https://gooey.ai/pricing) or book us for a sales call at [https://gooey.ai/contact](https://gooey.ai/contact) if they have questions.

@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## Unreleased
 
-* Support for using Seamless M4T v2 for translation and TTS will be available in the UI soon!
+* Support for using Seamless M4T v2 for translation and TTS will soon be available in the UI!
 
 ## 11-Oct-2024
 
