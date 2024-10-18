@@ -76,11 +76,11 @@ async ({ query }) => {
 
 ```
 
-#### **Step 3** <a href="#step-3" id="step-3"></a>
+### **Step 3** <a href="#step-3" id="step-3"></a>
 
 Hit Submit, if your code is working fine you will get your outputs on the right side. Use the “Save as New” button and update the run name.
 
-#### **Step 4** <a href="#step-5" id="step-5"></a>
+### **Step 4** <a href="#step-5" id="step-5"></a>
 
 Now head over to the Gooey workflow where you want to add the saved functions.
 
