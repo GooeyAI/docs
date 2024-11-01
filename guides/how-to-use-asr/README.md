@@ -55,7 +55,7 @@ Use the "Filter by Language"  dropdown, if you are unsure which models will work
 * Click on the "Translate" checkbox
 * Select the translation model of your choice
 
-### Step 4: Hit "Run"
+### Step 4: Click "Run"
 
 * Click on the "Run" button&#x20;
 
