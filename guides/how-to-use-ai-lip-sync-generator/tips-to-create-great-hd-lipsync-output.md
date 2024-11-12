@@ -42,3 +42,11 @@ Example output
 ### TRY IT HERE!
 
 {% embed url="https://gooey.ai/Lipsync/" %}
+
+## Best Practices for Choosing Images
+
+Have a look at some good practices for Lipsync images&#x20;
+
+<figure><img src="../../.gitbook/assets/lipsync-hd-tips (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/lipsync-hd-tips (1) (1).png" alt=""><figcaption></figcaption></figure>
