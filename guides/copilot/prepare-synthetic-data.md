@@ -16,7 +16,7 @@ When using direct transcriptions from video tutorials and recordings for your [K
 2. Collect lists of YouTube videos or PDFs for data crunching.
 3. Update Google Sheets as workflow progresses.
 
-#### LINK TO WORKFLOW: [https://gooey.ai/youtube-bot/](https://gooey.ai/youtube-bot/)
+#### LINK TO WORKFLOW: [https://gooey.ai/doc-extract](https://gooey.ai/doc-extract)
 
 ### Step 1: Create a New Google Sheet
 
