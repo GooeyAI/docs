@@ -8,10 +8,6 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## Unreleased
-
-* Support for using Seamless M4T v2 for translation and TTS will soon be available in the UI!
-
 ## 18-Nov-2024
 
 **Fixed**
