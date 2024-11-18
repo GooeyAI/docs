@@ -12,6 +12,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 * Support for using Seamless M4T v2 for translation and TTS will soon be available in the UI!
 
+## 18-Nov-2024
+
+**Fixed**
+
+_UX:_
+
+* Removed the signout button from the profiles page (now we have the profile dropdown) - ([commit](https://github.com/GooeyAI/gooey-server/commit/2404a1e97eb54e8669024896f661033c2c4ce7f8))
+* Use an icon with more click-space for more options in the menu
+* Fixed bug where the share button disappears from a saved run - ([commit](https://github.com/GooeyAI/gooey-server/commit/e0a9119b0ccab0ef68d63c11e53af4d1cc4f2786))
+* Support change notes for saved runs&#x20;
+* Better button placement in version history&#x20;
+
+**Added**
+
+_Workspaces \[beta]:_&#x20;
+
+* Breadcrumbs in workspace>author style ([commit](https://github.com/GooeyAI/gooey-server/commit/0d93d32720033f9f8a07f417904e803824d1feaa))&#x20;
+* Better invitation email text ([commit](https://github.com/GooeyAI/gooey-server/commit/2c94b7c321aaabddf3ebb4a131dc2853eccefb32))&#x20;
+* Better text labels for account pages ([commit](https://github.com/GooeyAI/gooey-server/commit/40c02993e8289880643293da8b16964109083aa1))
+* Show workspace selector in "Save" dialog ([commit](https://github.com/GooeyAI/gooey-server/commit/557184bd6e1fce0d7e3583e6fd9bfe8bdce75e55))
+* Added URL fragments to the reference links for improved redirection to specific sections on cited webpages [#502](https://github.com/GooeyAI/gooey-server/pull/502)
+
 ## 11-Oct-2024
 
 **Fixed**
