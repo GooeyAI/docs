@@ -35,8 +35,8 @@ Our approach with Gooey.AI is that we learn best when we can see work of others 
 [Gooey.AI's Copilot](https://gooey.ai/copilot) is the most advanced chatbot maker in the industry. It offers:
 
 * Selection of multiple [Large Language Models](https://gooey.ai/llm) (OpenAI GPT4o, GPT4o-mini, GPT4-Turbo, GPT4-Vision, Meta's LLaMa2, Google PaLM2 and Gemini 1.5 Pro and Claude 3.5)
-* Document OCR and Vision (examples: [simple](https://gooey.ai/copilot/?example\_id=v1xm6uhp), [BibleBot](https://gooey.ai/copilot/?example\_id=iiyv5ch7) and another that [fills out a form from photos](https://gooey.ai/copilot/?example\_id=n13jrsob))
-* Integrations with Facebook, Slack, [Whatsapp](deploy-on-whatsapp.md), Instagram and Websites (via [custom one-click web widget](deploy-to-web.md)). Or publish your bot as API to integration into your own app.
+* Document OCR and Vision (examples: [simple](https://gooey.ai/copilot/?example_id=v1xm6uhp), [BibleBot](https://gooey.ai/copilot/?example_id=iiyv5ch7) and another that [fills out a form from photos](https://gooey.ai/copilot/?example_id=n13jrsob))
+* Integrations with Facebook, Slack, [Whatsapp](../how-to-deploy-an-ai-copilot/deploy-on-whatsapp.md), Instagram and Websites (via [custom one-click web widget](../how-to-deploy-an-ai-copilot/deploy-to-web.md)). Or publish your bot as API to integration into your own app.
 * [Synthetic Data Extraction](prepare-synthetic-data.md) (e.g. to turn video transcripts into FAQs)
   * This allows you to transform both PDFs and videos into editable Google sheets, with all the text/transcript extracted and optionally translated. Additionally, it allows you to build an automatic FAQ for each page, with citations given to the particular page number. We’ve found this dramatically improves search results.
 * Built-in feedback buttons and [configurable conversation analysis](conversation-analysis.md)
