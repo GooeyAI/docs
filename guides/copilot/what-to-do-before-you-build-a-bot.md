@@ -1,5 +1,6 @@
 ---
 description: Before you dive right in, here's a few things to think about
+hidden: true
 ---
 
 # What to do BEFORE You Build a Bot
