@@ -21,15 +21,19 @@ description: One-click integration for your AI Copilot
    3. By line and website link
    4. Conversation Starters - add some introductory questions for the users
 
-* ![](<../../.gitbook/assets/1 (7).png>)
+
+
+<figure><img src="../../.gitbook/assets/1 (7).png" alt=""><figcaption></figcaption></figure>
 
 1. Hit Update
 2. Test your bot here:
    1. Click on the “Message the bot” button and test the bot.
 
-#### ![](<../../.gitbook/assets/2 (4).png>)EMBED TO WEBSITE <a href="#l71lp1y6w8k7" id="l71lp1y6w8k7"></a>
+#### EMBED TO WEBSITE <a href="#l71lp1y6w8k7" id="l71lp1y6w8k7"></a>
 
-Once you are happy with performance of tests, you can Embed the bot in your production website with just two lines of code.
+<figure><img src="../../.gitbook/assets/2 (4).png" alt=""><figcaption></figcaption></figure>
+
+Once you are happy with the performance of the tests, you can Embed the bot in your production website with just two lines of code.
 
 **Select Embed Settings**
 
