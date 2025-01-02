@@ -4,6 +4,8 @@ In this example scenario, we are setting up a simple bulk run to check regressio
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Check out the example run here: BULK RUNNER (Regression Only)</strong></td><td><a href="https://gooey.ai/bulk/farmerchat-bulk-evaluator-regression-only-ggzy9gld1eae/">https://gooey.ai/bulk/farmerchat-bulk-evaluator-regression-only-ggzy9gld1eae/</a></td></tr><tr><td><strong>Check out the example run here: BULK RUNNER (Bulk and Evaluation)</strong></td><td><a href="https://gooey.ai/bulk/farmerchat-bulk-evaluator-gpt-4o-mixtral-claude-vs-gemini-pro-15-b0o8aos3rj8y/">https://gooey.ai/bulk/farmerchat-bulk-evaluator-gpt-4o-mixtral-claude-vs-gemini-pro-15-b0o8aos3rj8y/</a></td></tr></tbody></table>
 
+{% include "../../.gitbook/includes/bulk-run-credit-warning.md" %}
+
 ### Step 1: Select Gooey Workflows <a href="#jmvc9vjmbif9" id="jmvc9vjmbif9"></a>
 
 Choose the “SAVED” run from Gooey.AI Workflows that you would like to use.
