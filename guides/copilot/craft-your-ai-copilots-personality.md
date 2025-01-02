@@ -73,6 +73,10 @@ When deploying an AI Copilot, your API calls will typically consist of two types
 
 The variable content is denoted with **`{{double brackets}}`**, making them easily identifiable and allowing for quick testing of different values.
 
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-02 at 12.19.31 PM.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-02 at 12.48.16 PM.png" alt=""><figcaption></figcaption></figure>
+
 In the example below, each message sent by the user is passed through an LLM script that categorizes the message for usage analysis.&#x20;
 
 {% code title="AI Prompt" %}

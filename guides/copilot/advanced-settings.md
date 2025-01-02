@@ -12,11 +12,7 @@ We offer a wide range of settings to customize the AI Copilot.&#x20;
 
 When a user asks a question, the first task is to search all the relevant documentation. There are several instructions that can be added at this stage that ensure search results are accurate and serve the Language Model with the right snippets to summarize. A basic set of "Guidelines" are already populated, you can change out your website link and other information as needed. &#x20;
 
-<div align="center">
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 5.07.45 PM.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../.gitbook/assets/Screenshot 2025-01-02 at 8.13.41 PM.png" alt=""><figcaption></figcaption></figure></div>
 
 > \[Guidelines]
 >
@@ -33,7 +29,7 @@ When a user asks a question, the first task is to search all the relevant docume
 
 Based on where the copilot is hosted and your need, several citation styles have been provided.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-02 at 8.14.42 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Document Embeddings  Weightage - Dense to Sparse
 
@@ -47,7 +43,7 @@ Usually, we default the weightage setting to 0.5. If you have a copilot that nee
 
 For many AI copilots, it will be important to have a context of the conversation history so it can give contextual details and maintain consistency in the answers. In the summarization instructions, we have added a default instruction. You can change this as per your requirement.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 5.08.05 PM (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 5.08.05 PM (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Keyword Extraction
 
@@ -67,30 +63,37 @@ Choose the relevant language for your Knowledge Base Documents (your prepared do
 
 ### Language Model Settings
 
-Gooey hosted a range of Language Models that are open source and paid. Please chose the one that suits your needs the most.
+Gooey hosted a range of Language Models that are open source and paid. Please choose the one that suits your needs the most.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 5.09.29 PM (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-02 at 8.16.30 PM (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### User Language Settings
+### Capabilities
 
-If the copilot end users will send messages in languages other than English, please add that detail here. This will translate the user's message to English internally to provide better search and summarization and then translate the bot responses back from English to the user language.
+Once your core prompt and knowledge base is ready, you can add capabilities like:&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 5.09.34 PM (1).png" alt="" width="375"><figcaption></figcaption></figure>
+* **Speech Recognition and Translation** - useful for end users who can't type or read well
+* **Text to Speech & Lipsync** - can be used to "read aloud" the Copilot's answer, and also add an AI Avatar for your Copilot
+* **Photo & Document Intelligence** - use this if you have technical documents that need OCR
+* **Developer Tools and Function** - use this for added functionalities like access to servers, external APIs, performing JS logic, and more. [Read more about it here](https://blog.gooey.ai/fun-fun-functions).
+
+<figure><img src="../../.gitbook/assets/Screen Recording 2025-01-02 at 8.20.26 PM processed.gif" alt=""><figcaption></figcaption></figure>
 
 ### Fine Tuned Language Understanding with Custom Glossaries
 
-Once a user language is selected, two glossaries can be provided. 1) The input glossary which the LLM will use to translate/understand the incoming user messages and 2) The output glossary which the LLM will use to translate its responses back to the user language. These can be csv, tsv, excell, or google sheet files either uploaded manually or via url (the latter will automatically update when translating if the url content has changed):
+Once a user language is selected, two glossaries can be provided.&#x20;
+
+1\) The input glossary which the LLM will use to translate/understand the incoming user messages and 2) The output glossary which the LLM will use to translate its responses back to the user language. These can be CSV, TSV, excel, or Google Sheets files either uploaded manually or via URL (the latter will automatically update when translating if the URL content has changed):
 
 &#x20;
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption></figcaption></figure>
 
-The glossary files follow the format specified by the Google Translate API's Equivalent Term Sets ([https://cloud.google.com/translate/docs/advanced/glossary#equivalent\_term\_sets\_csv](https://cloud.google.com/translate/docs/advanced/glossary#equivalent\_term\_sets\_csv)). First row should be [ISO-639](https://wikipedia.org/wiki/ISO\_639) or [BCP-47](https://tools.ietf.org/html/bcp47) language codes. Two extra columns are allowed: “pos” to specify part of speech and “description” (these columns are currently ignored by the Google Translate API but may be used in the future):\
+The glossary files follow the format specified by the Google Translate API's Equivalent Term Sets ([https://cloud.google.com/translate/docs/advanced/glossary#equivalent\_term\_sets\_csv](https://cloud.google.com/translate/docs/advanced/glossary#equivalent_term_sets_csv)). First row should be [ISO-639](https://wikipedia.org/wiki/ISO_639) or [BCP-47](https://tools.ietf.org/html/bcp47) language codes. Two extra columns are allowed: “pos” to specify part of speech and “description” (these columns are currently ignored by the Google Translate API but may be used in the future):\
 
 
 <figure><img src="https://lh7-us.googleusercontent.com/YQC5keBX8eKEOsZXmKrvKN-lI8y8ZUh4KCBHGC2N8rqxcfhrlnc0WzmWrNX3y_kgKn2AcRKYdfWgPrAgvBDJPdKhb9TqrxMm4oNGfDcgsDi1YRmUXxxj9cSNW26C2I3w36A_or_g-b-ZcqLc2aldGEo" alt=""><figcaption></figcaption></figure>
 
-Each subsequent row is then one glossary term in multiple languages. Read more [here](https://cloud.google.com/translate/docs/advanced/glossary#translate\_v3\_translate\_text\_with\_glossary-drest).
+Each subsequent row is then one glossary term in multiple languages. Read more [here](https://cloud.google.com/translate/docs/advanced/glossary#translate_v3_translate_text_with_glossary-drest).
 
 **What does this mean**: When translation is done, terms will first be looked up in the relevant glossary in the column of the input language, and if they exist, they will be translated to the corresponding value in the same row of the output language column. If they don't exist, the default (Google Translate) translation will be used.
 
@@ -101,10 +104,3 @@ Each subsequent row is then one glossary term in multiple languages. Read more [
 **Why/when to use**: Glossaries are good for company and product names (e.g. Gooey.AI) and domain specific terminology that Google Translate does not know. They can also be used to clarify use case specific translation preferences, e.g. enforce formal translations such as using "mother" over "mom" even when the translation source is less formal or clarifying that ambiguous words like "chili" should always refer to the plant (not the powder, dish, etc.) for the specific use case (say a chatbot for farmers). Glossaries can effectively solve these discrepancies and ambiguities across language differences.
 
 **Why/when not to use**: If the desired grammar of the translations, the overall tone, or sentence structure is significantly different for the domain specific purpose vs general use, then a custom trained model might be easier than trying to patch Google Translate defaults one term at a time. Glossaries cannot capture more complex translation logic at the phrase or paragraph level. They are made for individual terms.
-
-### Voice / TTS Settings
-
-Finally, if you feel the user will need voice or video output for the messages, please enable Audio and Video Output. More about TTS Settings can be found in this section.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 5.09.50 PM (1).png" alt="" width="375"><figcaption></figcaption></figure>
-

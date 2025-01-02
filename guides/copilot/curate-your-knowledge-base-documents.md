@@ -10,13 +10,13 @@ description: Learn how to prepare your documents to make the best copilot for yo
 
 ## Create your Knowledge Base Documents&#x20;
 
-You can create your knowledge base documents from text, video or audio.
+You can create your knowledge base documents from text, video, or audio.
 
 ### Collect all your relevant documents and videos&#x20;
 
 You can add documents in the following formats:&#x20;
 
-* Word Docs, PDFs (upto 200 pages)&#x20;
+* Word Docs, PDFs (up to 200 pages)&#x20;
 * PPTs or Google Slides
 * Google documents or sheets as shareable links&#x20;
 * Youtube/tutorial video transcripts as PDF or Google documents (you can use our [Synthetic Data Extract Workflow](https://gooey.ai/doc-extract) for this). Learn more here: [How to prepare your synthetic data](prepare-synthetic-data.md)
@@ -25,18 +25,12 @@ You can add documents in the following formats:&#x20;
 
 Upload the documents to the copilot workflow in the "Documents" section. You can choose to upload them as files, or you can create shared Google Drive links.&#x20;
 
-<div>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-02 at 8.10.43 PM.png" alt=""><figcaption><p>You can upload files individually via your desktop, Google Drive, web links</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 1.56.01 PM.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 1.55.48 PM.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-01-02 at 8.10.49 PM.png" alt=""><figcaption><p>You can upload all the files links in Bulk</p></figcaption></figure>
 
 {% hint style="info" %}
-PRO TIP: If you use google docs or sheets, whenever you update your organisation data or knowledge base, the bot will auto-update that information.&#x20;
+PRO TIP: If you use Google Docs or Sheets, whenever you update your organization data or knowledge base, the bot will auto-update that information.&#x20;
 {% endhint %}
 
 ###

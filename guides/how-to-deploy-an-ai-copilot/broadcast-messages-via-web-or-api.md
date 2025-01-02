@@ -5,7 +5,7 @@ description: >-
   users, and more!
 ---
 
-# 📢 Broadcast Messages (via web or API)
+# Broadcast Messages (via web or API)
 
 ## Using the Web-Based Graphical Interface
 
@@ -21,13 +21,13 @@ Note that WhatsApp restricts free-form message sending to users who have contact
 
 ## Programmatic Access via API
 
-The API supports a few extra features including only sending the message to some subset of users or adding custom buttons. To get started, click the [API link ](https://api.gooey.ai/docs#operation/video-bots\_\_broadcast)(either here or from the integration tab shown above) to view the API documentation for message broadcasting.
+The API supports a few extra features including only sending the message to some subset of users or adding custom buttons. To get started, click the [API link ](https://api.gooey.ai/docs#operation/video-bots__broadcast)(either here or from the integration tab shown above) to view the API documentation for message broadcasting.
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>API documentation for broadcasting.</p></figcaption></figure>
 
 ### Specifying which Integration to Broadcast through
 
-You'll use some combination of the `example_id` and `run_id` query parameters to specify which of your connected published runs you want to broadcast through. These are the same parameters you'll see in the URL on Gooey.AI when you are [editing your run](https://gooey.ai/copilot) or on the [integrations tab](https://gooey.ai/copilot/integrations). To find your run, find it in your history and click on the title to activate it. Then inspect the URL, e.g. "[https://gooey.ai/copilot/farmerchat-with-vision/?example\_id=nuwsqmzp](https://gooey.ai/copilot/farmerchat-with-vision/?example\_id=nuwsqmzp)" -- in this case, we only have the "example\_id" query parameter so "https://api.gooey.ai/v2/video-bots/broadcast/send/?example\_id=nuwsqmzp" would be our API endpoint URL.
+You'll use some combination of the `example_id` and `run_id` query parameters to specify which of your connected published runs you want to broadcast through. These are the same parameters you'll see in the URL on Gooey.AI when you are [editing your run](https://gooey.ai/copilot) or on the [integrations tab](https://gooey.ai/copilot/integrations). To find your run, find it in your history and click on the title to activate it. Then inspect the URL, e.g. "[https://gooey.ai/copilot/farmerchat-with-vision/?example\_id=nuwsqmzp](https://gooey.ai/copilot/farmerchat-with-vision/?example_id=nuwsqmzp)" -- in this case, we only have the "example\_id" query parameter so "https://api.gooey.ai/v2/video-bots/broadcast/send/?example\_id=nuwsqmzp" would be our API endpoint URL.
 
 ### Example Code
 
