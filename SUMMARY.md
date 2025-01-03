@@ -28,6 +28,7 @@
   * [LipSync videos with Custom Voices](guides/how-to-use-ai-lip-sync-generator/lipsync-videos-with-custom-voices.md)
   * [Set up your API for Lipsync with Local Folders](guides/how-to-use-ai-lip-sync-generator/set-up-your-api-for-lipsync-with-local-folders.md)
   * [Tips to create great HD lipsync output](guides/how-to-use-ai-lip-sync-generator/tips-to-create-great-hd-lipsync-output.md)
+  * [Frequently Asked Questions about Lipsync](guides/how-to-use-ai-lip-sync-generator/frequently-asked-questions-about-lipsync.md)
 * [🗣️ How to use ASR?](guides/how-to-use-asr/README.md)
   * [📊 How to create language evaluation for ASR?](guides/how-to-use-asr/how-to-create-language-evaluation-for-asr.md)
 * [How to use Compare AI Translations?](guides/how-to-use-compare-ai-translations/README.md)

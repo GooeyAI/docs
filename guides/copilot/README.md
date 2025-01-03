@@ -30,6 +30,10 @@ In practice, AI copilots and chatbots are generally useful at three broad functi
 
 Our approach with Gooey.AI is that we learn best when we can see work of others and hence, please check out [https://gooey.ai/copilot/examples](https://gooey.ai/copilot/examples).&#x20;
 
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><h4>Barebones GPT Copilot    </h4></td></tr><tr><td><h4>Farmer.Chat</h4></td></tr><tr><td><h4>Health</h4></td></tr><tr><td></td></tr></tbody></table>
+
+
+
 ## What we offer
 
 [Gooey.AI's Copilot](https://gooey.ai/copilot) is the most advanced chatbot maker in the industry. It offers:
