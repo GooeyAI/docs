@@ -20,7 +20,7 @@ A: 250 frames cut-off applies to the input video you have added to the Lipsync w
 
 ### Q: How to clear LipSync history
 
-A: If you are using Gooey.AI API we support this via a simple “keep” or “delete” as a API/SDK request parameter:&#x20;
+A: If you are using Gooey.AI API we support this via a simple “keep” or “delete” as an API/SDK request parameter:&#x20;
 
 ```
 "settings": {
@@ -30,11 +30,11 @@ A: If you are using Gooey.AI API we support this via a simple “keep” or “d
 
 If you are using the Gooey.AI web app, please fill out this form and we will action your request in 5-7 business days. [https://forms.gle/zgMVzQ4iiaAeRcpG8](https://forms.gle/zgMVzQ4iiaAeRcpG8)&#x20;
 
-### Q: what are the rate limits for creating lipsync videos?
+### Q: What are the rate limits for creating lipsync videos?
 
 A: You can find out more about rate limits on our pricing page based on the plan you are on: https://gooey.ai/pricing
 
-### Q: what limitations are there on the volume of lipsync videos I can create?
+### Q: What limitations are there on the volume of lipsync videos I can create?
 
 A: If you are using Lipsync with your audio inputs, you can control the audio gain before uploading the audio. If you are using Lipsync with our TTS tools, you may have to edit this in post-production.&#x20;
 
