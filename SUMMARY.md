@@ -36,6 +36,8 @@
 * [How does RAG-based document search work?](guides/how-does-rag-based-document-search-work.md)
 * [🧩 How to use Gooey Functions?](guides/how-to-use-gooey-functions/README.md)
   * [✨ LLM-enabled Functions](guides/how-to-use-gooey-functions/llm-enabled-functions.md)
+  * [How to use SECRETS in Functions?](guides/how-to-use-gooey-functions/how-to-use-secrets-in-functions.md)
+  * [Frequently Asked Questions about Functions](guides/how-to-use-gooey-functions/frequently-asked-questions-about-functions.md)
 * [🎞️ How to create AI Animations?](guides/how-to-create-ai-animations.md)
 * [🤳 How to make amazing AI Art QR Codes?](guides/how-to-make-amazing-ai-art-qr-codes/README.md)
   * [API tips on AI Art QR Codes](guides/how-to-make-amazing-ai-art-qr-codes/api-tips-on-ai-art-qr-codes.md)
@@ -46,6 +48,10 @@
   * [Build your avatar with AI](guides/ai-photo-editor/build-your-avatar-with-ai.md)
 * [🔍 Generate “People Also Ask” SEO Content](guides/generate-people-also-ask-seo-content.md)
 * [🌐 How to create SEO-Optimized content with AI?](guides/how-to-create-seo-optimized-content-with-ai.md)
+* [How to use Workspaces?](guides/how-to-use-workspaces/README.md)
+  * [How to use Version History?](guides/how-to-use-workspaces/how-to-use-version-history.md)
+  * [How to add SECRETS in your Workspace?](guides/how-to-use-workspaces/how-to-add-secrets-in-your-workspace.md)
+  * [Frequently Asked Questions about Workspaces](guides/how-to-use-workspaces/frequently-asked-questions-about-workspaces.md)
 
 ## 😇 CONTRIBUTING
 
