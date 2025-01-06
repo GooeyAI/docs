@@ -47,9 +47,13 @@ Add the saved Functions workflow in AI Copilot or other Gooey.AI Workflows.&#x20
 
 <figure><img src="../../.gitbook/assets/Screen Recording 2025-01-06 at 3.15.23 PM processed.gif" alt=""><figcaption></figcaption></figure>
 
-\---
+***
+
+
 
 Learn more about adding SECRETS to your Workspaces here:
 
-{% embed url="https://app.gitbook.com/o/9jeaMLKaFVy0VbGEfODs/s/5BFP5RUm6rTLXk8wUSTf/~/changes/201/guides/how-to-use-workspaces/how-to-add-secrets-in-your-workspace" %}
+{% embed url="https://docs.gooey.ai/guides/how-to-use-workspaces/how-to-add-secrets-in-your-workspace" %}
+
+
 

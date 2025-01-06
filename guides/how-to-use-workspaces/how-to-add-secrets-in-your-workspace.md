@@ -28,5 +28,7 @@ Access API key as a variable in the [Functions Workflow](https://gooey.ai/functi
 
 READ MORE ABOUT USE SECRETS in FUNCTIONS here:
 
-{% embed url="https://docs.gooey.ai/guides/how-to-use-gooey-functions/how-to-add-secrets-in-functions" %}
+{% embed url="https://docs.gooey.ai/guides/how-to-use-gooey-functions/how-to-use-secrets-in-functions" %}
+
+
 

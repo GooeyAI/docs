@@ -32,6 +32,10 @@ With Workspaces, you will be able to:
   * API Keys - Keys that are dedicated to this specific Workspace
   * Billing
 
+Learn about Workspaces here:
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>How to use Version History?</td><td><a href="how-to-use-version-history.md">how-to-use-version-history.md</a></td></tr><tr><td>How to add SECRETS in your Workspace?</td><td><a href="how-to-add-secrets-in-your-workspace.md">how-to-add-secrets-in-your-workspace.md</a></td></tr></tbody></table>
+
 ### How can I activate Workspaces in Gooey.AI? <a href="#lnsbsam44owq" id="lnsbsam44owq"></a>
 
-If you are interested in using Workspaces with your team or collaborators please connect with us on [sales@gooey.ai](mailto:sales@gooey.ai).
+If you are interested in using Workspaces with your team or collaborators please connect with us at [sales@gooey.ai](mailto:sales@gooey.ai).
