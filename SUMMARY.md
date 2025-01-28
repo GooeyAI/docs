@@ -23,6 +23,7 @@
 * [⚖️ Understanding Bulk Runner and Evaluation](guides/understanding-bulk-runner-and-evaluation/README.md)
   * [💪 How to set up Bulk Runner?](guides/understanding-bulk-runner-and-evaluation/how-to-set-up-bulk-runner.md)
   * [🕵️‍♀️ How to set up Evaluations?](guides/understanding-bulk-runner-and-evaluation/how-to-set-up-evaluations.md)
+  * [How to use Bulk Run via API](guides/understanding-bulk-runner-and-evaluation/how-to-use-bulk-run-via-api.md)
 * [👄 How to use AI Lip Sync Generator?](guides/how-to-use-ai-lip-sync-generator/README.md)
   * [Lip Sync Animation Generator (WITH AUDIO FILES)](guides/how-to-use-ai-lip-sync-generator/lip-sync-animation-generator-with-audio-files.md)
   * [LipSync videos with Custom Voices](guides/how-to-use-ai-lip-sync-generator/lipsync-videos-with-custom-voices.md)
