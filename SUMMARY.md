@@ -20,7 +20,7 @@
   * [Deploy to Slack](guides/how-to-deploy-an-ai-copilot/deploy-to-slack.md)
   * [Deploy to Facebook](guides/how-to-deploy-an-ai-copilot/deploy-to-facebook.md)
   * [Broadcast Messages (via web or API)](guides/how-to-deploy-an-ai-copilot/broadcast-messages-via-web-or-api.md)
-  * [How to add buttons to your Copilot](guides/how-to-deploy-an-ai-copilot/how-to-add-buttons-to-your-copilot.md)
+  * [Add buttons to your Copilot](guides/how-to-deploy-an-ai-copilot/add-buttons-to-your-copilot.md)
 * [⚖️ Understanding Bulk Runner and Evaluation](guides/understanding-bulk-runner-and-evaluation/README.md)
   * [💪 How to set up Bulk Runner?](guides/understanding-bulk-runner-and-evaluation/how-to-set-up-bulk-runner.md)
   * [🕵️‍♀️ How to set up Evaluations?](guides/understanding-bulk-runner-and-evaluation/how-to-set-up-evaluations.md)
