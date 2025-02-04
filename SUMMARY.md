@@ -54,6 +54,7 @@
   * [How to use Version History?](guides/how-to-use-workspaces/how-to-use-version-history.md)
   * [How to add SECRETS in your Workspace?](guides/how-to-use-workspaces/how-to-add-secrets-in-your-workspace.md)
   * [Frequently Asked Questions about Workspaces](guides/how-to-use-workspaces/frequently-asked-questions-about-workspaces.md)
+  * [🍟 How can I get free credits?](guides/how-to-use-workspaces/how-can-i-get-free-credits.md)
 
 ## 😇 CONTRIBUTING
 
