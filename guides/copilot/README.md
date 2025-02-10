@@ -36,23 +36,48 @@ Our approach with Gooey.AI is that we learn best when we can see work of others 
 
 ## What we offer
 
-[Gooey.AI's Copilot](https://gooey.ai/copilot) is the most advanced chatbot maker in the industry. It offers:
+[Gooey.AI's Copilot](https://gooey.ai/copilot) is the most advanced chatbot builder in the industry because we make all of the latest AI models available to you in no-code, team workspace and allow you to quickly deploy and measure what’s actually useful so you can reach product-market fit faster.&#x20;
 
-* Selection of multiple [Large Language Models](https://gooey.ai/llm) (OpenAI GPT4o, GPT4o-mini, GPT4-Turbo, GPT4-Vision, Meta's LLaMa2, Google PaLM2 and Gemini 1.5 Pro and Claude 3.5)
-* Document OCR and Vision (examples: [simple](https://gooey.ai/copilot/?example_id=v1xm6uhp), [BibleBot](https://gooey.ai/copilot/?example_id=iiyv5ch7) and another that [fills out a form from photos](https://gooey.ai/copilot/?example_id=n13jrsob))
-* Integrations with Facebook, Slack, [Whatsapp](../how-to-deploy-an-ai-copilot/deploy-on-whatsapp.md), Instagram and Websites (via [custom one-click web widget](../how-to-deploy-an-ai-copilot/deploy-to-web.md)). Or publish your bot as API to integration into your own app.
-* [Synthetic Data Extraction](prepare-synthetic-data.md) (e.g. to turn video transcripts into FAQs)
-  * This allows you to transform both PDFs and videos into editable Google sheets, with all the text/transcript extracted and optionally translated. Additionally, it allows you to build an automatic FAQ for each page, with citations given to the particular page number. We’ve found this dramatically improves search results.
-* Built-in feedback buttons and [configurable conversation analysis](conversation-analysis.md)
-* [Retrieval Augmented Generation](./#what-is-retrieval-augmented-generation) (with a Google doc, PDF, or Excel and even Weblinks) + advanced features  including:
-  * Dense Embeddings&#x20;
-  * Keyword Search Extraction - useful for highly technical knowledge bases with lots of jargon&#x20;
-  * Conversation summarization - to create better vector DB queries
-* [Speech Recognition & Translation](https://gooey.ai/speech) to understand incoming audio messages, powered by the latest models from Azure, Google, Meta, OpenAI, and Bhashini.
-* [Language translations (including Google Translate, Bhashini, Seamless)](https://app.gitbook.com/s/leYcqBx5FRZcVr3wI4f4/global-language-understanding-for-ais)
-* Text-to-speech from Google, Uberduck, and EvelenLabs (so the bot can send back audio responses)
-* Video generation with[ LipSync with Text-to-Speech.](https://gooey.ai/lipsynctts)&#x20;
-* Bulk Evaluation: with this, you specify a set of test questions and golden answers, and then the tool automatically compares and scores competing versions of your bot.
+We offer:
+
+* **One-click Integrations** to the most common everyday communication &#x20;
+  * [Whatsapp](https://docs.gooey.ai/guides/how-to-deploy-an-ai-copilot/deploy-on-whatsapp) - including support for multi-lingual, voice notes, photos, buttons, location sharing, RAG citations + function calling.
+  * [Custom one-click web widget](https://docs.gooey.ai/guides/how-to-deploy-an-ai-copilot/deploy-to-web) - deploy in seconds to the web or inside your site or app.
+  * [Facebook](https://docs.gooey.ai/guides/how-to-deploy-an-ai-copilot/deploy-to-facebook)
+  * [Slack](https://docs.gooey.ai/guides/how-to-deploy-an-ai-copilot/deploy-to-slack)&#x20;
+  * Publish your bot as API
+  * SMS + IVR for non-smartphone AI copilots (Enterprise only)
+* **LLM Agnostic:**
+  * Selection of multiple[ Large Language Models](https://gooey.ai/llm) (OpenAI GPT4o, o1, o3 reasoning models, DeepSeek, Mistral, Meta's LLaMa 3.3, Gemini 2,Claude 3.5 and smaller local fine-tuned models like Sarvam 2B, SEA-Lion, and AfroLLAMA.)
+* **Language and regional accent support:**
+  * [Speech Recognition & Translation](https://gooey.ai/speech) to understand incoming audio messages, powered by the latest models from Azure, Google, Meta, OpenAI, and Bhashini.&#x20;
+  * [Language translations (including Google Translate, Bhashini, Seamless)](https://blog.gooey.ai/global-language-understanding-for-ais)
+  * Text-to-speech for the widest range of global accents and cloned voices from Google,OpenAI, Azure, and EvelenLabs (so the bot can send back audio responses)
+* **Function calling:**
+  * Function calling enables tool support and agentic decision-making, meaning the  AI model can decide whether and when the function must be executed and/or if code should be written to fulfill a request.
+  * Function calling for OpenAI, Mistral and LLaMa models allows your [copilot to securely read and write to your company data](https://gooey.ai/copilot/nurse-julie-health-voice-conversations-to-patient-records-cqd11cspkz4o/), perform [google searches and even write and execute code in real-time](https://gooey.ai/copilot/base-copilot-w-search-rag-code-execution-v1xm6uhp/).
+  * Every function call are themselves workflows of Javascript code, meaning you can collaborate on them like any other Gooey Workflow.&#x20;
+  * Function calling is supported by Azure back secret support so you can safely call private APIs (and no one outside your team - including Gooey staff - will have access to your secret API keys)
+* **Audio and Video Generation:**&#x20;
+  * This empowers more users to engage with the app with voice and video notes - no typing required!
+  * Lipsync’d video generation with [LipSync with Text-to-Speech](https://gooey.ai/lipsynctts). Copilots with avatars can create higher engagement and trust. &#x20;
+* **Document and Vision Intelligence:**
+  * Our copilots (and their integrations with WhatsApp, the web, slack, etc) natively support audio, images and documents as inputs, allowing scenarios such as using a nameplate to recognize a part number, recognizing plant ailments from photos and extracting data from ID documents to [aid out filling out forms](https://gooey.ai/copilot/?example_id=n13jrsob).&#x20;
+* **Retrieval Augmented Generation + vectorDB:**
+  * [Retrieval Augmented Generation](https://docs.gooey.ai/guides/copilot#what-is-retrieval-augmented-generation) (with a Google doc, PDF, or Excel and even Weblinks) + advanced features including:
+    * Dense Embeddings
+    * Keyword Search Extraction - useful for highly technical knowledge bases with lots of jargon
+    * Conversation summarization - to create better vector DB queries
+* [**Synthetic Data Extraction**](https://docs.gooey.ai/guides/copilot/prepare-synthetic-data) **(with page-level citations)**
+  * Often the knowledge base material of a copilot is less than ideal. PDFs are often blurry, complex, and filled with irregular charts and tables. Videos contain useful insights but long rambling transcripts.&#x20;
+  * Our synthetic data tools give you an easy-to-use but customizable pipeline to prepare PDFs, audio, videos, PPTs, etc for inclusion into copilots. We support all the best OCR and AI vision tools to understand PPTs and PDFs and then give you power of LLM prompts to create structured data from highly unstructed sources. &#x20;
+  * For example, you can transform both PDFs and videos into editable Google sheets, with all the text/transcript extracted and translated, with an automatic FAQ for each page, with citations given to the particular page number. We’ve found this dramatically improves search results.
+* **Analysis tools:**
+  * Built-in feedback buttons&#x20;
+  * Detailed Copilot Dashboard Insights
+  * [Configurable Conversation Analysis](https://docs.gooey.ai/guides/copilot/conversation-analysis)
+  * Integrate with your own analysis tools: Push copilot data to external sources in real-time (via POST functions) or on a schedule.&#x20;
+* [**Bulk Evaluation**](https://docs.gooey.ai/guides/understanding-bulk-runner-and-evaluation)**:** specify a set of test questions and golden answers, and then the tool automatically compares and scores competing versions of your bot.
 
 ## How it works?
 
