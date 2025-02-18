@@ -2,7 +2,7 @@
 description: One-click integration for your AI Copilot
 ---
 
-# Deploy on WhatsApp
+# Deploy to WhatsApp
 
 ## **How to deploy on WhatsApp** <a href="#rf6x2djyuia6" id="rf6x2djyuia6"></a>
 
@@ -15,7 +15,7 @@ description: One-click integration for your AI Copilot
 
 Click on the [Integrations tab](https://gooey.ai/copilot/integrations/) in the copilot workflow
 
-![](<../../.gitbook/assets/0 (1) (1).png>)
+![](<../../.gitbook/assets/0 (1) (1) (1).png>)
 
 * Use the “WhatsApp” button
 * You’ll be redirected to Facebook Login Page&#x20;
@@ -26,7 +26,7 @@ Click on the [Integrations tab](https://gooey.ai/copilot/integrations/) in the c
 
 ### Step 1 - Fill Business Information
 
-<figure><img src="../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Choose your business account (or create a new one)
 

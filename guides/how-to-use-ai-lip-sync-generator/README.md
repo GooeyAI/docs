@@ -48,7 +48,7 @@ For this example, we have generated an avatar on Gooey.AI’s Image generator to
 
 <figure><img src="https://storage.googleapis.com/dara-c1b52.appspot.com/daras_ai/media/c4bd6b86-8070-11ee-94c2-02420a0001ee/gooey.ai%20-%20Create%20a%20beautiful%20black%20and%20white%20il...%20of%20the%20graphic%20novelist%20and%20artist%20Robert%20crumb.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Try the tool here: [https://gooey.ai/compare-ai-image-generators/?run\_id=pqikl5mi\&uid=fm165fOmucZlpa5YHupPBdcvDR02](https://gooey.ai/compare-ai-image-generators/?run\_id=pqikl5mi\&uid=fm165fOmucZlpa5YHupPBdcvDR02)
+Try the tool here: [https://gooey.ai/compare-ai-image-generators/?run\_id=pqikl5mi\&uid=fm165fOmucZlpa5YHupPBdcvDR02](https://gooey.ai/compare-ai-image-generators/?run_id=pqikl5mi\&uid=fm165fOmucZlpa5YHupPBdcvDR02)
 
 #### Step 2 <a href="#id-5v4axqcj5yym" id="id-5v4axqcj5yym"></a>
 
@@ -88,7 +88,7 @@ Try it here:
 
 You can use the “Face Padding” settings to improve the accuracy of the detected face in the image/video. This ensures that the Lip Sync video looks more realistic.
 
-![](<../../.gitbook/assets/2 (1) (1).png>)
+![](<../../.gitbook/assets/2 (1) (1) (1).png>)
 
 #### &#x20;<a href="#id-5272lwq3flrn" id="id-5272lwq3flrn"></a>
 
@@ -108,7 +108,7 @@ How to use the settings:
 
 Note: If you are looking for consistent, long-form speech across many languages, then Google is an excellent choice. But, the voice will sound a little robotic, and many not work for uses that require expressive and emotional speech synthesis.
 
-![](<../../.gitbook/assets/3 (1).png>)
+![](<../../.gitbook/assets/3 (1) (1).png>)
 
 **ElevenLabs**
 
@@ -128,9 +128,9 @@ You can learn more about custom voice settings here
 
 {% embed url="https://gooey.ai/docs/guides/lipsync-videos-with-custom-voices" %}
 
-![](<../../.gitbook/assets/4 (1).png>)
+![](<../../.gitbook/assets/4 (1) (1).png>)
 
-![](<../../.gitbook/assets/5 (1).png>)
+![](<../../.gitbook/assets/5 (1) (1).png>)
 
 **UberDuck.AI**
 
@@ -148,12 +148,12 @@ Bark is also a great service with several voice options. You can find all the va
 
 Here are some samples of the various speech providers.
 
-Google (english) - [https://gooey.ai/compare-text-to-speech-engines/?run\_id=n2b8ng36\&uid=fm165fOmucZlpa5YHupPBdcvDR02](https://gooey.ai/compare-text-to-speech-engines/?run\_id=n2b8ng36\&uid=fm165fOmucZlpa5YHupPBdcvDR02)
+Google (english) - [https://gooey.ai/compare-text-to-speech-engines/?run\_id=n2b8ng36\&uid=fm165fOmucZlpa5YHupPBdcvDR02](https://gooey.ai/compare-text-to-speech-engines/?run_id=n2b8ng36\&uid=fm165fOmucZlpa5YHupPBdcvDR02)
 
 ElevenLabs (english) -
 
-[https://gooey.ai/compare-text-to-speech-engines/?run\_id=jj3vkot4\&uid=fm165fOmucZlpa5YHupPBdcvDR02](https://gooey.ai/compare-text-to-speech-engines/?run\_id=jj3vkot4\&uid=fm165fOmucZlpa5YHupPBdcvDR02)
+[https://gooey.ai/compare-text-to-speech-engines/?run\_id=jj3vkot4\&uid=fm165fOmucZlpa5YHupPBdcvDR02](https://gooey.ai/compare-text-to-speech-engines/?run_id=jj3vkot4\&uid=fm165fOmucZlpa5YHupPBdcvDR02)
 
 UberDuck.AI (english) -
 
-[https://gooey.ai/compare-text-to-speech-engines/?run\_id=mvrb5fco\&uid=fm165fOmucZlpa5YHupPBdcvDR02](https://gooey.ai/compare-text-to-speech-engines/?run\_id=mvrb5fco\&uid=fm165fOmucZlpa5YHupPBdcvDR02)
+[https://gooey.ai/compare-text-to-speech-engines/?run\_id=mvrb5fco\&uid=fm165fOmucZlpa5YHupPBdcvDR02](https://gooey.ai/compare-text-to-speech-engines/?run_id=mvrb5fco\&uid=fm165fOmucZlpa5YHupPBdcvDR02)

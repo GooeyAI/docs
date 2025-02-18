@@ -78,4 +78,4 @@ Try it here:
 
 You can use the “Face Padding” settings to improve the accuracy of the detected face in the image/video. This ensures that the Lip Sync video looks more realistic.
 
-![](<../../.gitbook/assets/2 (1) (1).png>)
+![](<../../.gitbook/assets/2 (1) (1) (1).png>)

@@ -16,7 +16,7 @@ With this approach, you can generate well-cited, authoritative content that boos
 
 Link: [https://gooey.ai/related-qna-maker/](https://gooey.ai/related-qna-maker/)
 
-![](<../.gitbook/assets/1 (1) (1).png>)
+![](<../.gitbook/assets/1 (1) (1) (1).png>)
 
 1. Add your google search query, in this example we have searched for “jon snow” the character from “Game of Thrones”. You can optionally search specific sites. Here we have used “[https://fandom.com](https://fandom.com/)”
 2. Hit submit!
