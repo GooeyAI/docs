@@ -1,5 +1,27 @@
 # 🔥 How to connect FirebaseDB to Copilot
 
+In this guide, we will learn how to create a Functions call to push medical records to Firebase Realtime Database via a conversational Copilot meant for Community Health Workers. &#x20;
+
+#### Scenario&#x20;
+
+A CHW visits a beneficiary for a monthly checkup, taking notes by hand due to unstable network connectivity that disrupts data entry in the Android app.
+
+#### Proposed Copilot
+
+The CHW sends a voice note via WhatsApp. It transcribes data for approval and updates the medical database hosted on Firebase Realtime Database, avoiding connectivity issues.
+
+<figure><img src="../../.gitbook/assets/Gooey.AI Diagram (ambika draft) (3).jpg" alt=""><figcaption></figcaption></figure>
+
+You can try the WhatsApp Workflow here:&#x20;
+
+{% embed url="https://wa.me/+12064894738?text=Hi" %}
+
+You can tweak the Workflow here:
+
+{% embed url="https://gooey.ai/copilot/nurse-julie-health-voice-conversations-to-patient-records-cqd11cspkz4o/" %}
+Nurse Julie Copilot Builder&#x20;
+{% endembed %}
+
 ## Create the Firebase Function
 
 ### Step 1: Create a Firebase project
