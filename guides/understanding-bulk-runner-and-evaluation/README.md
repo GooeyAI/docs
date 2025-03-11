@@ -33,8 +33,6 @@ Here are the **quickstart guides** for Bulk Runner and Evaluation:
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>How to set up Bulk Runner?</td><td><a href="how-to-set-up-bulk-runner.md">how-to-set-up-bulk-runner.md</a></td><td><a href="../../.gitbook/assets/Bulk Runner.png_400x400.png">Bulk Runner.png_400x400.png</a></td></tr><tr><td>How to set up Evaluation?</td><td><a href="how-to-set-up-evaluations.md">how-to-set-up-evaluations.md</a></td><td><a href="../../.gitbook/assets/W.I.9.png_400x400.png">W.I.9.png_400x400.png</a></td></tr></tbody></table>
 
-{% include "../../.gitbook/includes/bulk-run-credit-warning.md" %}
-
 ## How Does Bulk Runner Work? <a href="#r7so22ymyyn2" id="r7so22ymyyn2"></a>
 
 ### Bulk Run Overview <a href="#id-2v61ngoeupi4" id="id-2v61ngoeupi4"></a>

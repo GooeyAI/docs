@@ -40,6 +40,7 @@
 * [🧩 How to use Gooey Functions?](guides/how-to-use-gooey-functions/README.md)
   * [✨ LLM-enabled Functions](guides/how-to-use-gooey-functions/llm-enabled-functions.md)
   * [How to use SECRETS in Functions?](guides/how-to-use-gooey-functions/how-to-use-secrets-in-functions.md)
+  * [🔥 How to connect FirebaseDB to Copilot](guides/how-to-use-gooey-functions/how-to-connect-firebasedb-to-copilot.md)
   * [Frequently Asked Questions about Functions](guides/how-to-use-gooey-functions/frequently-asked-questions-about-functions.md)
 * [🎞️ How to create AI Animations?](guides/how-to-create-ai-animations.md)
 * [🤳 How to make amazing AI Art QR Codes?](guides/how-to-make-amazing-ai-art-qr-codes/README.md)
