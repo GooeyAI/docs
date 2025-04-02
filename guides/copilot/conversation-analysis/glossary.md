@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Glossary
 
 Terms from the **Messages Table/CSV:**
