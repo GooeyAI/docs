@@ -2,7 +2,7 @@
 description: Make your custom image models with Gooey.AI
 ---
 
-# How to use Gooey.AI’s Image Model Trainer?
+# 🧑‍🏫 How to use Gooey.AI’s Image Model Trainer?
 
 ## What is fine-tuning? <a href="#skgmtnp5407b" id="skgmtnp5407b"></a>
 

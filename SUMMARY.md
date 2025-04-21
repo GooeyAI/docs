@@ -51,7 +51,7 @@
   * [API Tips for AI Image Generator](guides/create-an-ai-image-with-text/api-tips-for-ai-image-generator.md)
 * [📸 AI Photo Editor](guides/ai-photo-editor/README.md)
   * [Build your avatar with AI](guides/ai-photo-editor/build-your-avatar-with-ai.md)
-* [How to use Gooey.AI’s Image Model Trainer?](guides/how-to-use-gooey.ais-image-model-trainer.md)
+* [🧑‍🏫 How to use Gooey.AI’s Image Model Trainer?](guides/how-to-use-gooey.ais-image-model-trainer.md)
 * [🔍 Generate “People Also Ask” SEO Content](guides/generate-people-also-ask-seo-content.md)
 * [🌐 How to create SEO-Optimized content with AI?](guides/how-to-create-seo-optimized-content-with-ai.md)
 * [How to use Workspaces?](guides/how-to-use-workspaces/README.md)
