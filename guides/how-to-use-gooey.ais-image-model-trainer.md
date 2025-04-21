@@ -28,7 +28,16 @@ See this example, where we used Mughal miniature paintings (sourced from Creativ
 
 ## How to fine-tune Flux.1 on Gooey.AI? <a href="#eg7b0h8f23v4" id="eg7b0h8f23v4"></a>
 
-Training an image model on Gooey.AI workflows is very easy. You can start here: https://gooey.ai/model-trainer/
+Training an image model on Gooey.AI workflows is very easy. We use LoRA Image Training, which stands for Low-Rank Adaptation, a mathematical technique to reduce the number of parameters that are trained.&#x20;
+
+* **Smaller datasets:** You only need 6-10 images to train a good model.&#x20;
+* **Faster training**: Training a new concept with LoRA takes just a few minutes.
+* **Smaller outputs**: Trained LoRA outputs are small, easy to reuse, and share.
+* **Combine concepts**: You can combine several models to create unique outputs.&#x20;
+
+You can start here:&#x20;
+
+{% embed url="https://gooey.ai/model-trainer/" %}
 
 ### Select your training model <a href="#n3i5z011hxu1" id="n3i5z011hxu1"></a>
 
@@ -96,7 +105,7 @@ You can also use numerals or symbols, for example, instead of “mughal”, you 
 
 ![](<../.gitbook/assets/9 (3).png>)
 
-### Good Practices <a href="#d5nxvz1bqfk7" id="d5nxvz1bqfk7"></a>
+## Good Practices for LoRA Image Training <a href="#d5nxvz1bqfk7" id="d5nxvz1bqfk7"></a>
 
 * Prepare your dataset with care
 * Caption your images with good descriptive details
