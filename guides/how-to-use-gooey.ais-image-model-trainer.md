@@ -114,3 +114,7 @@ You can also use numerals or symbols, for example, instead of “mughal”, you 
   * If you are using images from the internet, please check the copyrights
   * Try to use images that are in Creative Commons or open domains.
 * Training models can be expensive, so please check all your settings and data before you run the model
+
+## How to get a consistent character?
+
+{% embed url="https://youtu.be/Rh7GFevnVYg" %}
