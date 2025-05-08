@@ -8,6 +8,24 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 08-May-2025
+
+**Added**
+
+* [Added o3, o4-mini, 4.1, 4.1-mini, and 4.1-nano](https://github.com/GooeyAI/gooey-server/pull/646)
+* [Added gpt 2.5 flash preview model](https://github.com/GooeyAI/gooey-server/pull/655)
+* ["Help guide" button in workflow header](https://github.com/GooeyAI/gooey-server/pull/657)
+
+**Changed**
+
+* [Clearer wording on share dialog](https://github.com/GooeyAI/gooey-server/pull/652)
+* [Changed placement for visibility on the workflow list](https://github.com/GooeyAI/gooey-server/pull/652)
+* [Changed workflow list to show workspaces name in front of user pill](https://github.com/GooeyAI/gooey-server/pull/656)
+
+**Fixed**
+
+* [Bugfix for Gemini 2.5 pro preview: lower bound for max tokens to accommodate thinking tokens](https://github.com/GooeyAI/gooey-server/pull/653)
+
 ## 18-Nov-2024
 
 **Fixed**
