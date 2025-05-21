@@ -48,7 +48,7 @@ We offer:
   * Publish your bot as API
   * SMS + IVR for non-smartphone AI copilots (Enterprise only)
 * **LLM Agnostic:**
-  * Selection of multiple[ Large Language Models](https://gooey.ai/llm) (OpenAI GPT4o, o1, o3 reasoning models, DeepSeek, Mistral, Meta's LLaMa 3.3, Gemini 2,Claude 3.5 and smaller local fine-tuned models like Sarvam 2B, SEA-Lion, and AfroLLAMA.)
+  * Selection of multiple[ Large Language Models](https://gooey.ai/llm) (OpenAI GPT4o, o1, o3 reasoning models, 4.1, 4.1-nano, 4.1-mini, 4.5, DeepSeek, Mistral, Meta's LLaMa 3.3, Gemini 2,Claude 3.5 and smaller local fine-tuned models like Sarvam 2B, SEA-Lion, and AfroLLAMA.)
 * **Language and regional accent support:**
   * [Speech Recognition & Translation](https://gooey.ai/speech) to understand incoming audio messages, powered by the latest models from Azure, Google, Meta, OpenAI, and Bhashini.&#x20;
   * [Language translations (including Google Translate, Bhashini, Seamless)](https://blog.gooey.ai/global-language-understanding-for-ais)
