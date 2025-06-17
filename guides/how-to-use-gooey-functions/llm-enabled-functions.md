@@ -27,7 +27,7 @@ Using LLM-enabled Functions is exactly the same as "BEFORE" and "AFTER" function
 
 ### **Step 1** <a href="#step-1" id="step-1"></a>
 
-Head over the [Functions workflow](https://gooey.ai/functions/)
+Head over to the [Functions workflow](https://gooey.ai/functions/)
 
 ### **Step 2** <a href="#step-2" id="step-2"></a>
 
