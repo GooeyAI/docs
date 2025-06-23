@@ -1,5 +1,6 @@
 ---
 description: How to set up slack
+hidden: true
 ---
 
 # Deploy to Slack
