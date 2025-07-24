@@ -22,7 +22,7 @@ To add Buttons to Gooey.AI’s copilot is extremely simple. They can be added ea
 
 {% embed url="https://gooey.ai/copilot/mshauri-wa-shamba-en-emoji-buttons-9freijr7aaus/" %}
 
-#### Example 1: TOS Agreement <a href="#xcfla458v753" id="xcfla458v753"></a>
+### Example 1: TOS Agreement <a href="#xcfla458v753" id="xcfla458v753"></a>
 
 For a constant message like when you want users to Agree to TOS, you can add the prompt as shown below:
 
@@ -58,7 +58,7 @@ The key part to remember is to add the `<button>` tag in the prompt, so any text
 
 ![Screenshot of the Copilot Builder with the constant button](<../../.gitbook/assets/Screenshot 2025-07-24 at 10.34.30 AM.png>)
 
-#### Example 2: Create contextual questions for follow-on conversations <a href="#id-68bzc6duztt6" id="id-68bzc6duztt6"></a>
+### Example 2: Create contextual questions for follow-on conversations <a href="#id-68bzc6duztt6" id="id-68bzc6duztt6"></a>
 
 Copilot can respond and create contextual buttons for the user as per the chat history. This can be achieved through prompt engineering the Copilot.
 
