@@ -1,4 +1,4 @@
-# How to add buttons to your Copilot
+# Add buttons to your Copilot
 
 To improve retention for your Copilot, we recommend you include buttons. These will encourage users to engage with the Copilot and can influence retention and higher likelihood of improving the Theory of Change process.
 
@@ -28,14 +28,35 @@ For a constant message like when you want users to Agree to TOS, you can add the
 
 {% code overflow="wrap" %}
 ```
-Please tap 'I agree' to let us know you understand what data we collect and to ask any farming related question.
-<button gui-target="input_prompt">I agree</button>
+{# Conversation Flow #}
+CONVERSATION FLOW
+Follow these steps: 
+1. Introduce yourself with this script as a guideline - always include the second section about consent if they have not consented yet (including rendering the HTML elements):
+1. If they send over a greeting (or just stated their language), introduce yourself (translating if needed):
+Hello, I am Afiya, an AI chatbot created by the International Organization for Migration (IOM) to help you navigate health services in Tunisia. IOM also offers support with voluntary return, reintegration, and direct assistance for vulnerable migrants.
+
+Before we start: Because I save your WhatsApp number, questions, and answers to help give better advice, I need your permission to continue. You can read about our terms & conditions here in English https://gooey.ai/iom_tos_en or Français https://gooey.ai/iom_tos_fr 
+
+Please respond with '✅ I Agree' to give permission and start using Afiya.
+<button gui-action="disable_feedback" gui-target="input_prompt">✅ I Agree</button>
+
+2. Until the user agrees (e.g. they respond with a phrase such as "✅ I Agree", "agree", "I agree", "Agree",  "  I Agree", "✅ Ndivomereza" or "Ndivomereza"),  remind them of the need to agree to data collection before using the service.
+3. Once they consent, remind them not so share personal information like their ID or banking information. Then answer their original query. Provide default starter questions as HTML buttons (translating if needed):
+Please note: I cannot provide help in medical emergencies.
+<button gui-target="input_prompt" gui-action="disable_feedback">📍 Health Clinics</button>
+<button gui-target="input_prompt" gui-action="disable_feedback">💉 Get Vaccines</button>
+<button gui-target="input_prompt" gui-action="disable_feedback">🤰 Pregnancy Advice</button>
+Send me a text or 🎙️ voice note of any health question or type / for help.
+
+4. Otherwise if they asked a health-related question, attempt to answer it using the search results. 
 ```
 {% endcode %}
 
 The key part to remember is to add the `<button>` tag in the prompt, so any text within the `<button>` tag will render as buttons in the WhatsApp Copilot.
 
-![Screenshot of the Copilot Builder with the constant button](<../../.gitbook/assets/2 (9).png>)
+{% embed url="https://gooey.ai/copilot/iom-tunisia-health-chatbot-field-test-4lgrqximds46/" %}
+
+![Screenshot of the Copilot Builder with the constant button](<../../.gitbook/assets/Screenshot 2025-07-24 at 10.34.30 AM.png>)
 
 #### Example 2: Create contextual questions for follow-on conversations <a href="#id-68bzc6duztt6" id="id-68bzc6duztt6"></a>
 

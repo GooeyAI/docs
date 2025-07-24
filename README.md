@@ -1,16 +1,5 @@
 ---
 description: Where Shared AI Workflows Create Measurable Value
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
 ---
 
 # 🗃️ Gooey.AI Docs

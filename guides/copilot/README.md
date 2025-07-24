@@ -2,20 +2,6 @@
 description: Build your no-code AI copilot in minutes!
 cover: ../../.gitbook/assets/Screenshot 2023-11-14 230925.png
 coverY: 119.28688524590164
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: false
-  pagination:
-    visible: true
 ---
 
 # 🤖 How to build an AI Copilot?

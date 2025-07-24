@@ -1,16 +1,5 @@
 ---
 description: One-click integration for your AI Copilot
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Deploy to Facebook

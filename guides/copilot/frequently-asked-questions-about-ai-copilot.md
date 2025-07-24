@@ -23,11 +23,9 @@ A: You can add a simple prompt instruction: “Don't include markdown” or if y
 A: For example, if you want to make sure that Twilio does not use markdown but you want formatting for your Whatsapp or Web bots. You can add “if statement” to the prompt through our Jinja templating language like this:
 
 ```django
-{% raw %}
 {% if platform == "TWILIO" %}
 Remember, you are a voice agent, so do not use markdown, HTML, latex or any other markup language, instead, output plain text without any formatting characters like asterisk, hyphen, bracket, hash, underscore etc. Keep your responses concise and clear under 100 words.
 {% endif %}
-{% endraw %}
 ```
 
 > NOTE: This can be added in your basic prompt instructions there are no “special” settings for this.
@@ -39,7 +37,6 @@ A: By incorporating _Jinja_ templating in the Prompt, you can adjust the prompt 
 ```django
 You are an AI Bot that runs the front-desk of a Dentist's clinic.
 
-{% raw %}
 {% if platform == [ "WHATSAPP", "SLACK" ] %}
     Remember, you are a {{ platform }} agent, so do not use HTML, latex or any other markup language, instead use only the following formatting styles: 
     italic: single underscore
@@ -50,7 +47,6 @@ You are an AI Bot that runs the front-desk of a Dentist's clinic.
     quoted text: place an angle bracket and space before the text
     headings: just use bold style with 1 asterix.
 {% endif %}
-{% endraw %}
 ```
 
 Here the Jinja templating language uses an `if statement` to provide the prompt with a condition to output the text in a particular way based on the platform the bot is integrated into.
