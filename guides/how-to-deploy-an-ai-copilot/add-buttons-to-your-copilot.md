@@ -8,13 +8,13 @@ To improve retention for your Copilot, we recommend you include buttons. These w
 
 Allow users to Agree to your Terms of Service before starting the user's conversation. The response can be securely stored in your DB.
 
-<figure><img src="../../.gitbook/assets/How to add buttons to your Copilot (1).jpg" alt=""><figcaption><p>Screenshot of the Copilot Whatsapp with the Constant Button Prompt</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_1265.jpg" alt=""><figcaption><p>Screenshot of the Copilot Whatsapp with the Constant Button Prompt</p></figcaption></figure>
 
 #### Create contextual questions for follow-on conversations <a href="#qpmter6x7itx" id="qpmter6x7itx"></a>
 
 To create and retain users, it is useful for contextual questions to be rendered as Call-to-Action buttons.
 
-<figure><img src="../../.gitbook/assets/contextual.jpg" alt=""><figcaption><p>Screenshot of the Copilot Whatsapp with the Contextual Buttons Prompt</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/IMG_1267.jpg" alt=""><figcaption><p>Screenshot of the Copilot Whatsapp with the Contextual Buttons Prompt</p></figcaption></figure>
 
 ### How to add buttons to Copilot? <a href="#b1mppy81183e" id="b1mppy81183e"></a>
 
@@ -81,4 +81,4 @@ Here are the steps include:
 1. Instruct the Copilot to tailor responses, and create potential questions in the format: `{emoji1}: {question1}`
 2. And further prompt the Copilot to create `<button>` tag to render the `{question}` as a button like so: `<button gui-target="input_prompt">{emoji1} {question1}</button>`
 
-![Screenshot of the Copilot Builder with the Contextual Buttons Prompt](<../../.gitbook/assets/3 (8).png>)
+![Screenshot of the Copilot Builder with the Contextual Buttons Prompt](<../../.gitbook/assets/Screenshot 2025-07-24 at 10.42.53 AM.png>)
