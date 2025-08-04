@@ -8,7 +8,7 @@ In this example scenario, we are setting up a simple bulk run to check regressio
 
 Choose the “SAVED” run from Gooey.AI Workflows that you would like to use.
 
-![](<../../.gitbook/assets/2 (1).png>)
+![](<../../.gitbook/assets/2 (1) (1).png>)
 
 ### Step 2: Input Data Spreadsheet <a href="#s6plmddmwaiq" id="s6plmddmwaiq"></a>
 
@@ -18,13 +18,13 @@ Prepare your test question set:
 2. Make sure the Excel sheet/Google Sheets table has a “header” section
 3. Add all your questions in the column below it
 
-<figure><img src="../../.gitbook/assets/3 (1).png" alt="" width="369"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (1) (1).png" alt="" width="369"><figcaption></figcaption></figure>
 
 1. Paste the link of your Google sheet or upload your data
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/4 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Step 3: Select your input columns <a href="#yayrw51txj9z" id="yayrw51txj9z"></a>
 

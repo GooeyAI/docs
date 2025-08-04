@@ -2,13 +2,13 @@
 description: Adding a cron job to your Copilot
 ---
 
-# How to add a “Daily Export” to export your Copilot data?
+# How to Automate Data Export?
 
 ### Step 1
 
 Head to the Integrations Tab of your AI Copilot, click on “View Analytics”
 
-![](../../.gitbook/assets/0.png)
+![](<../../.gitbook/assets/0 (2).png>)
 
 ### Step 2
 
@@ -22,15 +22,15 @@ Once the Dashboard loads, head to the very bottom of the page and open the “Ex
 
 You can add a code snippet through “Functions”, which can export the data to any external DB.
 
-![](../../.gitbook/assets/2.png)
+![](<../../.gitbook/assets/2 (2).png>)
 
 ### Step 4
 
 Click the relevant Function from the drop-down and hit “Save”
 
-![](../../.gitbook/assets/3.png)
+![](<../../.gitbook/assets/3 (2).png>)
 
-![](../../.gitbook/assets/4.png)
+![](<../../.gitbook/assets/4 (2).png>)
 
 {% hint style="info" %}
 NOTE: The export will only work in the messages tab. The “Messages” section is in the “Details” section as per the screenshot below.
