@@ -6,18 +6,18 @@ description: Create amazing and vivid effects and styles on your images
 
 ### What can Gooey's Photo Editor do:
 
-1. It can add amazing styles and effects to your base image
-2. Use the base image as a reference to create images&#x20;
-3. Help you imagine many ideas on your simple sketch or older image
+* It can add amazing styles and effects to your base image
+* Use the base image as a reference to create images&#x20;
+* Help you imagine many ideas on your simple sketch or older image
 
 ### What it can't do:
 
-1. Remove your background. Try this AI Workflow instead:&#x20;
+* Remove your background. Try this AI Workflow instead:&#x20;
 
 {% embed url="https://docs.gooey.ai/guides/ai-photo-editor/flux.1-kontext-pro" %}
 
-1. Change or correct just a tiny bit in the image
-2. Remove your ex!!&#x20;
+* Change or correct just a tiny bit in the image
+* Remove your ex!!&#x20;
 
 &#x20;_**This tool is great for artist to create iterations on top of their sketches!**_&#x20;
 
