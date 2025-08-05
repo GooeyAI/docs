@@ -12,9 +12,12 @@ description: Create amazing and vivid effects and styles on your images
 
 ### What it can't do:
 
-1. Remove your background. Try this tool instead:&#x20;
-2. Change or correct just a tiny bit in the image
-3. Remove your ex!!&#x20;
+1. Remove your background. Try this AI Workflow instead:&#x20;
+
+{% embed url="https://docs.gooey.ai/guides/ai-photo-editor/flux.1-kontext-pro" %}
+
+1. Change or correct just a tiny bit in the image
+2. Remove your ex!!&#x20;
 
 &#x20;_**This tool is great for artist to create iterations on top of their sketches!**_&#x20;
 
