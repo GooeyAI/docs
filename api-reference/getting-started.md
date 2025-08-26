@@ -6,6 +6,8 @@ description: You can interact with our APIs through node.js, python or curl
 
 Use Gooey.AI's APIs to build fast! Get started by trying these simple setups - **No servers, API keys, or rate limits to manage.**
 
+## Quickstart
+
 {% tabs %}
 {% tab title="Orchestration to webview in minutes" %}
 Embed your custom AI workflow on your website or app as a webview instantly. Customize the look and feel in seconds.
