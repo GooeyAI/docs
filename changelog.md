@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 09-August-2025
+
+**Added**
+
+* [Added GPT-5 Models](https://github.com/GooeyAI/gooey-server/commit/55d181c6cb996b99e6a21e31b5bcab841cfe709d)
+
 ## 22-July-2025
 
 **Added**
