@@ -4,6 +4,10 @@
 
 Hello there! Thank you for your interest in contributing to Gooey.AI. &#x20;
 
+You can contribute to our Github Repo here:
+
+{% embed url="https://github.com/GooeyAI/gooey-server" %}
+
 ### **🗺️ Guidelines** <a href="#ijrkkii9v589" id="ijrkkii9v589"></a>
 
 #### **👩‍💻 Ways to contribute** <a href="#srvcn5b1nf7z" id="srvcn5b1nf7z"></a>

@@ -61,11 +61,6 @@
   * [Frequently Asked Questions about Workspaces](guides/how-to-use-workspaces/frequently-asked-questions-about-workspaces.md)
 * [🍟 How can I get free credits?](guides/how-can-i-get-free-credits.md)
 
-## 🎓 Academy
-
-* [Welcome](academy/welcome.md)
-* [Module 1: Introduction](academy/module-1-introduction.md)
-
 ## 😇 CONTRIBUTING
 
 * [Contributing](contributing/contributing.md)
