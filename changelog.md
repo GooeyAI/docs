@@ -8,6 +8,12 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 22-July-2025
+
+**Added**
+
+* [Added Flux.1 Kontext \[pro\]](https://github.com/GooeyAI/gooey-server/pull/736)
+
 ## 08-May-2025
 
 **Added**

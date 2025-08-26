@@ -8,9 +8,9 @@ You can contribute to our Github Repo here:
 
 {% embed url="https://github.com/GooeyAI/gooey-server" %}
 
-### **🗺️ Guidelines** <a href="#ijrkkii9v589" id="ijrkkii9v589"></a>
+## **🗺️ Guidelines** <a href="#ijrkkii9v589" id="ijrkkii9v589"></a>
 
-#### **👩‍💻 Ways to contribute** <a href="#srvcn5b1nf7z" id="srvcn5b1nf7z"></a>
+### **👩‍💻 Ways to contribute** <a href="#srvcn5b1nf7z" id="srvcn5b1nf7z"></a>
 
 There are many ways to contribute to Gooey.AI. Here are some ways you can contribute:
 
@@ -20,7 +20,7 @@ There are many ways to contribute to Gooey.AI. Here are some ways you can contri
 * [**Discussions**](https://github.com/GooeyAI/gooey-server/discussions): Help answer usage questions and discuss issues with users.
 * **Shared AI Recipes**: Create amazing AI workflows on Gooey and save them publicly on your profile page so others can fork them.
 
-#### **🚩 GitHub Issues** <a href="#wq90yd4qlpci" id="wq90yd4qlpci"></a>
+### **🚩 GitHub Issues** <a href="#wq90yd4qlpci" id="wq90yd4qlpci"></a>
 
 Our [issues](https://github.com/GooeyAI/gooey-server/issues) page is kept up to date with bugs, improvements, and feature requests.
 
@@ -32,7 +32,7 @@ If you are adding an issue, please try to keep it focused on a single, modular b
 
 We will try to keep these issues as up-to-date as possible, though with the rapid rate of development in this field some may get out of date. If you notice this happening, please let us know.
 
-**🐛 Fix Bugs**
+### **🐛 Fix Bugs**
 
 Most bugs are reported and tracked in the Github Issues Page. We try our best in triaging and tagging these issues:
 
@@ -41,13 +41,13 @@ Most bugs are reported and tracked in the Github Issues Page. We try our best in
 
 Please feel free to open an issue and/or assign an issue to yourself.
 
-#### **💭 GitHub Discussions** <a href="#mdugft7kjty8" id="mdugft7kjty8"></a>
+### **💭 GitHub Discussions** <a href="#mdugft7kjty8" id="mdugft7kjty8"></a>
 
 We have a [Github Discussions](https://github.com/GooeyAI/gooey-server/discussions) page where users can ask usage questions, discuss design decisions, and propose new features.
 
 If you can help answer questions, please do so! This will allow the maintainers to spend more time focused on development and bug fixing.
 
-#### **🙋 Getting Help** <a href="#nx18z0xou2uf" id="nx18z0xou2uf"></a>
+### **🙋 Getting Help** <a href="#nx18z0xou2uf" id="nx18z0xou2uf"></a>
 
 Our goal is to have the simplest developer setup possible. Should you experience any difficulty getting set up, please reach out on Discord ([https://gooey.ai/discord](https://gooey.ai/discord)) or contact a team member at support@gooey.ai!! Not only do we want to help get you unblocked, but we also want to make sure that the process is smooth for future contributors.
 
