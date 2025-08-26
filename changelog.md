@@ -8,6 +8,55 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 25-August-2025
+
+**Added**
+
+* [version stats](https://github.com/GooeyAI/gooey-server/commit/ae6ad719aa8580ff3654502612e677957011f365)
+
+## 22-August-2025
+
+**Added**
+
+* [implement reasoning\_effort for openai, claude and gemini](https://github.com/GooeyAI/gooey-server/commit/db8e9fc259e35cfd8d922635f4db0d043a786c97)
+
+## 21-August-2025
+
+**Added**
+
+* [add mbaza asr model](https://github.com/GooeyAI/gooey-server/commit/b3f664741127a40a642e796b683733a742b6019a)
+
+## 20-August-2025
+
+**Added**
+
+* [combined analysis plot with correct data & timezone selector](https://github.com/GooeyAI/gooey-server/commit/83517ff46f6522f1472165e2e936625e59e8ef33)
+
+## 18-August-2025
+
+**Added**
+
+* [add gemini 2.5 flash lite](https://github.com/GooeyAI/gooey-server/commit/d0a8b00225c38a5286c8ee5679345b13cea59d37)
+
+## 14-August-2025
+
+**Added**
+
+* [bulk runs on copilot](https://github.com/GooeyAI/gooey-server/commit/d89fb3ae4f4610573fd19ede64a6e9f056e2f076)
+
+## 13-August-2025
+
+**Added**
+
+* [Aspect ratio icons and functionality to DeforumSDPage](https://github.com/GooeyAI/gooey-server/commit/0b3d58d38375408825df417b9d6b77052c3c55d6)
+* [Support for reasoning\_effort for OpenAI and Gemini thinking models](https://github.com/GooeyAI/gooey-server/commit/df6c25efc905e6f9321b79baba00556dd815ff5b)
+
+## 12-August-2025
+
+**Added**
+
+* [Show "Open Workspace" on public team page for non-admins](https://github.com/GooeyAI/gooey-server/commit/e66d9a26188547bf459851cdb77c4ae27be07d4c)
+
 ## 09-August-2025
 
 **Added**
