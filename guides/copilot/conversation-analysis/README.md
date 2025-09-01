@@ -1,48 +1,23 @@
-# Conversation Analysis
+# Analysis and Observability
 
-### Why it's useful?&#x20;
+Analytics dashboards help you manage your AI agents by giving you a clear view of how they’re performing. You can check how often users are engaging with the Agent, where errors happen, and how resources are being used—all in one place. This makes it easier for you to spot problems, track progress, and make improvements so your agents work more smoothly and deliver better results.
 
-As your copilot gains momentum, you will need to manage and monitor conversations. You can use Gooey.AI's LLM script for conversation analysis.&#x20;
+## Analytics Dashboard
 
-We can determine when the bot is answering and categorize answers based on subject, gender, user location, and other criteria that are important to your organization.&#x20;
+### How do you access the Analytics Dashboard?&#x20;
 
-### How does it work in Ulangizi AI?
+{% @arcade/embed flowId="Mx8g1ybWlz1PkqSS4Qk5" url="https://app.arcade.software/share/Mx8g1ybWlz1PkqSS4Qk5" %}
 
-1. Here you can see the Overall details of the platform, users, and connected number on the left
-2. On the right you can see basic analytics of "Daily Messages Sent"
+You can go through all the tabs with line-by-line details about the various user conversations, we are also updating the categories section soon.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-03-08 at 3.17.03 PM.png" alt=""><figcaption></figcaption></figure>
-
-3. You can see the "Daily Usage Trends", "Daily Performance Metrics" and "Daily Feedback Distribution"
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-03-08 at 3.17.16 PM.png" alt=""><figcaption><p> </p></figcaption></figure>
-
-5. Finally, you can go through all the tabs with line-by-line details about the various user conversations, we are also updating the categories section soon.&#x20;
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-03-08 at 3.17.26 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-01 at 4.26.00 PM.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-03-08 at 3.33.15 PM.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-03-08 at 3.37.50 PM.png" alt=""><figcaption></figcaption></figure>
 
-### How to make it?
+## Analysis Script&#x20;
 
-Key Concept:
+### How to use LLM to create Analysis script for qualitative data?
 
-1. This runs after we generate an answer.
-
-[https://gooey.ai/compare-large-language-models/?example\_id=lbjnoem7](https://gooey.ai/compare-large-language-models/?example_id=lbjnoem7)\
-
-
-What you need to do:
-
-1. Save your AI Copilot
-2. Tweak analysis LLM script using the example [here](https://gooey.ai/compare-large-language-models/?example_id=lbjnoem7)
-3. Start from the answered scripts
-4. Optionally add categorization (later)
-5. Save this LLM script
-6. Go to the Copilot's integration tab to the integration where we need to add the analysis script. Open the settings and add the Saved URL for the Analysis script in the "Analysis Run URL".&#x20;
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-03-13 at 12.55.00 PM.png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-03-13 at 12.55.12 PM.png" alt=""><figcaption></figcaption></figure>
+{% @arcade/embed flowId="tJFWiKjVOpzFbdV770St" url="https://app.arcade.software/share/tJFWiKjVOpzFbdV770St" %}
