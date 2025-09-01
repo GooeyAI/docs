@@ -4,7 +4,7 @@ In this example scenario, we are setting up a simple bulk run to check regressio
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Check out the example run here: BULK RUNNER (Regression Only)</strong></td><td><a href="https://gooey.ai/bulk/farmerchat-bulk-evaluator-regression-only-ggzy9gld1eae/">https://gooey.ai/bulk/farmerchat-bulk-evaluator-regression-only-ggzy9gld1eae/</a></td></tr><tr><td><strong>Check out the example run here: BULK RUNNER (Bulk and Evaluation)</strong></td><td><a href="https://gooey.ai/bulk/farmerchat-bulk-evaluator-gpt-4o-mixtral-claude-vs-gemini-pro-15-b0o8aos3rj8y/">https://gooey.ai/bulk/farmerchat-bulk-evaluator-gpt-4o-mixtral-claude-vs-gemini-pro-15-b0o8aos3rj8y/</a></td></tr></tbody></table>
 
-{% @arcade/embed flowId="JnZoq1QzacYQ499oXm7j" url="https://app.arcade.software/share/JnZoq1QzacYQ499oXm7j" %}
+{% @arcade/embed flowId="847Wp0A2AlNJenR6EhK4" url="https://app.arcade.software/share/847Wp0A2AlNJenR6EhK4" %}
 
 ### Step 1: Select Gooey Workflows <a href="#jmvc9vjmbif9" id="jmvc9vjmbif9"></a>
 
