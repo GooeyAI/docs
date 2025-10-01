@@ -8,6 +8,49 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 29-September-2025
+
+_Fixed_
+
+* [cleaner filter for removing image-url content chunks](https://github.com/GooeyAI/gooey-server/commit/e4339f693f6ae233370a62f408019953225e0246)
+
+## 25-September-2025
+
+_Fixed_
+
+* [remove rank from order\_by when search is empty](https://github.com/GooeyAI/gooey-server/commit/9b808f0debd425ab1fc037fc8579002a37282c12)
+
+## 24-September-2025
+
+_Added_
+
+* [render pricing notes and example preview on video gen](https://github.com/GooeyAI/gooey-server/commit/45ef6e6bcc1a1d0965c2ad8b0bb6f158ee54f69d)
+
+## 18-September-2025
+
+_Fixed_
+
+* [image input creates invalid API request for apertus model](https://github.com/GooeyAI/gooey-server/commit/d672282380c5b2995ddddb113e10cfe6a41b3024)
+
+## 16-September-2025
+
+_Added_
+
+* [implement LiveKit voice agent with Twilio integration](https://github.com/GooeyAI/gooey-server/commit/43dcc31430920628941e669d84d733c82071746e)
+
+## 15-September-2025
+
+_Added_
+
+* [add support for Nano Banana](https://github.com/GooeyAI/gooey-server/commit/e10c19e3526c8ae3569c7634155718b57ded1612)
+* [add explore link in header](https://github.com/GooeyAI/gooey-server/commit/bd158e66da29c177029a7b16bb73e02054055534)
+
+## 11-September-2025
+
+_Added_
+
+* [add support for SwissAI Apertus LLM](https://github.com/GooeyAI/gooey-server/commit/607f57c15526a4d5ca329ec167af7216dab5dd78)
+
 ## 25-August-2025
 
 **Added**
