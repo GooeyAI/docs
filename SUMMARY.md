@@ -54,6 +54,7 @@
 * [📸 AI Photo Editor](guides/ai-photo-editor/README.md)
   * [Build your avatar with AI](guides/ai-photo-editor/build-your-avatar-with-ai.md)
   * [FLUX.1 Kontext \[pro\]](guides/ai-photo-editor/flux.1-kontext-pro.md)
+* [📽️ AI Video Generator](guides/ai-video-generator.md)
 * [🧑‍🏫 How to use Gooey.AI’s Image Model Trainer?](guides/how-to-use-gooey.ais-image-model-trainer.md)
 * [🔍 Generate “People Also Ask” SEO Content](guides/generate-people-also-ask-seo-content.md)
 * [🌐 How to create SEO-Optimized content with AI?](guides/how-to-create-seo-optimized-content-with-ai.md)
