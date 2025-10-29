@@ -1,6 +1,6 @@
-# Add buttons to your Copilot
+# Add buttons to your AI agent
 
-To improve retention for your Copilot, we recommend you include buttons. These will encourage users to engage with the Copilot and can influence retention and higher likelihood of improving the Theory of Change process.
+To improve retention for your Agent, we recommend you include buttons. These will encourage users to engage with the Agent and can influence retention and higher likelihood of improving the Theory of Change process.
 
 ### Scenarios <a href="#id-783lw3vfyjml" id="id-783lw3vfyjml"></a>
 
@@ -16,9 +16,9 @@ To create and retain users, it is useful for contextual questions to be rendered
 
 <figure><img src="../../.gitbook/assets/IMG_1267.jpg" alt=""><figcaption><p>Screenshot of the Copilot Whatsapp with the Contextual Buttons Prompt</p></figcaption></figure>
 
-### How to add buttons to Copilot? <a href="#b1mppy81183e" id="b1mppy81183e"></a>
+### How to add buttons to agent? <a href="#b1mppy81183e" id="b1mppy81183e"></a>
 
-To add Buttons to Gooey.AI’s copilot is extremely simple. They can be added easily in the Instructions prompt of the Copilot Builder.
+To add Buttons to Gooey.AI’s agent is extremely simple. They can be added easily in the Instructions prompt of the Agent Builder.
 
 {% embed url="https://gooey.ai/copilot/mshauri-wa-shamba-en-emoji-buttons-9freijr7aaus/" %}
 
@@ -52,7 +52,7 @@ Send me a text or 🎙️ voice note of any health question or type / for help.
 ```
 {% endcode %}
 
-The key part to remember is to add the `<button>` tag in the prompt, so any text within the `<button>` tag will render as buttons in the WhatsApp Copilot.
+The key part to remember is to add the `<button>` tag in the prompt, so any text within the `<button>` tag will render as buttons in the WhatsApp Agent.
 
 {% embed url="https://gooey.ai/copilot/iom-tunisia-health-chatbot-field-test-4lgrqximds46/" %}
 
@@ -60,7 +60,7 @@ The key part to remember is to add the `<button>` tag in the prompt, so any text
 
 ### Example 2: Create contextual questions for follow-on conversations <a href="#id-68bzc6duztt6" id="id-68bzc6duztt6"></a>
 
-Copilot can respond and create contextual buttons for the user as per the chat history. This can be achieved through prompt engineering the Copilot.
+Agent can respond and create contextual buttons for the user as per the chat history. This can be achieved through prompt engineering the Agent.
 
 {% code overflow="wrap" %}
 ```
@@ -78,7 +78,7 @@ Then render quick buttons as HTML elements like so:
 
 Here are the steps include:
 
-1. Instruct the Copilot to tailor responses, and create potential questions in the format: `{emoji1}: {question1}`
-2. And further prompt the Copilot to create `<button>` tag to render the `{question}` as a button like so: `<button gui-target="input_prompt">{emoji1} {question1}</button>`
+1. Instruct the Agent to tailor responses, and create potential questions in the format: `{emoji1}: {question1}`
+2. And further prompt the Agent to create `<button>` tag to render the `{question}` as a button like so: `<button gui-target="input_prompt">{emoji1} {question1}</button>`
 
 ![Screenshot of the Copilot Builder with the Contextual Buttons Prompt](<../../.gitbook/assets/Screenshot 2025-07-24 at 10.42.53 AM.png>)
