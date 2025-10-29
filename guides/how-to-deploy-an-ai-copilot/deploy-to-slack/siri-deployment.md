@@ -1,11 +1,11 @@
-# Siri Integration
+# Siri Deployment
 
-We have experimental Siri support through IOS shortcuts. This will allow you to chat back and forth with any Slack copilot integration verbally via Siri and import conversations into Slack for details.
+We have experimental Siri support through IOS shortcuts. This will allow you to chat back and forth with any Slack agent deployment verbally via Siri and import conversations into Slack for details.
 
-### Install Siri Integration
+### Install Siri Deployment
 
 1. Install the [Siri Shortcut](https://www.icloud.com/shortcuts/2f158bbcf7644c2aaadc4d11c9180272) by clicking the link on an iPhone (Mac and iPad are not tested).&#x20;
-2. Activate the Shortcut by clicking on it or by telling Siri “Start copilot” verbally.
+2. Activate the Shortcut by clicking on it or by telling Siri “Start agent” verbally.
 3. The first time, you’ll need to give the shortcut multiple permissions (select “Always allow” on all these to not be prompted again). You will also need to login to your Slack Workspace which requires knowing its URL. This can be found by opening your Slack Workspace and clicking on its icon in the upper left corner. It should be right under the name (in this example it is “gooeyai.slack.com”):\
    ![](https://lh7-us.googleusercontent.com/gcTbTcKU8vrWS6lGBIdR3e9wMM9ebAdqiFGXYfGl5SqH1kJfCWx1-B6Gx_fsjpjfXauNS4OsaUMMUG4DaYUXca1mUxGZk417vW6VCiybIwWq_Bq9wkkHGTSOjOv16GL4bITQshuWTR0bGhkfa3Ch13g)
 4. For convenience, you can now add the shortcut to the home screen, lock screen or (iPhone 15+) assign it to your action button. Activating with Siri directly will always work too.
@@ -14,7 +14,7 @@ We have experimental Siri support through IOS shortcuts. This will allow you to 
 
 1. Open your “Shortcuts” app:\
    ![](https://lh7-us.googleusercontent.com/qeCAvLzxvImIoKTS5cWxoe_W87H-uFM4sE6C8Jq7kMb6dnNzFRYwYg-86l8QuQNaI3gsJgYGO83QrHjHXrM2Em0ME8eYPQy1_1rIEBEeMCtYwJlptMTmLg3uubIhmVgriL0UnwOkGmJRj50ggEzpha8)
-2. Identify the copilot shortcut (top left orange box in below screenshot):\
+2. Identify the agent shortcut (top left orange box in below screenshot):\
    ![](https://lh7-us.googleusercontent.com/nHzvG6AVbD221M0hZ6z_eXvHRcZU3vkLEUW1Qs9ObNllOYul2ovdLTXHOGMH6rkQ0ZQ1m1AqEd4nsVnhhWtBYJvBEuqc43lBT6_xk_B3srl4tO9KMHBME6z_zaO1n9Wq-da0goaha39aSuUxcpBLkpE)
 3. Hold down on it to open the context menu:\
    ![](https://lh7-us.googleusercontent.com/98Ua9ke8UVU1ZjhvW-lxPATgdFl1rzNZj_T5u5frsutJMIMkD2beF-rMBSQbfsrp4--Z1ZmdZ26xsgVFOYEIlMO545ZvTu7LqgF-OSHSbcIi2EmAGQevovEjvtAzfJsh0kR6jR_9GWAC5IbStUfF_nQ)
@@ -32,7 +32,7 @@ We have experimental Siri support through IOS shortcuts. This will allow you to 
    ![iPhone add widget screen screenshot](https://lh7-us.googleusercontent.com/A1mmcVAk3JbV8sSwROd-4HUmyvp0xatLfAI8X9p6DRYM8aB3VaFa75OMtj3fl-VtiFVWTWJDhn5g0Kws_Lqtaqb-QHA1zvur1ORKmq9tjhjUpirAiKlVBC0DGUMpGONs5pOkyOv8Z1weyt1Zk86oVBU)
 4. Tap on the widget to add it to the lock screen. Tap the widget in the widget area to customize it.\
    ![customize widget screenshot](https://lh7-us.googleusercontent.com/uZmzUOS-q3VYlhd3bfxOgy2SvqcgrxX70SYMfu9gM4UPT2j_jbcP3GtZHo9fSpQkdGP259FJtpClE_eG93ye2YS4BKZ22YmYjqqDqZC0dfx8VsIf2aM1actuSAu17M-YcVx74gV1uDFVJgZGSGkxbIk)
-5. Select the “Copilot” shortcut.\
+5. Select the “Agent” shortcut.\
    ![](https://lh7-us.googleusercontent.com/wYb0BBb9mehQG6uFB2-R4Q0GuvUhMwhGThqErkq5oblI_Mh4aYop-szYDiSBa8CHwm3_mJd7Wga2Az_-LdtHEjAC6HI_AKoL0rGVfJgiaBIcnNUwJnY9pqHIuZTM3sN7ozi0g353D_a3z_NlFzRxbGM)
 6. Tap the cross button and then the “Done” button to save changes.\
    ![saving lock screen customization](https://lh7-us.googleusercontent.com/RP7GmDm4KSc5UbyMhztkqCUHw4vGc87yxbeVZenpAnN_UiSGhbA_PvWWj06_RtX4-H7x3Ccid40wd5fNq2BzsuyQoSqBoIa8qGoFmU3H4N37VxKxWrLbg2m5vXfiiN4svADRCfOmDaLeE4vWDLk_qSE)

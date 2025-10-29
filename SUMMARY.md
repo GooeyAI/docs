@@ -21,7 +21,7 @@
   * [Deploy to Web](guides/how-to-deploy-an-ai-copilot/deploy-to-web.md)
   * [Deploy to WhatsApp](guides/how-to-deploy-an-ai-copilot/deploy-on-whatsapp.md)
   * [Deploy to Slack](guides/how-to-deploy-an-ai-copilot/deploy-to-slack/README.md)
-    * [Siri Integration](guides/how-to-deploy-an-ai-copilot/deploy-to-slack/siri-integration.md)
+    * [Siri Deployment](guides/how-to-deploy-an-ai-copilot/deploy-to-slack/siri-deployment.md)
   * [Deploy to Facebook](guides/how-to-deploy-an-ai-copilot/deploy-to-facebook.md)
   * [Broadcast Messages (via web or API)](guides/how-to-deploy-an-ai-copilot/broadcast-messages-via-web-or-api.md)
   * [Add buttons to your Copilot](guides/how-to-deploy-an-ai-copilot/add-buttons-to-your-copilot.md)
