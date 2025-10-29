@@ -1,5 +1,5 @@
 ---
-description: One-click integration for your AI Copilot
+description: One-click integration for your AI Agent
 ---
 
 # Deploy to Web
@@ -8,16 +8,16 @@ description: One-click integration for your AI Copilot
 
 ## How to deploy on WEB
 
-#### SET UP INTEGRATION CONFIG <a href="#wl0pcjbv3uj2" id="wl0pcjbv3uj2"></a>
+#### SET UP DEPLOYMENT CONFIG <a href="#wl0pcjbv3uj2" id="wl0pcjbv3uj2"></a>
 
-1. Click on the Integrations tab
+1. Click on the Deployments tab
 2. Use the “Gooey.AI” button
 
 ![](<../../.gitbook/assets/0 (7).png>)
 
 1. This will open the Web widget configuration page. You can add the following details:
-   1. Name of the bot
-   2. Description - this will be the introduction of the bot
+   1. Name of the AI agent
+   2. Description - this will be the introduction of the agent
    3. By line and website link
    4. Conversation Starters - add some introductory questions for the users
 
@@ -26,14 +26,14 @@ description: One-click integration for your AI Copilot
 <figure><img src="../../.gitbook/assets/1 (7).png" alt=""><figcaption></figcaption></figure>
 
 1. Hit Update
-2. Test your bot here:
-   1. Click on the “Message the bot” button and test the bot.
+2. Test your agent here:
+   1. Click on the “Message the Agent” button and test the agent.
 
 #### EMBED TO WEBSITE <a href="#l71lp1y6w8k7" id="l71lp1y6w8k7"></a>
 
 <figure><img src="../../.gitbook/assets/2 (4).png" alt=""><figcaption></figcaption></figure>
 
-Once you are happy with the performance of the tests, you can Embed the bot in your production website with just two lines of code.
+Once you are happy with the performance of the tests, you can Embed the agent in your production website with just two lines of code.
 
 **Select Embed Settings**
 
@@ -66,6 +66,6 @@ Copy the Embed code from the “Copy Embed Code” button and paste it into your
 
 \`\`\`
 
-Your COPILOT is ready for the world! 😀
+Your AI AGENT is ready for the world! 😀
 
-**Contact us at support@gooey.ai if you would like to connect your bot to a WhatsApp from Gooey.**
+**Contact us at support@gooey.ai if you would like to connect your agent to a WhatsApp from Gooey.**
