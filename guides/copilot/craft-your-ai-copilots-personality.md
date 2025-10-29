@@ -52,7 +52,7 @@ Click on the "Settings" tab to add the Task Instructions
 
 ### Hit Submit!&#x20;
 
-At this point, your Copilot is ready for testing. However, you might need to do some tweaks to get it production-ready!&#x20;
+At this point, your Agent is ready for testing. However, you might need to do some tweaks to get it production-ready!&#x20;
 
 ***
 
@@ -62,7 +62,7 @@ At this point, your Copilot is ready for testing. However, you might need to do 
 
 #### Variables
 
-When deploying an AI Copilot, your API calls will typically consist of two types of content:
+When deploying an AI Agent, your API calls will typically consist of two types of content:
 
 * **Fixed content** Static instructions or context that remain constant across multiple interactions
 * **Variable content:** Dynamic elements that change with each request or conversation, such as:
@@ -113,11 +113,10 @@ See the full example here
 
 #### Conditional statements
 
-It is a common use-case that the same Copilot example might be deployed/integrated on various platforms like SLACK, WHATSAPP, WEB and so on. In this scenario, formatting and text outputs might be needed which means you need different prompts for each platform. With Jinja Templating this issue is solved. You can use the prompt example below and tweak it as needed:
+It is a common use-case that the same Agent example might be deployed on various platforms like SLACK, WHATSAPP, WEB and so on. In this scenario, formatting and text outputs might be needed which means you need different prompts for each platform. With Jinja Templating this issue is solved. You can use the prompt example below and tweak it as needed:
 
 {% code title="if statement in prompts" %}
 ```
-{% raw %}
 {% if platform in [ "WHATSAPP", "SLACK" ] %}
 Remember, you are a {{ platform }} agent, so do not use HTML, latex or any other markup language, instead use only the following formatting styles: 
 italic: single underscore
@@ -131,7 +130,6 @@ headings: just use bold style with 1 asterix.
 {% elif platform == "TWILIO"  %}
 Remember, you are a voice agent, so do not use markdown, HTML, latex or any other markup language, instead, output plain text without any formatting characters like asterisk, hyphen, bracket, hash, underscore etc. 
 {% endif %}
-{% endraw %}
 ```
 {% endcode %}
 
@@ -141,9 +139,9 @@ You don't need to do anything for the variable \{{platform\}} in the given promp
 
 ### Few-shot example prompt
 
-In some scenarios, adding a few-shot example prompt is advisable to improve the outputs. This is particularly useful when the answers are too verbose and the output adds friction to the conservation with the AI Copilot.
+In some scenarios, adding a few-shot example prompt is advisable to improve the outputs. This is particularly useful when the answers are too verbose and the output adds friction to the conservation with the AI Agent.
 
-After adding the main prompt, you can add a few-shot examples, which reflect the kind of responses you want from the bot, these could be useful to limit the answers to a certain length, maintain a brand-related tone, etc.&#x20;
+After adding the main prompt, you can add a few-shot examples, which reflect the kind of responses you want from the agent, these could be useful to limit the answers to a certain length, maintain a brand-related tone, etc.&#x20;
 
 {% code title="few-shot example" %}
 ```
