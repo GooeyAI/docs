@@ -5,7 +5,7 @@
 
 ## 📖 Guides
 
-* [🤖 How to build an AI Copilot?](guides/copilot/README.md)
+* [🤖 How to build an AI Agent?](guides/copilot/README.md)
   * [What to do BEFORE You Build a Bot](guides/copilot/what-to-do-before-you-build-a-bot.md)
   * [AI Prompting: Best practices](guides/copilot/craft-your-ai-copilots-personality.md)
   * [Curate your Knowledge Base Documents](guides/copilot/curate-your-knowledge-base-documents.md)
