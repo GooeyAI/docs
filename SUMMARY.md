@@ -14,7 +14,7 @@
   * [Analysis and Observability](guides/copilot/conversation-analysis/README.md)
     * [Feedback](guides/copilot/conversation-analysis/feedback.md)
     * [Glossary](guides/copilot/conversation-analysis/glossary.md)
-  * [Building a Multi-Modal Agent](guides/copilot/building-a-multi-modal-copilot.md)
+  * [Building a Multi-Modal AI Agent](guides/copilot/building-a-multi-modal-copilot.md)
   * [Frequently Asked Questions about AI Agent](guides/copilot/frequently-asked-questions-about-ai-copilot.md)
   * [How to Automate Data Export?](guides/copilot/how-to-add-a-daily-export-to-export-your-copilot-data.md)
 * [🚀 How to deploy an AI Agent?](guides/how-to-deploy-an-ai-copilot/README.md)
