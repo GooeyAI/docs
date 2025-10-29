@@ -1,12 +1,12 @@
 ---
-description: Customise your Copilot settings to fit your business use case
+description: Customise your Agent settings to fit your business use case
 ---
 
 # Advanced Settings
 
 ### Settings
 
-We offer a wide range of settings to customize the AI Copilot.&#x20;
+We offer a wide range of settings to customize the AI Agent.&#x20;
 
 ### Document Search Settings
 
@@ -27,13 +27,13 @@ When a user asks a question, the first task is to search all the relevant docume
 
 ### Citation style
 
-Based on where the copilot is hosted and your need, several citation styles have been provided.&#x20;
+Based on where the agent is hosted and your need, several citation styles have been provided.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-02 at 8.14.42 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Document Embeddings  Weightage - Dense to Sparse
 
-Usually, we default the weightage setting to 0.5. If you have a copilot that needs to answer with details and with several steps, you can increase the weightage to towards 1. If your copilot must extract hyper-specific keywords or data from tables, we recommend tending the weightage to 0.&#x20;
+Usually, we default the weightage setting to 0.5. If you have a agent that needs to answer with details and with several steps, you can increase the weightage to towards 1. If your agent must extract hyper-specific keywords or data from tables, we recommend tending the weightage to 0.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-03-22 at 12.41.58 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -41,18 +41,18 @@ Usually, we default the weightage setting to 0.5. If you have a copilot that nee
 
 #### Summarization
 
-For many AI copilots, it will be important to have a context of the conversation history so it can give contextual details and maintain consistency in the answers. In the summarization instructions, we have added a default instruction. You can change this as per your requirement.&#x20;
+For many AI agents, it will be important to have a context of the conversation history so it can give contextual details and maintain consistency in the answers. In the summarization instructions, we have added a default instruction. You can change this as per your requirement.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 5.08.05 PM (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Keyword Extraction
 
-If your AI Copilot has a lot of tabular data, specific model numbers, addresses, phone numbers, and entity names. You add a prompt instruction for keyword extraction as well. See example below:
+If your AI Agent has a lot of tabular data, specific model numbers, addresses, phone numbers, and entity names. You add a prompt instruction for keyword extraction as well. See example below:
 
 > \{{ final\_search\_query \}} Extract rare terms like part numbers from the message. If you can't find rare terms, return an empty string. Don't use quotes in your response, instead write the output as a list of tab separated keywords.
 
 {% hint style="info" %}
-If your AI Copilot does not require conversation history context or keyword searches, you can keep the sections empty. This will decrease the overall prompt size and improve latency.
+If your AI Agent does not require conversation history context or keyword searches, you can keep the sections empty. This will decrease the overall prompt size and improve latency.
 {% endhint %}
 
 ### Knowledge Base Speech Recognition&#x20;
@@ -72,7 +72,7 @@ Gooey hosted a range of Language Models that are open source and paid. Please ch
 Once your core prompt and knowledge base is ready, you can add capabilities like:&#x20;
 
 * **Speech Recognition and Translation** - useful for end users who can't type or read well
-* **Text to Speech & Lipsync** - can be used to "read aloud" the Copilot's answer, and also add an AI Avatar for your Copilot
+* **Text to Speech & Lipsync** - can be used to "read aloud" the Agent's answer, and also add an AI Avatar for your Agent
 * **Photo & Document Intelligence** - use this if you have technical documents that need OCR
 * **Developer Tools and Function** - use this for added functionalities like access to servers, external APIs, performing JS logic, and more. [Read more about it here](https://blog.gooey.ai/fun-fun-functions).
 
@@ -99,8 +99,8 @@ Each subsequent row is then one glossary term in multiple languages. Read more [
 
 **Important**: Since the input glossary looks up terms in the \<User Language> column, this column should uniquely map to English terms (i.e. the same user language term should not appear on different rows with different English terms since then it is undefined which English term to use to translate that user language term). Similarly, the output glossary should have its English terms map uniquely to the \<User Language> terms. In the case of multiple non-English languages, these are the potential \<User Language>s so they should satisfy the unique constraints on each glossary for predictable results.
 
-**Note**: The reason we allow multiple languages (and not just English and the User Language specified in the web ui settings) is because the copilot integrations allow switching the user language on the fly for different users, different whatsapp numbers, slack channels, etc. so the overall Copilot example/run needs to allow multiple languages.
+**Note**: The reason we allow multiple languages (and not just English and the User Language specified in the web ui settings) is because the agent deployments allow switching the user language on the fly for different users, different whatsapp numbers, slack channels, etc. so the overall Agent example/run needs to allow multiple languages.
 
-**Why/when to use**: Glossaries are good for company and product names (e.g. Gooey.AI) and domain specific terminology that Google Translate does not know. They can also be used to clarify use case specific translation preferences, e.g. enforce formal translations such as using "mother" over "mom" even when the translation source is less formal or clarifying that ambiguous words like "chili" should always refer to the plant (not the powder, dish, etc.) for the specific use case (say a chatbot for farmers). Glossaries can effectively solve these discrepancies and ambiguities across language differences.
+**Why/when to use**: Glossaries are good for company and product names (e.g. Gooey.AI) and domain specific terminology that Google Translate does not know. They can also be used to clarify use case specific translation preferences, e.g. enforce formal translations such as using "mother" over "mom" even when the translation source is less formal or clarifying that ambiguous words like "chili" should always refer to the plant (not the powder, dish, etc.) for the specific use case (say an AI agent for farmers). Glossaries can effectively solve these discrepancies and ambiguities across language differences.
 
 **Why/when not to use**: If the desired grammar of the translations, the overall tone, or sentence structure is significantly different for the domain specific purpose vs general use, then a custom trained model might be easier than trying to patch Google Translate defaults one term at a time. Glossaries cannot capture more complex translation logic at the phrase or paragraph level. They are made for individual terms.
