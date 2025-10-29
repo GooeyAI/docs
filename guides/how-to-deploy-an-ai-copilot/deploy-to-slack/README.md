@@ -8,11 +8,11 @@ description: How to set up slack
 
 ### Adding Gooey.AI Agent to Slack
 
-#### 1. Head to "Integrations"
+#### 1. Head to "Deploy"
 
 ![](https://worker.arcade.software/image-transform?image=https%3A%2F%2Fcdn.arcade.software%2Fextension-uploads%2Fb5ca9e2b-fab0-43a6-8947-7d30f1682c97.png\&hotspot=264.8700473105631%3B557.634892086331%3B%238df7e2)
 
-#### 2. Click on the "Slack" integration
+#### 2. Click on the "Slack" deployment
 
 ![](https://worker.arcade.software/image-transform?image=https%3A%2F%2Fcdn.arcade.software%2Fextension-uploads%2FjD9JFF6UqKOMuccnfhH3%2Fimage%2F8bcf9f26-d3be-4ec0-9252-438d3276eaa8.png\&hotspot=536.8923611111112%3B412.44791666666663%3B%238df7e2)
 
@@ -49,11 +49,11 @@ description: How to set up slack
 ![](https://worker.arcade.software/image-transform?image=https%3A%2F%2Fcdn.arcade.software%2Fextension-uploads%2FYgR9B4o6ogLXj0Mir10T%2Fimage%2Ff3791f73-4a03-49a0-a2d5-908639ed0f81.png\&hotspot=506.2847222222223%3B1253.0598958333335%3B%238df7e2)
 
 {% hint style="info" %}
-Once you’ve removed the copilot app from your workspace, if you ever want to add it or another copilot bot back, you’ll need to click “Add to Workspace” on the integrations page again even though the integration/channel seems to appear in the integrations list. Follow instructions here: [Adding the Gooey.AI Agent to a Slack Workspace](./#adding-gooey.ai-agent-to-slack).
+Once you’ve removed the agent app from your workspace, if you ever want to add it or another AI agent back, you’ll need to click “Add to Workspace” on the deploy page again even though the deploy/channel seems to appear in the deployments list. Follow instructions here: [Adding the Gooey.AI Agent to a Slack Workspace](./#adding-gooey.ai-agent-to-slack).
 {% endhint %}
 
 ## Notes
 
-* The bot currently responds to [Slack Audio](https://slack.com/help/articles/4406235165587-Create-audio-and-video-clips-in-Slack), regular text messages and video messages.
-* The bot can respond with text, audio, and/or video if you select those options in the run settings. Check the other [Copilot Guides](../../copilot/).
-* Don’t try to reset your message history at this point. This is handled automatically by the chatbot logic. Resetting manually will result in all feedback being lost.
+* The agent currently responds to [Slack Audio](https://slack.com/help/articles/4406235165587-Create-audio-and-video-clips-in-Slack), regular text messages and video messages.
+* The agent can respond with text, audio, and/or video if you select those options in the run settings. Check the other [Copilot Guides](../../copilot/).
+* Don’t try to reset your message history at this point. This is handled automatically by the AI agent logic. Resetting manually will result in all feedback being lost.
