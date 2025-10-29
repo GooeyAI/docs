@@ -1,12 +1,12 @@
 ---
-description: Adding a cron job to your Copilot
+description: Adding a cron job to your Agent
 ---
 
 # How to Automate Data Export?
 
 ### Step 1
 
-Head to the Integrations Tab of your AI Copilot, click on “View Analytics”
+Head to the Deploy Tab of your AI Agent, click on “View Analytics”
 
 ![](<../../.gitbook/assets/0 (2).png>)
 
