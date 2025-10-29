@@ -1,14 +1,14 @@
 ---
-description: Learn how to add AI synthesized data to improve your AI Copilot results
+description: Learn how to add AI synthesized data to improve your AI Agent results
 ---
 
 # Prepare Synthetic Data
 
-### Why do you need synthetic data for AI Copilot?
+### Why do you need synthetic data for AI Agent?
 
-Often AI Copilots must respond succinctly and answer in FAQ style. &#x20;
+Often AI Agents must respond succinctly and answer in FAQ style. &#x20;
 
-When using direct transcriptions from video tutorials and recordings for your [Knowledge Base Documents](curate-your-knowledge-base-documents.md), you will need some synthetic data to ensure the user's query is recognized and answered correctly. Video or audio tutorials, can often be very long sentences and have a casual tone of conversation. This can hinder the AI Copilot's search and summary ability. For this, we recommend using our Synthetic Document Extractor workflow.&#x20;
+When using direct transcriptions from video tutorials and recordings for your [Knowledge Base Documents](curate-your-knowledge-base-documents.md), you will need some synthetic data to ensure the user's query is recognized and answered correctly. Video or audio tutorials, can often be very long sentences and have a casual tone of conversation. This can hinder the AI Agent's search and summary ability. For this, we recommend using our Synthetic Document Extractor workflow.&#x20;
 
 ### Features of Synthetic Document Extractor&#x20;
 
@@ -72,8 +72,6 @@ The tool works best for content that is less than 30-40 minutes due to word limi
 #### Transcription Bonus: Extract Data from PDFs
 
 This tool also supports the extraction of data from PDFs. Simply paste the link of the accessible PDF in the input and hit "Submit." Like videos, it will extract important data from your document while also updating a Google sheet in real-time.&#x20;
-
-
 
 Tutorial available here:
 
