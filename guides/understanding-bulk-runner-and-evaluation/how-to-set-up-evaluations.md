@@ -1,6 +1,6 @@
 # 🕵️‍♀️ How to set up Evaluations?
 
-In this example scenario, we are comparing and evaluating the quality of the answers of various AI Copilots that have all the same settings and functionalities except for different LLMs.&#x20;
+In this example scenario, we are comparing and evaluating the quality of the answers of various AI Agents that have all the same settings and functionalities except for different LLMs.&#x20;
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Check out the example run here: Evaluation only</strong> </td><td><a href="https://gooey.ai/eval/copilot-evaluator-artpuhzwvily/">https://gooey.ai/eval/copilot-evaluator-artpuhzwvily/</a></td></tr></tbody></table>
 
@@ -14,7 +14,7 @@ Choose the “SAVED” run from Gooey.AI Workflows that you would like to use.
 
 Prepare your golden QnA set:
 
-1. Create a list of the most frequently asked questions for your AI Copilot (we recommend between 25 for optimum observability and regression you can do more if you prefer)
+1. Create a list of the most frequently asked questions for your AI Agent (we recommend between 25 for optimum observability and regression you can do more if you prefer)
 2. Make sure the Excel sheet/Google Sheets table has a “header” section
 3. Add all your questions and golden answer in the column below it
 
@@ -30,7 +30,7 @@ Prepare your golden QnA set:
 
 ### Step 3: Select your input columns <a href="#o6vzivos324o" id="o6vzivos324o"></a>
 
-In the current scenario, we want to use the Gooey Copilot to answer all the questions in the Google sheet. So essentially they are the “input” for the Bulk Workflow.
+In the current scenario, we want to use the Gooey Agent to answer all the questions in the Google sheet. So essentially they are the “input” for the Bulk Workflow.
 
 Select the “questions” column in the “Input Prompt” section.
 
@@ -38,11 +38,11 @@ Select the “questions” column in the “Input Prompt” section.
 
 ### Step 4: Hit Submit <a href="#brcrdr2ggss2" id="brcrdr2ggss2"></a>
 
-As this is a “Bulk and Eval” scenario, you can “select” the Copilot Evaluator option in the section. After that hit the “Submit” button.
+As this is a “Bulk and Eval” scenario, you can “select” the Agent Evaluator option in the section. After that hit the “Submit” button.
 
 ![](../../.gitbook/assets/13.png)
 
-_Note: We recommend using the “Copilot Evaluator” if you are evaluating Copilot Runs._
+_Note: We recommend using the “Agent Evaluator” if you are evaluating Agent Runs._
 
 ### Output <a href="#id-22et24oucovd" id="id-22et24oucovd"></a>
 
@@ -61,7 +61,7 @@ _**With the evaluation option, you will also get output for “Rationale”, “
 * Keep it simple - try to use an input spreadsheet with limited columns
 * Don’t leave any empty data points in the second row - there is a bug and the column does not read
 * Make sure to name your “Saved” workflows with relatable titles so that it is easy to set up the run
-*   We recommend collecting user messages from your saved copilot's “Analytics” section. Head to Your copilot link> Integrations tab > View Analytics, scroll to the bottom, and **export** the “Messages” tab CSV. \
+*   We recommend collecting user messages from your saved agent's “Analytics” section. Head to Your agent link> Deploy tab > View Analytics, scroll to the bottom, and **export** the “Messages” tab CSV. \
 
 
     <figure><img src="../../.gitbook/assets/16.png" alt=""><figcaption></figcaption></figure>
