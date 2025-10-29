@@ -4,7 +4,7 @@ description: Some answers to common issues when implementing Agent in production
 
 # Frequently Asked Questions about AI Agent
 
-### Q: The AI agentt seems to answer the question accurately but the answers are incomplete. What can I do?
+### Q: The AI agent seems to answer the question accurately but the answers are incomplete. What can I do?
 
 A: To avoid this, you need to increase the Output Tokens from the “settings” section of your agent.
 
