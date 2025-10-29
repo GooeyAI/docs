@@ -3,16 +3,16 @@ description: Before you dive right in, here's a few things to think about
 hidden: true
 ---
 
-# What to do BEFORE You Build a Bot
+# What to do BEFORE You Build an AI Agent
 
-**Identify your use case and value hypothesis**. Where do you believe an AI bot may be useful? To which customers or people?&#x20;
+**Identify your use case and value hypothesis**. Where do you believe an AI agent may be useful? To which customers or people?&#x20;
 
-**How will you measure the bot's value?** Usually, that is:&#x20;
+**How will you measure the agent's value?** Usually, that is:&#x20;
 
 1. \# of messages sent
 2. D1, D3, D7, D30 Retention of users
 3. Positive vs negative feedback from users
-4. % of questions asked by the user that were answered by the bot
+4. % of questions asked by the user that were answered by the agent
 
 **Curate the knowledge base dataset** e.g. documents, videos, PDFs, websites, and soon real-time data sources.&#x20;
 
