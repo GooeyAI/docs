@@ -10,7 +10,7 @@ When building your Gooey.AI workflows, you will have to tweak the settings often
 * ensuring the synthetic data retrieval works
 * checking the suitability of the language model and its advanced settings
 * Latency of generated answers
-* evaluation of the final AI Copilot to produce the Golden Answers
+* evaluation of the final AI Agent to produce the Golden Answers
 * evaluation of the price per run
 * regression tests
 
