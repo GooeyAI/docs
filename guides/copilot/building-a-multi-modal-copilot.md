@@ -1,5 +1,5 @@
 ---
-description: A Step-by-Step Guide to Creating Your Own Multi-modal, Multi-Linugal AI Agent
+description: A Step-by-Step Guide to Creating Your Own Multi-modal, Multi-Lingual AI Agent
 ---
 
 # Building a Multi-Modal Agent
