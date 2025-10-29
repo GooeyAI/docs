@@ -1,10 +1,10 @@
 ---
-description: Learn how to prepare your documents to make the best copilot for your use case
+description: Learn how to prepare your documents to make the best agent for your use case
 ---
 
 # Curate your Knowledge Base Documents
 
-## Open gooey.ai copilot UI:
+## Open gooey.ai agent UI:
 
 [https://gooey.ai/copilot/](https://gooey.ai/copilot/)
 
@@ -23,7 +23,7 @@ You can add documents in the following formats:&#x20;
 
 ### Upload the documents
 
-Upload the documents to the copilot workflow in the "Documents" section. You can choose to upload them as files, or you can create shared Google Drive links.&#x20;
+Upload the documents to the agent workflow in the "Documents" section. You can choose to upload them as files, or you can create shared Google Drive links.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-02 at 8.10.43 PM.png" alt=""><figcaption><p>You can upload files individually via your desktop, Google Drive, web links</p></figcaption></figure>
 
