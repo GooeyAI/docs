@@ -56,7 +56,7 @@ The key part to remember is to add the `<button>` tag in the prompt, so any text
 
 {% embed url="https://gooey.ai/copilot/iom-tunisia-health-chatbot-field-test-4lgrqximds46/" %}
 
-![Screenshot of the Copilot Builder with the constant button](<../../.gitbook/assets/Screenshot 2025-07-24 at 10.34.30 AM.png>)
+![Screenshot of the Agent Builder with the constant button](<../../.gitbook/assets/Screenshot 2025-07-24 at 10.34.30 AM.png>)
 
 ### Example 2: Create contextual questions for follow-on conversations <a href="#id-68bzc6duztt6" id="id-68bzc6duztt6"></a>
 
@@ -81,4 +81,4 @@ Here are the steps include:
 1. Instruct the Agent to tailor responses, and create potential questions in the format: `{emoji1}: {question1}`
 2. And further prompt the Agent to create `<button>` tag to render the `{question}` as a button like so: `<button gui-target="input_prompt">{emoji1} {question1}</button>`
 
-![Screenshot of the Copilot Builder with the Contextual Buttons Prompt](<../../.gitbook/assets/Screenshot 2025-07-24 at 10.42.53 AM.png>)
+![Screenshot of the Agent Builder with the Contextual Buttons Prompt](<../../.gitbook/assets/Screenshot 2025-07-24 at 10.42.53 AM.png>)
