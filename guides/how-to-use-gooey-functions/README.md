@@ -1,4 +1,4 @@
-# 🧩 How to use Gooey Functions?
+# 🛠️ How to use Gooey Functions?
 
 In this guide, we will learn how to create a functions call on Gooey.AI and add it to our Gooey.AI workflows.&#x20;
 
