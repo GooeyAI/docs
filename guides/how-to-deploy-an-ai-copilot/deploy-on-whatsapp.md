@@ -11,11 +11,11 @@ description: One-click integration for your AI Agent
 * Verified Facebook business account
 * A new or spare phone number for the WhatsApp agent
 
-Deploy
+#### Deploy
 
-Click on the [Integrations tab](https://gooey.ai/copilot/integrations/) in the agent workflow
+Click on the [Deploy tab](https://gooey.ai/copilot/integrations/) in the agent workflow
 
-![](<../../.gitbook/assets/0 (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/Screenshot 2025-11-07 at 6.08.10 PM.png>)
 
 * Use the “WhatsApp” button
 * You’ll be redirected to Facebook Login Page&#x20;

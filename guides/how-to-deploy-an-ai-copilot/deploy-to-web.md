@@ -13,7 +13,7 @@ description: One-click integration for your AI Agent
 1. Click on the Deployments tab
 2. Use the “Gooey.AI” button
 
-![](<../../.gitbook/assets/0 (7).png>)
+![](<../../.gitbook/assets/Screenshot 2025-11-07 at 6.08.10 PM.png>)
 
 1. This will open the Web widget configuration page. You can add the following details:
    1. Name of the AI agent
@@ -23,7 +23,7 @@ description: One-click integration for your AI Agent
 
 
 
-<figure><img src="../../.gitbook/assets/1 (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-07 at 6.23.14 PM.png" alt=""><figcaption></figcaption></figure>
 
 1. Hit Update
 2. Test your agent here:
@@ -58,7 +58,7 @@ Copy the Embed code from the “Copy Embed Code” button and paste it into your
 {% code overflow="wrap" %}
 ```html
 <div id="gooey-embed"></div>
-<script async defer onload="GooeyEmbed.mount()" src="https://gooey.ai/chat/the-gooeyai-bot-4rv/lib.js/"></script>
+<script async defer onload="GooeyEmbed.mount()" src="https://gooey.ai/chat/the-gooeyai-bot-xxx/lib.js/"></script>
 ```
 {% endcode %}
 

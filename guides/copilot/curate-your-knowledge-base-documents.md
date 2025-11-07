@@ -4,11 +4,11 @@ description: Learn how to prepare your documents to make the best agent for your
 
 # Curate your Knowledge Base Documents
 
-## Open gooey.ai agent UI:
+### Open gooey.ai agent UI:
 
-[https://gooey.ai/copilot/](https://gooey.ai/copilot/)
+{% embed url="https://gooey.ai/copilot/" %}
 
-## Create your Knowledge Base Documents&#x20;
+### Create your Knowledge Base Documents&#x20;
 
 You can create your knowledge base documents from text, video, or audio.
 
