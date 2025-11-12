@@ -1,7 +1,5 @@
 ---
-description: >-
-  Gooey.AI is the low-code, AI orchestration platform to empower people
-  everywhere.
+description: Low-code AI orchestration platform to empower people everywhere.
 ---
 
 # 🗃️ Gooey.AI Docs
