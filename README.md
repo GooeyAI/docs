@@ -1,5 +1,7 @@
 ---
-description: Where Shared AI Workflows Create Measurable Value
+description: >-
+  Gooey.AI is the low-code, AI orchestration platform to empower people
+  everywhere.
 ---
 
 # 🗃️ Gooey.AI Docs
@@ -19,3 +21,4 @@ Start here to understand Gooey.AI, why we exist & how our platform works.
 ### API Guides
 
 <table data-view="cards" data-full-width="false"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-type="files"></th></tr></thead><tbody><tr><td><h4>🚀 Getting started with Gooey.AI API</h4></td><td><a href="api-reference/getting-started.md">getting-started.md</a></td><td><a href="api-reference/getting-started.md">getting-started.md</a></td><td></td></tr><tr><td><h4>🗣️ Set up your API for Lipsync with Local Folders</h4></td><td><a href="guides/how-to-use-ai-lip-sync-generator/set-up-your-api-for-lipsync-with-local-folders.md">set-up-your-api-for-lipsync-with-local-folders.md</a></td><td><a href="guides/how-to-use-ai-lip-sync-generator/set-up-your-api-for-lipsync-with-local-folders.md">set-up-your-api-for-lipsync-with-local-folders.md</a></td><td></td></tr></tbody></table>
+
