@@ -10,7 +10,7 @@ In this example scenario, we are setting up a simple bulk run to check regressio
 
 Choose the “SAVED” run from Gooey.AI Workflows that you would like to use.
 
-![](<../../.gitbook/assets/2 (1) (1).png>)
+![](<../../../.gitbook/assets/2 (1) (1).png>)
 
 ### Step 2: Input Data Spreadsheet <a href="#s6plmddmwaiq" id="s6plmddmwaiq"></a>
 
@@ -20,17 +20,17 @@ Prepare your test question set:
 2. Make sure the Excel sheet/Google Sheets table has a “header” section
 3. Add all your questions in the column below it
 
-<figure><img src="../../.gitbook/assets/3 (1) (1).png" alt="" width="369"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/3 (1) (1).png" alt="" width="369"><figcaption></figcaption></figure>
 
 1. Paste the link of your Google sheet or upload your data
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/4 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/4 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 The output will look like this:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-01 at 7.48.32 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-01 at 7.48.32 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3: Select your input columns <a href="#yayrw51txj9z" id="yayrw51txj9z"></a>
 
@@ -44,9 +44,9 @@ As this is a “Bulk only” scenario, you can “delete” the Agent Evaluator 
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-01 at 7.48.39 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-01 at 7.48.39 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/6.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/6.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Output <a href="#id-6n9vkbjh3n11" id="id-6n9vkbjh3n11"></a>
 
@@ -54,11 +54,11 @@ The workflow will create a new CSV, with an added few columns based on the run, 
 
 **Your output will be on the right side of the page.**
 
-<figure><img src="../../.gitbook/assets/7.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/7.png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Additional Note <a href="#kfu0hmigziyi" id="kfu0hmigziyi"></a>
 
 If you want more details in the Output section, use the drop down in the “Output Columns". This is useful if you want to keep track of Price, Latency, Error Messages, and other details.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-09-01 at 7.50.50 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-01 at 7.50.50 PM.png" alt=""><figcaption></figcaption></figure>
 

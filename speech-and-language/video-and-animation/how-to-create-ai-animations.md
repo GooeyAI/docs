@@ -2,7 +2,7 @@
 description: A super simple guide to using our most popular workflow!
 ---
 
-# 🎞️ How to create AI Animations?
+# 🎞️ AI Animation Generator
 
 AI Animation Generator is an amazing tool that can create beautiful animations from your AI text prompts. You can use this tool to create AI generated music videos, create short clips to include in your videos and other amazing creative outputs without any film editing software.
 
@@ -16,7 +16,7 @@ The Animation Generator uses AI text prompts to create each frame of  the video.
   &#x20;
 * Assign the keyframe
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### STEP 2 - **Add the Frames and Frame Count**
 
@@ -79,7 +79,7 @@ If you wanted to horizontal pan from 0 - 49 frames and no pan from 50 - 100 fram
 "0:(3),50:(1)"
 ```
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ### Setting 3
 

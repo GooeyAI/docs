@@ -1,6 +1,5 @@
 ---
 icon: message-question
-hidden: true
 ---
 
 # Frequently Asked Questions about Workspaces
@@ -16,10 +15,3 @@ NOTE: The team or personal icon on top determines whose credits you are using fo
 ### Q: How can I manage my Workspace settings?
 
 A: Select the workspace in the top right corner, click on "Open Workspace". You will be led to the relevant workspace.&#x20;
-
-Q: What are the various Workspaces roles?
-
-### Q: What are workspace roles?
-
-<table><thead><tr><th width="309">Feature</th><th width="152">Owner</th><th>Admin</th><th>Member</th></tr></thead><tbody><tr><td>Billing</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>Workspace Info Edit<br>(logo, name, description, handle)</td><td>✅</td><td>✅</td><td>❌</td></tr><tr><td>API Keys (Create and Delete)</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Shared Workflows (View and Edit)</td><td>✅</td><td>✅</td><td>✅</td></tr></tbody></table>
-

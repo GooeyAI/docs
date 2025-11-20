@@ -31,13 +31,13 @@ Choose an image that you want to improve or change See the example below:
 
 Upload the image to the Edit an Image with AI tool.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-01-19 at 1.01.16 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-19 at 1.01.16 PM (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3: Add a prompt&#x20;
 
 Think of the style and look that you want for your picture and add it to the prompt section:
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-01-19 at 1.03.17 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-19 at 1.03.17 PM.png" alt=""><figcaption></figcaption></figure>
 
 You can use the prompt below:
 
@@ -69,11 +69,11 @@ More about the various models is available [here](https://docs.google.com/presen
 
 Control Net adds an additional layer of control over the image that is uploaded for AI editing. You can chose multiple controlnet based on the look you need.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-01-19 at 1.27.06 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-19 at 1.27.06 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-01-19 at 1.27.18 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-19 at 1.27.18 PM.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-01-19 at 1.27.24 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-19 at 1.27.24 PM.png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -9,7 +9,7 @@ icon: code
 * Run the TTS models you want to test on the UI.&#x20;
 * Copy the links of the test runs&#x20;
 
-<figure><img src="../../.gitbook/assets/BULK-RUN-API (3).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/BULK-RUN-API (3).jpg" alt=""><figcaption></figcaption></figure>
 
 ### Step 2
 
@@ -17,7 +17,7 @@ icon: code
 * Head to the API tab&#x20;
 * Click on the “curl” tab
 
-<figure><img src="../../.gitbook/assets/BULK-RUN-API (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/BULK-RUN-API (1).jpg" alt=""><figcaption></figcaption></figure>
 
 EXAMPLE:&#x20;
 
@@ -54,11 +54,11 @@ curl 'https://api.gooey.ai/v2/bulk-runner?example_id=ehrfs6a0yukt' \
 }'
 ```
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-01-28 at 2.23.00 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-01-28 at 2.23.00 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### How can I calculate the credits?&#x20;
 
-<figure><img src="../../.gitbook/assets/BULK-RUN-API (2) (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/BULK-RUN-API (2) (1).jpg" alt=""><figcaption></figcaption></figure>
 
 * Please check the credit per run in the sample run you run for your bulk run.&#x20;
 * This should be the average cost per run.

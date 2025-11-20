@@ -1,4 +1,4 @@
-# ⚖️ Understanding Bulk Runner and Evaluation
+# ⚖️ Bulk Runner and Evaluation
 
 ## Why do you need bulk runner and evaluations? <a href="#id-4zynvpxsa8kj" id="id-4zynvpxsa8kj"></a>
 
@@ -31,7 +31,7 @@ How can you do this at scale?
 
 Here are the **quickstart guides** for Bulk Runner and Evaluation:
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>How to set up Golden Q&#x26;As</td><td><a href="how-to-set-up-golden-q-and-as.md">how-to-set-up-golden-q-and-as.md</a></td><td></td></tr><tr><td>How to set up Bulk Runner?</td><td><a href="how-to-set-up-bulk-runner.md">how-to-set-up-bulk-runner.md</a></td><td><a href="../../.gitbook/assets/Bulk Runner.png_400x400.png">Bulk Runner.png_400x400.png</a></td></tr><tr><td>How to set up Evaluation?</td><td><a href="how-to-set-up-evaluations.md">how-to-set-up-evaluations.md</a></td><td><a href="../../.gitbook/assets/W.I.9.png_400x400.png">W.I.9.png_400x400.png</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>How to set up Golden Q&#x26;As</td><td><a href="how-to-set-up-golden-q-and-as.md">how-to-set-up-golden-q-and-as.md</a></td><td></td></tr><tr><td>How to set up Bulk Runner?</td><td><a href="how-to-set-up-bulk-runner.md">how-to-set-up-bulk-runner.md</a></td><td><a href="../../../.gitbook/assets/Bulk Runner.png_400x400.png">Bulk Runner.png_400x400.png</a></td></tr><tr><td>How to set up Evaluation?</td><td><a href="how-to-set-up-evaluations.md">how-to-set-up-evaluations.md</a></td><td><a href="../../../.gitbook/assets/W.I.9.png_400x400.png">W.I.9.png_400x400.png</a></td></tr></tbody></table>
 
 ## How Does Bulk Runner Work? <a href="#r7so22ymyyn2" id="r7so22ymyyn2"></a>
 
@@ -39,7 +39,7 @@ Here are the **quickstart guides** for Bulk Runner and Evaluation:
 
 This diagram details the process of generating AI-driven answers to a set of test questions using a Language Model (LLM) with Retrieval-Augmented Generation (RAG) capabilities.&#x20;
 
-![](<../../.gitbook/assets/Understanding Bulk run and Evaluations.jpg>)
+![](<../../../.gitbook/assets/Understanding Bulk run and Evaluations.jpg>)
 
 
 
@@ -65,7 +65,7 @@ The generated answers are compiled into an output table. Each question is paired
 
 This section details the process for comparing and evaluating generated answers against a set of golden answers to assess their semantic and technical accuracy.
 
-![](<../../.gitbook/assets/Understanding Bulk run and Evaluations (1).jpg>)
+![](<../../../.gitbook/assets/Understanding Bulk run and Evaluations (1).jpg>)
 
 1. **Input: Questions and Golden Answers**
    1.  **Test Question Set**: A curated set of questions to be answered, such as:

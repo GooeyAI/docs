@@ -2,7 +2,7 @@
 description: Make your custom image models with Gooey.AI
 ---
 
-# 🧑‍🏫 How to use Gooey.AI’s Image Model Trainer?
+# 🧑‍🏫 Image Model Trainer
 
 ## What is fine-tuning? <a href="#skgmtnp5407b" id="skgmtnp5407b"></a>
 
@@ -14,17 +14,17 @@ As a creative practitioner, you might find that AI images all have a similar loo
 
 Here, the artist Archana Prasad, who also goes by _**arcnoid**_, shared her original sketches in black ink. Notice that the style of the drawings is specific, with long faces and noses, and the textures and colors are very sparse. The use of human figures is also created in a highly abstracted and minimalist style. We used 12-15 of her images and created a fine-tuned model called `arcn0id`.
 
-![](../.gitbook/assets/0.jpeg)
+![](../../.gitbook/assets/0.jpeg)
 
 Here you can see the difference between the image generated with Flux.1 (with no fine-tuning) and the one on the right, which is fine-tuned with `arcn0id` style.
 
-![](../.gitbook/assets/1.jpeg)
+![](../../.gitbook/assets/1.jpeg)
 
 See this example, where we used Mughal miniature paintings (sourced from Creative Commons) to generate our AI images in the style of Mughal Miniature Paintings.
 
-![](../.gitbook/assets/2.jpeg)
+![](../../.gitbook/assets/2.jpeg)
 
-![](../.gitbook/assets/3.jpeg)
+![](../../.gitbook/assets/3.jpeg)
 
 ## How to fine-tune Flux.1 on Gooey.AI? <a href="#eg7b0h8f23v4" id="eg7b0h8f23v4"></a>
 
@@ -49,7 +49,7 @@ Currently, we host:\
 * **Flux Lora Fast**: Train styles, people, and other subjects - very fast!
 * **Flux Lora Portrait**: optimized for portrait generation, with bright highlights, excellent prompt following, and highly detailed results.
 
-![](<../.gitbook/assets/4 (8).png>)
+![](<../../.gitbook/assets/4 (8).png>)
 
 For this demo, we have selected “Flux Lora Fast”
 
@@ -67,7 +67,7 @@ To fine-tune your model, you need:
 
 Upload the images to the “Input Images” section.
 
-![](<../.gitbook/assets/5 (5).png>)
+![](<../../.gitbook/assets/5 (5).png>)
 
 Here we are training a model for the artist Archana Prasad. These images have been shared with her permission.
 
@@ -78,7 +78,7 @@ With Flux Lora Fast, you need to select the type of model you are training. Ther
 1. **Style**: this refers to an artistic style (like Van Gogh style), or a general aesthetic style (like 90s analog film)
 2. **Concept**: this refers to an object, character, or clothing
 
-![](<../.gitbook/assets/6 (4).png>)
+![](<../../.gitbook/assets/6 (4).png>)
 
 ### Choose a trigger word <a href="#o40jryiu3b3n" id="o40jryiu3b3n"></a>
 
@@ -86,14 +86,14 @@ The trigger word refers to the object, style, or concept you are training on. Pi
 
 You can also use numerals or symbols, for example, instead of “mughal”, you could use mugh4l. The trigger word you specify will be associated with all images during training. Then, when you run your fine-tuned model, you can include the trigger word in prompts to activate your concept.
 
-![](<../.gitbook/assets/7 (4).png>)
+![](<../../.gitbook/assets/7 (4).png>)
 
 ### Advanced settings <a href="#wcd9jgw684sn" id="wcd9jgw684sn"></a>
 
 * **Learning Rate:** This is the rate at which the machine “learns” about the training. We recommend not to change this unless you’ve worked with machine training before
 * **Steps:** This is the number of times the machine “learns” and “trains” itself on the provided images. We recommend you try between 1000-1500. Please note: the higher the steps, the more credits you will use.
 
-#### ![](<../.gitbook/assets/8 (3).png>) <a href="#id-4pcj6o5jnbx" id="id-4pcj6o5jnbx"></a>
+#### ![](<../../.gitbook/assets/8 (3).png>) <a href="#id-4pcj6o5jnbx" id="id-4pcj6o5jnbx"></a>
 
 ### Run the training <a href="#id-16gm0r4bmtj6" id="id-16gm0r4bmtj6"></a>
 
@@ -103,7 +103,7 @@ You can also use numerals or symbols, for example, instead of “mughal”, you 
   * **Copy Model URL**: This will allow you to copy the Model’s URL to use in our Image Generation workflow or other AI image generation tools like Fal.AI.
   * **Download Model**: This will download the model locally, and is useful for locally run workflows like ComfyUI.
 
-![](<../.gitbook/assets/9 (3).png>)
+![](<../../.gitbook/assets/9 (3).png>)
 
 ## Good Practices for LoRA Image Training <a href="#d5nxvz1bqfk7" id="d5nxvz1bqfk7"></a>
 

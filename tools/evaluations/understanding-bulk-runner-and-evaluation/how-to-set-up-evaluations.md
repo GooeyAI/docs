@@ -8,7 +8,7 @@ In this example scenario, we are comparing and evaluating the quality of the ans
 
 Choose the “SAVED” run from Gooey.AI Workflows that you would like to use.
 
-![](../../.gitbook/assets/9.png)
+![](../../../.gitbook/assets/9.png)
 
 ### Step 2: Input Data Spreadsheet <a href="#id-4y2kttei07z1" id="id-4y2kttei07z1"></a>
 
@@ -20,13 +20,13 @@ Prepare your golden QnA set:
 
 
 
-<figure><img src="../../.gitbook/assets/10.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/10.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **You must provide the Golden Answers. Golden answers are the most suitable and accurate answers provided by humans with expertise on the subject.**
 
 1. Paste the link of your Google sheet or upload your data&#x20;
 
-<figure><img src="../../.gitbook/assets/11.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/11.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Step 3: Select your input columns <a href="#o6vzivos324o" id="o6vzivos324o"></a>
 
@@ -34,13 +34,13 @@ In the current scenario, we want to use the Gooey Agent to answer all the questi
 
 Select the “questions” column in the “Input Prompt” section.
 
-![](../../.gitbook/assets/12.png)
+![](../../../.gitbook/assets/12.png)
 
 ### Step 4: Hit Submit <a href="#brcrdr2ggss2" id="brcrdr2ggss2"></a>
 
 As this is a “Bulk and Eval” scenario, you can “select” the Agent Evaluator option in the section. After that hit the “Submit” button.
 
-![](../../.gitbook/assets/13.png)
+![](../../../.gitbook/assets/13.png)
 
 _Note: We recommend using the “Agent Evaluator” if you are evaluating Agent Runs._
 
@@ -52,9 +52,9 @@ _**With the evaluation option, you will also get output for “Rationale”, “
 
 **Your output will be on the right side of the page.**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-08-19 at 4.53.02 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-08-19 at 4.53.02 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-08-19 at 11.30.43 PM (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-08-19 at 11.30.43 PM (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Best Practices <a href="#oucznt5a94xk" id="oucznt5a94xk"></a>
 
@@ -64,7 +64,7 @@ _**With the evaluation option, you will also get output for “Rationale”, “
 *   We recommend collecting user messages from your saved agent's “Analytics” section. Head to Your agent link> Deploy tab > View Analytics, scroll to the bottom, and **export** the “Messages” tab CSV. \
 
 
-    <figure><img src="../../.gitbook/assets/16.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/16.png" alt=""><figcaption></figcaption></figure>
 
 #### Note: <a href="#id-8grsusqblfge" id="id-8grsusqblfge"></a>
 

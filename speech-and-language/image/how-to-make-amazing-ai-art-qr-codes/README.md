@@ -36,7 +36,7 @@ In this tutorial, we will learn how to transform your ordinary QR codes into vis
 
 Start by providing a prompt for the AI Art process. This will influence the artistic style of your QR code. For example, change the default prompt from "busy street of Mumbai" to "on the surface of Mars" for a space-themed QR code.
 
-![](<../../.gitbook/assets/0 (6).png>)
+![](<../../../.gitbook/assets/0 (6).png>)
 
 CHECK OUT OUR PROMPT GUIDE HERE:
 
@@ -51,7 +51,7 @@ Begin by entering the URL you want to convert into a QR code. This can be:
 3. A file
 4. Existing QR Code
 
-![](<../../.gitbook/assets/1 (6).png>)
+![](<../../../.gitbook/assets/1 (6).png>)
 
 {% hint style="info" %}
 Gooey will shorten your URL to a Gooey.AI-specific link. This ensures the QR code is neat and functional.
@@ -71,7 +71,7 @@ Our system will then generate a QR image, which is cleaned up and processed usin
 
 ### Advanced Settings
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-01-03 153422.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-03 153422.png" alt="" width="563"><figcaption></figcaption></figure>
 
 For those who want to fine-tune their QR code's appearance, advanced settings are available:
 
@@ -97,7 +97,7 @@ Our tool also allows for customization of the QR code's shape and placement with
 
 #### Additional Features
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 \- **Negative Prompts:** Specify what elements you do not want to appear in your image.
 

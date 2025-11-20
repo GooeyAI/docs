@@ -2,7 +2,7 @@
 description: Make SEO super easy with AI!
 ---
 
-# 🌐 How to create SEO-Optimized content with AI?
+# 🌐 SEO-Optimized content with AI
 
 Gooey.AI can help you craft the perfect SEO-optimized titles and paragraphs, even if you're not an SEO expert. With a user-friendly interface and powerful tools, Gooey.AI simplifies the process of boosting your website’s visibility.
 
@@ -14,7 +14,7 @@ Head to 'Perfect SEO Optimized Generator’ workflow. Link here:&#x20;
 
 Take the example of Kanya.co, a heritage saree brand. You would input your target search query, your website's name, the company name, your website URL, and the key focus points that highlight what makes your business unique.
 
-![](<../.gitbook/assets/0 (2) (1).png>)
+![](<../../.gitbook/assets/0 (2) (1).png>)
 
 Example here:&#x20;
 
@@ -24,11 +24,11 @@ Example here:&#x20;
 
 Gooey.AI provides pre-filled instructions, but you can tailor them to your specific needs. Adjust the settings for the number of outputs, the level of detail, and the creativity of the content—remember, all of this is powered by GPT-4 Turbo.
 
-![](<../.gitbook/assets/1 (2) (1).png>)
+![](<../../.gitbook/assets/1 (2) (1).png>)
 
 You can use the “web search tools” based on your target demographic’s geography.
 
-![](<../.gitbook/assets/2 (1) (1) (1).png>)
+![](<../../.gitbook/assets/2 (1) (1) (1).png>)
 
 ### 3. Review and Adjust SEO Content
 

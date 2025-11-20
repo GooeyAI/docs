@@ -24,7 +24,7 @@ Prepare your golden QnA set:
 2. Make sure the Excel sheet/Google Sheets table has a “header” section
 3. Add all your questions and golden answers in the column below it
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 > **An expert must provide the Golden Answers, these can't be synthetic answers.**
 
