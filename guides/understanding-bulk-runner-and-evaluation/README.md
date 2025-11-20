@@ -10,7 +10,7 @@ When building your Gooey.AI workflows, you will have to tweak the settings often
 * ensuring the synthetic data retrieval works
 * checking the suitability of the language model and its advanced settings
 * Latency of generated answers
-* evaluation of the final AI Agent to produce the Golden Answers
+* evaluation of the final AI Agent to produce the [Golden Answers](./#how-to-setup-golden-q-and-as)
 * evaluation of the price per run
 * regression tests
 
@@ -26,6 +26,10 @@ How can you do this at scale?
 * Get output in CSV for further data analysis
 * Built-in evaluation tool for quick analysis
 * Use CSV or Google Sheets as input
+
+## How to setup Golden Q\&As
+
+{% embed url="https://www.youtube.com/watch?v=qGfhSDoX034" %}
 
 ## Quickstart
 
