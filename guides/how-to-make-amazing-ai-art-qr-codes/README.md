@@ -2,9 +2,9 @@
 description: AI QR codes have taken the world by storm, build your own in seconds.
 ---
 
-# 🤳 How to make amazing AI Art QR Codes?
+# 🤳 AI QR Code Generator
 
-## How to Create AI Art QR Codes
+## How to Create AI Art QR Code
 
 If you've been captivated by the trending QR code art online, you're in the right place to create your own.
 
@@ -61,7 +61,7 @@ Gooey will shorten your URL to a Gooey.AI-specific link. This ensures the QR cod
 
 ### Step 3: Hit Submit
 
-![](https://storage.googleapis.com/dara-c1b52.appspot.com/daras\_ai/media/ec13ff16-23d1-11ee-b302-02420a00015b/gooey.ai%20-%20An%20analogue%20film%20still%20of%20an%20astronau...eets%20of%20Mumbai%20golden%20light%20on%20the%20astronaut%204kn.png)
+![](https://storage.googleapis.com/dara-c1b52.appspot.com/daras_ai/media/ec13ff16-23d1-11ee-b302-02420a00015b/gooey.ai%20-%20An%20analogue%20film%20still%20of%20an%20astronau...eets%20of%20Mumbai%20golden%20light%20on%20the%20astronaut%204kn.png)
 
 Try it here:
 
