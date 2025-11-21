@@ -6,17 +6,15 @@ description: Low-code AI orchestration platform to empower people everywhere.
 
 Welcome to our docs center. Here you'll find guides, tips, and how-tos to get the most out of Gooey.AI and the amazing collection of AI Workflows from our community.&#x20;
 
-### Explainer Video
+## What does Gooey.AI offer?
 
-Start here to understand Gooey.AI, why we exist & how our platform works.
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><h4>Build your no-code AI agent in minutes!</h4></td><td>Create collaborative, multi-lingual, agentic and measurable</td><td><a href="broken-reference">Broken link</a></td><td></td></tr><tr><td><h4>AI in Speech and Language</h4></td><td>Low-Resource Language Speech Reco &#x26; Translations Models</td><td><a href="broken-reference">Broken link</a></td><td></td></tr><tr><td><h4>Create AI Video Generator</h4></td><td>Generate AI videos from static images using SoTA AI video models</td><td><a href="broken-reference">Broken link</a></td><td></td></tr><tr><td><h4>Get started with Gooey.AI API</h4></td><td>Orchestration to Webview in Minutes</td><td></td><td></td></tr></tbody></table>
 
-{% embed url="https://www.loom.com/share/dbf28cd1616c411a9d6631be5eb5fcc1?sid=0d588df0-8a06-4cd6-a8e8-9063fe29d854" %}
+### How does Gooey.AI Orchestration work?
 
-### Featured Guides
+{% embed url="https://www.youtube.com/watch?v=nQM5dp6V70E" %}
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><h4><strong>How to build an AI Agent?</strong></h4></td><td><a href="ai-agent/copilot/">copilot</a></td><td><a href=".gitbook/assets/Screenshot 2023-11-14 230925.png">Screenshot 2023-11-14 230925.png</a></td></tr><tr><td><h4>How to use AI Lip Sync Generator?</h4></td><td><a href="speech-and-language/how-to-use-ai-lip-sync-generator/">how-to-use-ai-lip-sync-generator</a></td><td><a href=".gitbook/assets/lips.png">lips.png</a></td></tr><tr><td><h4>How to create AI Animations?</h4></td><td><a href="speech-and-language/video-and-animation/how-to-create-ai-animations.md">how-to-create-ai-animations.md</a></td><td><a href=".gitbook/assets/gooey.ai - A beautiful silk screen print of a wi...lour city seattle colorful vintage pop art style.png">gooey.ai - A beautiful silk screen print of a wi...lour city seattle colorful vintage pop art style.png</a></td></tr></tbody></table>
+### Help Desk
 
-### API Guides
-
-<table data-view="cards" data-full-width="false"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-type="files"></th></tr></thead><tbody><tr><td><h4>🚀 Getting started with Gooey.AI API</h4></td><td><a href="api-reference/getting-started.md">getting-started.md</a></td><td><a href="api-reference/getting-started.md">getting-started.md</a></td><td></td></tr><tr><td><h4>🗣️ Set up your API for Lipsync with Local Folders</h4></td><td><a href="speech-and-language/how-to-use-ai-lip-sync-generator/set-up-your-api-for-lipsync-with-local-folders.md">set-up-your-api-for-lipsync-with-local-folders.md</a></td><td><a href="speech-and-language/how-to-use-ai-lip-sync-generator/set-up-your-api-for-lipsync-with-local-folders.md">set-up-your-api-for-lipsync-with-local-folders.md</a></td><td></td></tr></tbody></table>
+<table data-view="cards" data-full-width="false"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-type="files"></th></tr></thead><tbody><tr><td><h4>How to use Workspaces?</h4></td><td><a href="help-desk/how-to-use-workspaces/">how-to-use-workspaces</a></td><td><a href="speech-and-language/how-to-use-ai-lip-sync-generator/set-up-your-api-for-lipsync-with-local-folders.md">set-up-your-api-for-lipsync-with-local-folders.md</a></td><td></td></tr><tr><td><h4>How to use Version History</h4></td><td><a href="help-desk/how-to-use-version-history.md">how-to-use-version-history.md</a></td><td><a href="api-reference/getting-started.md">getting-started.md</a></td><td></td></tr></tbody></table>
 
