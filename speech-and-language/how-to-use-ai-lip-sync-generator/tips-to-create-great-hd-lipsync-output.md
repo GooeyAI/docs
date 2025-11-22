@@ -21,8 +21,7 @@ coverY: 0
 
 ### Step 3: Select the HD setting
 
-Choose the model “OpenTalker/SadTalker” model\
-
+Choose the model “OpenTalker/SadTalker” model<br>
 
 <figure><img src="../../.gitbook/assets/2 (5).png" alt=""><figcaption></figcaption></figure>
 

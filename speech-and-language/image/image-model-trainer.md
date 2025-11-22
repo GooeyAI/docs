@@ -43,8 +43,7 @@ You can start here:&#x20;
 
 Select the training model you want to use.
 
-Currently, we host:\
-
+Currently, we host:<br>
 
 * **Flux Lora Fast**: Train styles, people, and other subjects - very fast!
 * **Flux Lora Portrait**: optimized for portrait generation, with bright highlights, excellent prompt following, and highly detailed results.

@@ -88,8 +88,7 @@ Once a user language is selected, two glossaries can be provided.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption></figcaption></figure>
 
-The glossary files follow the format specified by the Google Translate API's Equivalent Term Sets ([https://cloud.google.com/translate/docs/advanced/glossary#equivalent\_term\_sets\_csv](https://cloud.google.com/translate/docs/advanced/glossary#equivalent_term_sets_csv)). First row should be [ISO-639](https://wikipedia.org/wiki/ISO_639) or [BCP-47](https://tools.ietf.org/html/bcp47) language codes. Two extra columns are allowed: “pos” to specify part of speech and “description” (these columns are currently ignored by the Google Translate API but may be used in the future):\
-
+The glossary files follow the format specified by the Google Translate API's Equivalent Term Sets ([https://cloud.google.com/translate/docs/advanced/glossary#equivalent\_term\_sets\_csv](https://cloud.google.com/translate/docs/advanced/glossary#equivalent_term_sets_csv)). First row should be [ISO-639](https://wikipedia.org/wiki/ISO_639) or [BCP-47](https://tools.ietf.org/html/bcp47) language codes. Two extra columns are allowed: “pos” to specify part of speech and “description” (these columns are currently ignored by the Google Translate API but may be used in the future):<br>
 
 <figure><img src="https://lh7-us.googleusercontent.com/YQC5keBX8eKEOsZXmKrvKN-lI8y8ZUh4KCBHGC2N8rqxcfhrlnc0WzmWrNX3y_kgKn2AcRKYdfWgPrAgvBDJPdKhb9TqrxMm4oNGfDcgsDi1YRmUXxxj9cSNW26C2I3w36A_or_g-b-ZcqLc2aldGEo" alt=""><figcaption></figcaption></figure>
 

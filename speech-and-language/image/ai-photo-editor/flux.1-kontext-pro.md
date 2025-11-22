@@ -10,8 +10,7 @@ FLUX.1 Kontext makes editing images easy! Use plain text prompting to specify wh
 
 ### Added Flux1 Kontext \[pro] <a href="#lptchsfjgecd" id="lptchsfjgecd"></a>
 
-We updated Flux1 Kontext \[pro] in our “Edit an Image” Workflow. You can use text prompts to edit any image you have.\
-
+We updated Flux1 Kontext \[pro] in our “Edit an Image” Workflow. You can use text prompts to edit any image you have.<br>
 
 ### Prompting Tips <a href="#vurrmit58lzp" id="vurrmit58lzp"></a>
 

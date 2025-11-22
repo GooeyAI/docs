@@ -2,7 +2,7 @@
 description: A Step-by-Step Guide to Creating Your Own Multi-modal, Multi-Lingual AI Agent
 ---
 
-# Building a Multi-Modal Agent
+# Building a Multi-Modal AI Agent
 
 {% embed url="https://youtu.be/ZKjNGxKTMd0" %}
 
@@ -92,4 +92,4 @@ to refuse either  - Choose to either refuse to answer or attempt to provide a re
 
 Once you've completed these steps, your BibleBot will be ready for a demo. This AI agent serves as a powerful tool for engaging with religious texts and can be adapted for other educational purposes. Remember to test the agent thoroughly and make adjustments based on user feedback to ensure the best possible experience.
 
-\
+<br>

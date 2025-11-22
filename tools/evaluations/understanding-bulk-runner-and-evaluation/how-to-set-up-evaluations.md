@@ -61,8 +61,7 @@ _**With the evaluation option, you will also get output for “Rationale”, “
 * Keep it simple - try to use an input spreadsheet with limited columns
 * Don’t leave any empty data points in the second row - there is a bug and the column does not read
 * Make sure to name your “Saved” workflows with relatable titles so that it is easy to set up the run
-*   We recommend collecting user messages from your saved agent's “Analytics” section. Head to Your agent link> Deploy tab > View Analytics, scroll to the bottom, and **export** the “Messages” tab CSV. \
-
+*   We recommend collecting user messages from your saved agent's “Analytics” section. Head to Your agent link> Deploy tab > View Analytics, scroll to the bottom, and **export** the “Messages” tab CSV. <br>
 
     <figure><img src="../../../.gitbook/assets/16.png" alt=""><figcaption></figcaption></figure>
 
