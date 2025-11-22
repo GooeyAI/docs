@@ -1,10 +1,8 @@
 ---
 description: Build your no-code AI agent in minutes!
-cover: ../../.gitbook/assets/Screenshot 2023-11-14 230925.png
-coverY: 119.28688524590164
 ---
 
-# 🤖 How to build an AI Agent?
+# 🤖 Build an AI Agent
 
 ## What is an AI Agent?
 
