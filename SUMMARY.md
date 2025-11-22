@@ -11,9 +11,6 @@
   * [Curate your Knowledge Base Documents](ai-agent/copilot/curate-your-knowledge-base-documents.md)
   * [Advanced Settings](ai-agent/copilot/advanced-settings.md)
   * [Prepare Synthetic Data](ai-agent/copilot/prepare-synthetic-data.md)
-  * [Analysis and Observability](ai-agent/copilot/conversation-analysis/README.md)
-    * [Feedback](ai-agent/copilot/conversation-analysis/feedback.md)
-    * [Glossary](ai-agent/copilot/conversation-analysis/glossary.md)
   * [Building a Multi-Modal AI Agent](ai-agent/copilot/building-a-multi-modal-copilot.md)
   * [Automate Data Export](ai-agent/copilot/how-to-add-a-daily-export-to-export-your-copilot-data.md)
 * [🚀 Deploy an AI Agent](ai-agent/how-to-deploy-an-ai-copilot/README.md)
@@ -24,6 +21,9 @@
   * [Deploy to Facebook](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-facebook.md)
   * [Broadcast Messages (via web or API)](ai-agent/how-to-deploy-an-ai-copilot/broadcast-messages-via-web-or-api.md)
   * [Add buttons to your AI agent](ai-agent/how-to-deploy-an-ai-copilot/add-buttons-to-your-copilot.md)
+* [📈 Monitor an AI Agent](ai-agent/conversation-analysis/README.md)
+  * [Feedback](ai-agent/conversation-analysis/feedback.md)
+  * [Glossary](ai-agent/conversation-analysis/glossary.md)
 * [Frequently Asked Questions about AI Agents](ai-agent/frequently-asked-questions-about-ai-copilot.md)
 
 ## Tools
