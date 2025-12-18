@@ -8,6 +8,47 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 28-November-2025
+
+Changed
+
+* [Videogen schema: add support for non-string enums](https://github.com/GooeyAI/gooey-server/commit/6282d675d551c6393be0b0eb7c90fd1e4777214b)
+
+## 26-November-2025
+
+Changed
+
+* [Use audio input capability for Gemini LLMs](https://github.com/GooeyAI/gooey-server/commit/7a610f536b25771f1d42c6987db59c26546bfe46)
+
+Fixed
+
+* [Only render updated\_at/generated timestamp once](https://github.com/GooeyAI/gooey-server/commit/a683bba6e945c2831bcb4a2881a03fb142c13c5e)
+
+## 25-November-2025
+
+Changed
+
+* [Move MMS TTS & Omnilingual models](https://github.com/GooeyAI/gooey-server/commit/b6936ff51eb0ddfcd5b8437d179e624a552f9b77)
+
+## 21-November-2025
+
+Added
+
+* [Meta Omnilingual ASR model](https://github.com/GooeyAI/gooey-server/commit/ebc19e8b827600d4fb1cb0a2c62b29c8dcbd12b9)
+
+## 19-November-2025
+
+Added
+
+* [Support for GPT-5.1](https://github.com/GooeyAI/gooey-server/commit/79aa874ae1d32308756b8c90bac9298149d401ad)
+* [Support for Gemini 3 Pro preview](https://github.com/GooeyAI/gooey-server/commit/135c6bc6447b993ec1b959ca9d56ae2ef8919a22)
+
+## 18-November-2025
+
+Fixed
+
+* [Make modal import lazy](https://github.com/GooeyAI/gooey-server/commit/e4c9a472253833a22105c5e50b64edfb9039bc1a)
+
 ## 29-September-2025
 
 _Fixed_
