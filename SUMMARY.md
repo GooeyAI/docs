@@ -28,18 +28,19 @@
 
 ## Tools
 
-* [🛠️ Functions](tools/how-to-use-gooey-functions/README.md)
-  * [✨ LLM-enabled Functions](tools/how-to-use-gooey-functions/llm-enabled-functions.md)
-  * [How to use SECRETS in Functions?](tools/how-to-use-gooey-functions/how-to-use-secrets-in-functions.md)
-  * [🔥 How to connect FirebaseDB to Copilot](tools/how-to-use-gooey-functions/how-to-connect-firebasedb-to-copilot.md)
-  * [Frequently Asked Questions about Functions](tools/how-to-use-gooey-functions/frequently-asked-questions-about-functions.md)
-* [RAG-based Document Search](tools/how-does-rag-based-document-search-work.md)
 * [Evaluations](tools/evaluations/README.md)
   * [⚖️ Bulk Runner and Evaluation](tools/evaluations/understanding-bulk-runner-and-evaluation/README.md)
     * [How to set up Golden Q\&As](tools/evaluations/understanding-bulk-runner-and-evaluation/how-to-set-up-golden-q-and-as.md)
     * [💪 How to set up Bulk Runner?](tools/evaluations/understanding-bulk-runner-and-evaluation/how-to-set-up-bulk-runner.md)
     * [🕵️‍♀️ How to set up Evaluations?](tools/evaluations/understanding-bulk-runner-and-evaluation/how-to-set-up-evaluations.md)
     * [How to use Bulk Run via API](tools/evaluations/understanding-bulk-runner-and-evaluation/how-to-use-bulk-run-via-api.md)
+* [🛠️ Functions](tools/how-to-use-gooey-functions/README.md)
+  * [✨ LLM-enabled Functions](tools/how-to-use-gooey-functions/llm-enabled-functions.md)
+  * [How to use SECRETS in Functions?](tools/how-to-use-gooey-functions/how-to-use-secrets-in-functions.md)
+  * [🔥 How to connect FirebaseDB to Copilot](tools/how-to-use-gooey-functions/how-to-connect-firebasedb-to-copilot.md)
+  * [Frequently Asked Questions about Functions](tools/how-to-use-gooey-functions/frequently-asked-questions-about-functions.md)
+* [Memory](tools/memory.md)
+* [RAG-based Document Search](tools/how-does-rag-based-document-search-work.md)
 
 ## 📖 Speech and Language
 
