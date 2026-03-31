@@ -8,6 +8,159 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 30-March-2026
+
+Changed
+
+* Transform message structure for Fireworks chat handling
+
+## 26-March-2026
+
+Added
+
+* Private-chat streaming via `sendMessageDraft`
+
+## 12-March-2026
+
+Added
+
+* Telegram bot Deployment
+
+## 27-February-2026
+
+**Fixed**
+
+* [Guard `query_vespa` against empty/invisible search queries — prevent Vespa 400 "NullItem" errors](https://github.com/GooeyAI/gooey-server/commit/7422aef292c64aef04c7c105181977b55ed859de)
+* [Handle `None` keyword\_query in `query_vespa`](https://github.com/GooeyAI/gooey-server/commit/586abcf4200e7f0436360307d32d1fd2d0eb7f9d)
+
+## 25-February-2026
+
+**Added**
+
+* [Batch memory updates from Python/JS functions](https://github.com/GooeyAI/gooey-server/commit/4e33b7a2ba8d51ddf6ac2a70c5a57c42dedc22f1)
+
+## 21-February-2026
+
+**Fixed**
+
+* [Array columns handling in evals](https://github.com/GooeyAI/gooey-server/commit/7135cb66090ea658be2c88d6e96de35bf75a3f56)
+
+## 20-February-2026
+
+**Fixed**
+
+* [Bot-builder videogen inputs schema](https://github.com/GooeyAI/gooey-server/commit/71f2f5a3b0d9af32714d508691b035810fdf4291)
+
+## 18-February-2026
+
+**Fixed**
+
+* [Padding issues; render audio input/output in Copilot; move history filter widget out of base.py](https://github.com/GooeyAI/gooey-server/commit/5f699b2dea7829158ad37c204c2f707594a62e7b)
+* [History filter not shown for non-logged-in users](https://github.com/GooeyAI/gooey-server/commit/bf602e7b24d14156b13d621c696f1edc5150ec8d)
+
+## 14-February-2026
+
+**Fixed**
+
+* [Composio "Connect & Grant Access" button redirect](https://github.com/GooeyAI/gooey-server/commit/8ffd1db24ca0bd33a75e399301647568e68ad89e)
+
+## 12-February-2026
+
+**Added**
+
+* [Per-person history on history page](https://github.com/GooeyAI/gooey-server/commit/f70af54dd7b74601d380f1aa1beeff48d797336f)
+
+**Fixed**
+
+* [Preserve whitespace when streaming text](https://github.com/GooeyAI/gooey-server/commit/201b65feead809ebc4a81f1a9b5623e419bb25d0)
+* [Video history UI and model name display](https://github.com/GooeyAI/gooey-server/commit/469af185ce8424b787bad739482052dd904d0fcc)
+* ["Add variable" button incorrectly creating a new function](https://github.com/GooeyAI/gooey-server/commit/6fd9bafaa68b172a617ef376f2ca8b08b8da227c)
+
+## 04-February-2026
+
+**Fixed**
+
+* [DTMF timeout and disconnects in LiveKit agent loop](https://github.com/GooeyAI/gooey-server/commit/b93fde305fdaa33892a822d7095a5a1cb79e7a23)
+* [Support for non-Twilio numbers in LiveKit](https://github.com/GooeyAI/gooey-server/commit/dc27039baa3a6b125ada053fdd170310564cd702)
+* [Empty photo URL in branding](https://github.com/GooeyAI/gooey-server/commit/889b182d3832a702aaffcf2df27bb31304f1596a)
+
+## 03-February-2026
+
+**Added**
+
+* [Authentication and credit notification email templates; `error_params` field in SavedRun model](https://github.com/GooeyAI/gooey-server/commit/c01015ddf7da3faf1c0306afa90a13aa8c34d939)
+
+**Fixed**
+
+* [Updated credit costs for image generation models](https://github.com/GooeyAI/gooey-server/commit/8e32439b227c8f518a2220c09c8915e9faf406a9)
+* [Copilot web widget branding](https://github.com/GooeyAI/gooey-server/commit/bdb293ed20c7161edfc331ea114233d0fe27df0c)
+* [Null variables handling in API; null version retrieval in saved workflow](https://github.com/GooeyAI/gooey-server/commit/a0c3241a5aca56e3b072b2687d87318dd1b6f61f)
+
+## 30-January-2026
+
+**Added**
+
+* [Private Google Drive file access via Composio auth](https://github.com/GooeyAI/gooey-server/commit/cc5986580cf160d8a970a8cc98dca6253138814c)
+* [Support for multiple Google Drive accounts via Composio](https://github.com/GooeyAI/gooey-server/commit/1e4c5623e8f6fadfcfd52b72a83dd8b468cb8cd9)
+
+## 26-January-2026
+
+**Added**
+
+* [SSO login support](https://github.com/GooeyAI/gooey-server/commit/44372a07e86af78762b713e64d7d3056f0d886a6)
+* [Draft run created every time Gooey Builder updates state](https://github.com/GooeyAI/gooey-server/commit/4d63ca6c6cece5be50775f6e95ed931746b10867)
+
+## 20-January-2026
+
+**Added**
+
+* [Render video URLs from markdown in WhatsApp](https://github.com/GooeyAI/gooey-server/commit/704970a3c07ac57f63719e7d73a05ae07b4151f1)
+* [Thinking summary display in Copilot; stream thinking messages](https://github.com/GooeyAI/gooey-server/commit/6ff3114b0761c733edc99a58254b30b1d09b7526)
+
+## 16-January-2026
+
+**Added**
+
+* [Thinking summary in Copilot](https://github.com/GooeyAI/gooey-server/commit/2bb01a9da759d5aaac4443beeaf34a9e29411ea0)
+
+## 15-January-2026
+
+**Added**
+
+* [LiveKit call recording and transcript](https://github.com/GooeyAI/gooey-server/commit/1488b1ec4e0f129669854f9f295f33d173a08deb)
+
+## 14-January-2026
+
+**Added**
+
+* [Support for OpenAI Responses API](https://github.com/GooeyAI/gooey-server/commit/b4c4e7d6d65a21c506acc4452e387b52667a3b53)
+
+## 12-January-2026
+
+**Added**
+
+* [Custom OpenAPI-based model support in LiveKit](https://github.com/GooeyAI/gooey-server/commit/9b5c3d7996f4787777b9fd586690c8c458eff8d3)
+
+## 02-January-2026
+
+**Fixed**
+
+* [Bot builder photo URL picked from branding](https://github.com/GooeyAI/gooey-server/commit/5fae37c043c4d2bcdf2dc1a6830bb8e99d145b7e)
+
+***
+
+## 19-December-2025
+
+**Fixed**
+
+* [Formatting issue in Gooey Builder](https://github.com/GooeyAI/gooey-server/commit/4a1af2b4b7487a135b25855c6ea85aaf32d3f010)
+
+## 18-December-2025
+
+**Fixed**
+
+* [Progress bar z-index order](https://github.com/GooeyAI/gooey-server/commit/83d48acaf4094defef561d97450afa8fd2d4665a)
+
 ## 28-November-2025
 
 Changed
