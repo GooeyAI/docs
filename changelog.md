@@ -10,21 +10,131 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## 30-March-2026
 
-Changed
+**Added**
 
-* Transform message structure for Fireworks chat handling
+* [Message structure transformation for Fireworks chat](https://github.com/GooeyAI/gooey-server/commit/09b357657bb0f92b6f92f57b82208fdd4b308ca8)
+
+**Fixed**
+
+* [Telegram blocking behaviour with no timeout; added Telegram markdown renderer](https://github.com/GooeyAI/gooey-server/commit/033d2dfbda7a7387af6d2e1e5fbc3e559b1a1972)
+* [`final_search_query` response\_format\_type to support `json_object`](https://github.com/GooeyAI/gooey-server/commit/e18015df297b4cf0f03237986625aa7cf160b3dd)
+
+## 28-March-2026
+
+**Changed**
+
+* [LLM and video model sorting by priority desc, then reverse alphabetically](https://github.com/GooeyAI/gooey-server/commit/bea4c785e0e9c5a06468649da4ae6af679550591)
+* [Creator priority in frontend model ordering](https://github.com/GooeyAI/gooey-server/commit/7a5627f0315afac227be3b940c68214cb1659f84)
+
+## 27-March-2026
+
+**Fixed**
+
+* [Duplicate source permissions enforcement](https://github.com/GooeyAI/gooey-server/commit/15611068d529f8519c067cbef44eec7f4154b49e)
+* [ConnectChoice image URLs in VideoBots](https://github.com/GooeyAI/gooey-server/commit/7c4d38e0a3a572c4d14fc4347597bb51be0a3796)
 
 ## 26-March-2026
 
-Added
+**Added**
 
-* Private-chat streaming via `sendMessageDraft`
+* [AI model creators with creator icons in model selectors](https://github.com/GooeyAI/gooey-server/commit/cd93655e018e338f69f1a804e61949ea169b0e03)
+* [Private-chat streaming via `sendMessageDraft`](https://github.com/GooeyAI/gooey-server/commit/1b5048b444dec303e3c3de283b53ca028c1bf1ab)
+
+## 25-March-2026
+
+**Added**
+
+* [Intron ASR integration](https://github.com/GooeyAI/gooey-server/commit/622cde9cbe6421179fd8c74ada11e700921cd1dd)
+* [Video model priority ordering](https://github.com/GooeyAI/gooey-server/commit/92950f0319800d0533f035b90c279b50125d373d)
+* [Auto-register `/new` command during Telegram bot setup](https://github.com/GooeyAI/gooey-server/commit/1984647f2bb5cbd2bf4526606fe62bbfff4e0190)
+
+**Fixed**
+
+* [Bulk eval first-group flush](https://github.com/GooeyAI/gooey-server/commit/a0744348993955ed47c0f5545ed970852c12c797)
+
+## 24-March-2026
+
+**Added**
+
+* [Inline widget bootstrap; hydrate builder sessions from saved-run conversation data](https://github.com/GooeyAI/gooey-server/commit/1153687372606788e1838b464bbba8a74b872fe6)
+
+**Fixed**
+
+* [Faster query for getting child builder run from parent](https://github.com/GooeyAI/gooey-server/commit/b95581f0fbad90247ef3788c2a4bdb51da74384d)
+
+## 20-March-2026
+
+**Added**
+
+* [Checkbox for `showToolCalls` in web widget integration](https://github.com/GooeyAI/gooey-server/commit/a6a8329e4eb756b377f82569fcc8a3da3b51b8aa)
+
+**Fixed**
+
+* [Store `parent_builder_saved_run` as FK; update Gooey Builder messages on navigation](https://github.com/GooeyAI/gooey-server/commit/6f1d4b88a59511b89f41a0376a0caafaf2037546)
+* [Max-width on global `img` tag to prevent overflow in recipe descriptions](https://github.com/GooeyAI/gooey-server/commit/29e877389f53f03dde1d201fae1d0c892784a2f3)
+
+## 17-March-2026
+
+**Added**
+
+* [Faster streaming on Telegram](https://github.com/GooeyAI/gooey-server/commit/509218a2aec815468f74eb976fdf024a2ccedaf4)
+* [Paid-only audio/video models](https://github.com/GooeyAI/gooey-server/commit/b5dd84c2c2f7a318299fb1aa028b0aefe02f4467)
+
+**Fixed**
+
+* [Telegram help link updated to Gooey docs](https://github.com/GooeyAI/gooey-server/commit/a2b10e917ab193937c634546a17651631e3f47af)
+* [Chat completion message conversion for Responses API](https://github.com/GooeyAI/gooey-server/commit/34e69aba67ac1651d49c929f3d28af64956cf65b)
 
 ## 12-March-2026
 
-Added
+**Added**
 
-* Telegram bot Deployment
+* [Telegram bot deployment](https://github.com/GooeyAI/gooey-server/commit/b35e299520ea0386a57e2591a033485c2786af11)
+
+## 11-March-2026
+
+**Added**
+
+* [Gooey Builder: allow pressing buttons without creating a new run](https://github.com/GooeyAI/gooey-server/commit/a0b49204b5e716f39e5169829587220f6d5d4011)
+
+## 10-March-2026
+
+**Added**
+
+* [Country code selection for shared phone numbers in Voice Deployment](https://github.com/GooeyAI/gooey-server/commit/6233b06dcd8fb74b97aa486db3be15ef0d7f2c7f)
+
+**Fixed**
+
+* [Show tool calls only on `/copilot` page by default](https://github.com/GooeyAI/gooey-server/commit/e770175d0491c4001a06b5b9aa8d15ffb52cd13a)
+
+## 06-March-2026
+
+**Added**
+
+* [Stream `final_prompt` chunks in bots API to render tool calls in web widget](https://github.com/GooeyAI/gooey-server/commit/9f76ee664a61869aa41f9b773c93c85fd66f023f)
+
+**Fixed**
+
+* [Auto-remove unused template variables](https://github.com/GooeyAI/gooey-server/commit/fe6286d25cbd783c36b7741c4c7a6eda7b7fd669)
+
+## 04-March-2026
+
+**Added**
+
+* [Privacy Policy section and Code of Conduct to README](https://github.com/GooeyAI/gooey-server/commit/d918e9e5ff04853b87f99f65008f33a64eda8c73)
+* [License updated to Apache 2.0, copyright updated to 2026](https://github.com/GooeyAI/gooey-server/commit/d618176c87cee6c208e66779c4b669a37429b29d)
+
+## 01-March-2026
+
+**Added**
+
+* [Voxtral ASR support](https://github.com/GooeyAI/gooey-server/commit/ad46112d1dc8301376d9a69c421a775c8f4e32d3)
+* [Latest Mistral embed, OCR, and LLM models](https://github.com/GooeyAI/gooey-server/commit/f3ed03b945b342688f4f68abfe905ac44a57fd6b)
+
+**Fixed**
+
+* [Mistral references chunks handling](https://github.com/GooeyAI/gooey-server/commit/1f50955aae934a129972254daecb25790bad27e4)
+* [Google Sheet extraction with document model](https://github.com/GooeyAI/gooey-server/commit/5f020f3ed01b7ad9dded27e3928dd1470abdcfa1)
 
 ## 27-February-2026
 
