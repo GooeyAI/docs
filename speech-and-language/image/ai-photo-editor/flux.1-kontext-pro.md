@@ -32,7 +32,7 @@ We updated Flux1 Kontext \[pro] in our “Edit an Image” Workflow. You can use
 
 {% embed url="https://gooey.ai/ai-photo-editor/flux1-kontext-pro-edit-text-in-an-image-with-ai-nnrcl6mpf16o/" %}
 
-![](../../../.gitbook/assets/1.png)
+![](<../../../.gitbook/assets/1 (1).png>)
 
 ### Editing an Image <a href="#id-6c7tzok0ds37" id="id-6c7tzok0ds37"></a>
 
@@ -40,7 +40,7 @@ We updated Flux1 Kontext \[pro] in our “Edit an Image” Workflow. You can use
 
 {% embed url="https://gooey.ai/ai-photo-editor/cartoonify-your-dog-with-flux1-kontext-pro-ceano85e/" %}
 
-![](../../../.gitbook/assets/2.png)
+![](<../../../.gitbook/assets/2 (1).png>)
 
 ### Changing character context <a href="#lkeuj5u4dee" id="lkeuj5u4dee"></a>
 
@@ -49,7 +49,7 @@ We updated Flux1 Kontext \[pro] in our “Edit an Image” Workflow. You can use
 
 {% embed url="https://gooey.ai/ai-photo-editor/flux1-kontext-pro-replace-a-background-qww9bl8o3hqz/" %}
 
-![](../../../.gitbook/assets/3.png)
+![](<../../../.gitbook/assets/3 (1).png>)
 
 ### Style Transfer <a href="#algoeviwy3xo" id="algoeviwy3xo"></a>
 
@@ -58,4 +58,4 @@ We updated Flux1 Kontext \[pro] in our “Edit an Image” Workflow. You can use
 
 {% embed url="https://gooey.ai/ai-photo-editor/flux1-kontext-pro-style-transfer-uq3xglvr53lv/" %}
 
-![](../../../.gitbook/assets/4.png)
+![](<../../../.gitbook/assets/4 (1).png>)

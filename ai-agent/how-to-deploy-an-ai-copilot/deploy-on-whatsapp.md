@@ -26,7 +26,7 @@ Click on the [Deploy tab](https://gooey.ai/copilot/integrations/) in the agent w
 
 ### Step 1 - Fill Business Information
 
-<figure><img src="../../.gitbook/assets/1 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Choose your business account (or create a new one)
 

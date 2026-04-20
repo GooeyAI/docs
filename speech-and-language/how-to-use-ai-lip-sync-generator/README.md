@@ -2,7 +2,7 @@
 description: AI-powered lip-sync in seconds!
 ---
 
-# 👄 How to use AI Lip Sync Generator?
+# 👄 AI Lip Sync Generator
 
 Gooey.AI offers a simple and no-code solution for lipsyncing in any language. Lip sync Animation can be handy in corporate training modules, AD campaigns, retail and hospitality sectors, and other video content sources where you have multilingual content.
 
@@ -88,7 +88,7 @@ Try it here:
 
 You can use the “Face Padding” settings to improve the accuracy of the detected face in the image/video. This ensures that the Lip Sync video looks more realistic.
 
-![](<../../.gitbook/assets/2 (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/2 (1) (1) (1) (1) (1).png>)
 
 #### &#x20;<a href="#id-5272lwq3flrn" id="id-5272lwq3flrn"></a>
 
@@ -108,7 +108,7 @@ How to use the settings:
 
 Note: If you are looking for consistent, long-form speech across many languages, then Google is an excellent choice. But, the voice will sound a little robotic, and many not work for uses that require expressive and emotional speech synthesis.
 
-![](<../../.gitbook/assets/3 (1) (1) (1).png>)
+![](<../../.gitbook/assets/3 (1) (1) (1) (1).png>)
 
 **ElevenLabs**
 
@@ -128,7 +128,7 @@ You can learn more about custom voice settings here
 
 {% embed url="https://gooey.ai/docs/guides/lipsync-videos-with-custom-voices" %}
 
-![](<../../.gitbook/assets/4 (1) (1) (1).png>)
+![](<../../.gitbook/assets/4 (1) (1) (1) (1).png>)
 
 ![](<../../.gitbook/assets/5 (1) (1).png>)
 
