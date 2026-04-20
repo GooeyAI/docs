@@ -16,6 +16,7 @@
 * [🚀 Deploy an AI Agent](ai-agent/how-to-deploy-an-ai-copilot/README.md)
   * [Deploy to Web](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-web.md)
   * [Deploy to Telegram](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-telegram.md)
+  * [Deploy to Voice](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-voice.md)
   * [Deploy to WhatsApp](ai-agent/how-to-deploy-an-ai-copilot/deploy-on-whatsapp.md)
   * [Deploy to Slack](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-slack/README.md)
     * [Siri Deployment](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-slack/siri-deployment.md)

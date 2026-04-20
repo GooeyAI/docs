@@ -52,7 +52,7 @@ description: One-click integration for your AI Agent
 
 ### Step 2: Click on the dropdown under ‘Configure your Copilot’&#x20;
 
-* Find your deploment in the dropdown under ‘Configure your Copilot’&#x20;
+* Find your deployment in the dropdown under ‘Configure your Copilot’&#x20;
 * Select your bot with the Telegram logo to its left.
 
 <figure><img src="../../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
