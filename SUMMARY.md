@@ -30,12 +30,11 @@
 
 ## Tools
 
-* [Evaluations](tools/evaluations/README.md)
-  * [⚖️ Bulk Runner and Evaluation](tools/evaluations/understanding-bulk-runner-and-evaluation/README.md)
-    * [How to set up Golden Q\&As](tools/evaluations/understanding-bulk-runner-and-evaluation/how-to-set-up-golden-q-and-as.md)
-    * [💪 How to set up Bulk Runner?](tools/evaluations/understanding-bulk-runner-and-evaluation/how-to-set-up-bulk-runner.md)
-    * [🕵️‍♀️ How to set up Evaluations?](tools/evaluations/understanding-bulk-runner-and-evaluation/how-to-set-up-evaluations.md)
-    * [How to use Bulk Run via API](tools/evaluations/understanding-bulk-runner-and-evaluation/how-to-use-bulk-run-via-api.md)
+* [⚖️ Evaluations](tools/evaluations/README.md)
+  * [How to set up Golden Q\&As](tools/evaluations/how-to-set-up-golden-q-and-as.md)
+  * [💪 How to set up Bulk Runner?](tools/evaluations/how-to-set-up-bulk-runner.md)
+  * [🕵️‍♀️ How to set up Evaluations?](tools/evaluations/how-to-set-up-evaluations.md)
+  * [How to use Bulk Run via API](tools/evaluations/how-to-use-bulk-run-via-api.md)
 * [🛠️ Functions](tools/how-to-use-gooey-functions/README.md)
   * [✨ LLM-enabled Functions](tools/how-to-use-gooey-functions/llm-enabled-functions.md)
   * [How to use SECRETS in Functions?](tools/how-to-use-gooey-functions/how-to-use-secrets-in-functions.md)
@@ -44,7 +43,7 @@
 * [Memory](tools/memory.md)
 * [RAG-based Document Search](tools/how-does-rag-based-document-search-work.md)
 
-## 📖 Speech and Language
+## Speech and Language
 
 * [👄 AI Lip Sync Generator](speech-and-language/how-to-use-ai-lip-sync-generator/README.md)
   * [Lip Sync Animation Generator (WITH AUDIO FILES)](speech-and-language/how-to-use-ai-lip-sync-generator/lip-sync-animation-generator-with-audio-files.md)
@@ -56,22 +55,25 @@
   * [📊 Create language evaluation for Speech Recognition](speech-and-language/how-to-use-asr/how-to-create-language-evaluation-for-asr.md)
 * [Compare AI Translations](speech-and-language/how-to-use-compare-ai-translations/README.md)
   * [Google Translate Glossary](speech-and-language/how-to-use-compare-ai-translations/google-translate-glossary.md)
-* [Image](speech-and-language/image/README.md)
-  * [🖼️ AI Image Generator](speech-and-language/image/create-an-ai-image-with-text/README.md)
+
+## Image, Video and Marketing
+
+* [🖼️ Image](image-video-and-marketing/image/README.md)
+  * [🖼️ AI Image Generator](image-video-and-marketing/image/create-an-ai-image-with-text/README.md)
     * [AI Image Prompting](https://docs.google.com/presentation/d/1RaoMP0l7FnBZovDAR42zVmrUND9W5DW6eWet-pi6kiE/edit#slide=id.p)
-    * [API Tips for AI Image Generator](speech-and-language/image/create-an-ai-image-with-text/api-tips-for-ai-image-generator.md)
-  * [📸 AI Photo Editor](speech-and-language/image/ai-photo-editor/README.md)
-    * [Build your avatar with AI](speech-and-language/image/ai-photo-editor/build-your-avatar-with-ai.md)
-    * [FLUX.1 Kontext \[pro\]](speech-and-language/image/ai-photo-editor/flux.1-kontext-pro.md)
-  * [🧑‍🏫 Image Model Trainer](speech-and-language/image/image-model-trainer.md)
-  * [🤳 AI QR Code Generator](speech-and-language/image/how-to-make-amazing-ai-art-qr-codes/README.md)
-    * [API tips on AI Art QR Code](speech-and-language/image/how-to-make-amazing-ai-art-qr-codes/api-tips-on-ai-art-qr-codes.md)
-* [Video and Animation](speech-and-language/video-and-animation/README.md)
-  * [📽️ AI Video Generator](speech-and-language/video-and-animation/ai-video-generator.md)
-  * [🎞️ AI Animation Generator](speech-and-language/video-and-animation/how-to-create-ai-animations.md)
-* [SEO](speech-and-language/seo/README.md)
-  * [🔍 Generate “People Also Ask” SEO Content](speech-and-language/seo/generate-people-also-ask-seo-content.md)
-  * [🌐 SEO-Optimized content with AI](speech-and-language/seo/how-to-create-seo-optimized-content-with-ai.md)
+    * [API Tips for AI Image Generator](image-video-and-marketing/image/create-an-ai-image-with-text/api-tips-for-ai-image-generator.md)
+  * [📸 AI Photo Editor](image-video-and-marketing/image/ai-photo-editor/README.md)
+    * [Build your avatar with AI](image-video-and-marketing/image/ai-photo-editor/build-your-avatar-with-ai.md)
+    * [FLUX.1 Kontext \[pro\]](image-video-and-marketing/image/ai-photo-editor/flux.1-kontext-pro.md)
+  * [🧑‍🏫 Image Model Trainer](image-video-and-marketing/image/image-model-trainer.md)
+  * [🤳 AI QR Code Generator](image-video-and-marketing/image/how-to-make-amazing-ai-art-qr-codes/README.md)
+    * [API tips on AI Art QR Code](image-video-and-marketing/image/how-to-make-amazing-ai-art-qr-codes/api-tips-on-ai-art-qr-codes.md)
+* [📽️ Video and Animation](image-video-and-marketing/video-and-animation/README.md)
+  * [📽️ AI Video Generator](image-video-and-marketing/video-and-animation/ai-video-generator.md)
+  * [🎞️ AI Animation Generator](image-video-and-marketing/video-and-animation/how-to-create-ai-animations.md)
+* [🌐 SEO](image-video-and-marketing/seo/README.md)
+  * [🔍 Generate “People Also Ask” SEO Content](image-video-and-marketing/seo/generate-people-also-ask-seo-content.md)
+  * [🌐 SEO-Optimized content with AI](image-video-and-marketing/seo/how-to-create-seo-optimized-content-with-ai.md)
 
 ## Help Desk
 

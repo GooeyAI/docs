@@ -29,14 +29,15 @@ We offer:
   * [Custom one-click web widget](https://docs.gooey.ai/guides/how-to-deploy-an-ai-copilot/deploy-to-web) - deploy in seconds to the web or inside your site or app.
   * [Facebook](https://docs.gooey.ai/guides/how-to-deploy-an-ai-copilot/deploy-to-facebook)
   * [Slack](https://docs.gooey.ai/guides/how-to-deploy-an-ai-copilot/deploy-to-slack)&#x20;
+  * [Telegram](../how-to-deploy-an-ai-copilot/deploy-to-telegram.md)
+  * [SMS + IVR for non-smartphone AI agents (Enterprise only)](../how-to-deploy-an-ai-copilot/deploy-to-voice.md)
   * Publish your agent as API
-  * SMS + IVR for non-smartphone AI agents (Enterprise only)
 * **LLM Agnostic:**
-  * Selection of multiple[ Large Language Models](https://gooey.ai/llm) (OpenAI GPT4o, o1, o3 reasoning models, 4.1, 4.1-nano, 4.1-mini, 4.5, DeepSeek, Mistral, Meta's LLaMa 3.3, Gemini 2,Claude 3.5 and smaller local fine-tuned models like Sarvam 2B, SEA-Lion, and AfroLLAMA.)
+  * Selection of multiple[ Large Language Models](https://gooey.ai/llm) (OpenAI GPT5.4, o1, o3 reasoning models, DeepSeek, Mistral, Meta's LLaMa 4, Gemini 3.5, Claude Opus 4.7, Kimi 2.6, Qwen 3.6 Plus and smaller local fine-tuned models like Sarvam 2B, SEA-Lion, and AfroLLAMA.)
 * **Language and regional accent support:**
-  * [Speech Recognition & Translation](https://gooey.ai/speech) to understand incoming audio messages, powered by the latest models from Azure, Google, Meta, OpenAI, and Bhashini.&#x20;
+  * [Speech Recognition & Translation](https://gooey.ai/speech) to understand incoming audio messages, powered by the latest models from Azure, Google, Meta, OpenAI, Omnilingual, Intron and Bhashini.&#x20;
   * [Language translations (including Google Translate, Bhashini, Seamless)](https://blog.gooey.ai/global-language-understanding-for-ais)
-  * Text-to-speech for the widest range of global accents and cloned voices from Google,OpenAI, Azure, and EvelenLabs (so the agent can send back audio responses)
+  * Text-to-speech for the widest range of global accents and cloned voices from Google, OpenAI, Azure, and ElevenLabs (so the agent can send back audio responses)
 * **Function calling:**
   * Function calling enables tool support and agentic decision-making, meaning the  AI model can decide whether and when the function must be executed and/or if code should be written to fulfill a request.
   * Function calling for OpenAI, Mistral and LLaMa models allows your agent[ to securely read and write to your company data](https://gooey.ai/copilot/nurse-julie-health-voice-conversations-to-patient-records-cqd11cspkz4o/), perform [google searches and even write and execute code in real-time](https://gooey.ai/copilot/base-copilot-w-search-rag-code-execution-v1xm6uhp/).
@@ -46,7 +47,7 @@ We offer:
   * This empowers more users to engage with the app with voice and video notes - no typing required!
   * Lipsync’d video generation with [LipSync with Text-to-Speech](https://gooey.ai/lipsynctts). Agents with avatars can create higher engagement and trust. &#x20;
 * **Document and Vision Intelligence:**
-  * Our agents (and their deployments with WhatsApp, the web, slack, etc) natively support audio, images and documents as inputs, allowing scenarios such as using a nameplate to recognize a part number, recognizing plant ailments from photos and extracting data from ID documents to [aid out filling out forms](https://gooey.ai/copilot/?example_id=n13jrsob).&#x20;
+  * Our agents (and their deployments with WhatsApp, the web, Slack, etc) natively support audio, images and documents as inputs, allowing scenarios such as using a nameplate to recognize a part number, recognizing plant ailments from photos and extracting data from ID documents to [aid out filling out forms](https://gooey.ai/copilot/?example_id=n13jrsob).&#x20;
 * **Retrieval Augmented Generation + vectorDB:**
   * [Retrieval Augmented Generation](https://docs.gooey.ai/guides/copilot#what-is-retrieval-augmented-generation) (with a Google doc, PDF, or Excel and even Weblinks) + advanced features including:
     * Dense Embeddings
