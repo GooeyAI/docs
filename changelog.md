@@ -8,11 +8,153 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 30-April-2026
+
+**Added**
+
+* [Stop button to cancel in-progress runs](https://github.com/GooeyAI/gooey-server/commit/7395eda4cf76b59cce735ba945d6435c8c7d1037)
+* [Immediately revoke background task when a run is stopped](https://github.com/GooeyAI/gooey-server/commit/998aaa1c38410e855fb9b59c1dfedf1546ee1719)
+
+**Fixed**
+
+* [Show globe icon on share button for public workflows](https://github.com/GooeyAI/gooey-server/commit/dacc414863371276c55f16073f04be97ef81e3ed)
+* [Show sharing level in workflow search results](https://github.com/GooeyAI/gooey-server/commit/31fdd0f54df08d3fe4ae0369a566e6e74002dcbf)
+
+## 29-April-2026
+
+**Fixed**
+
+* [Prevent LiveKit DTMF and bot session overlap in voice deployments](https://github.com/GooeyAI/gooey-server/commit/4d631079d16ed3b39380261f12cd0efb8f61bf18)
+* [Resolve conflicting CSS styles](https://github.com/GooeyAI/gooey-server/commit/3ac2c5e65293efff2786d2e22679308af23b0c39)
+
+## 28-April-2026
+
+**Added**
+
+* [Dynamic error messages when a run fails due to insufficient credits](https://github.com/GooeyAI/gooey-server/commit/8a751dbd3a82621339c28b79bb6d492ac8ed00b6)
+
+**Fixed**
+
+* [Preserve playable video instead of showing thumbnails in full output](https://github.com/GooeyAI/gooey-server/commit/78f26503baca9acfce45e8f5d2ed22233efa1d7d)
+* [Re-upload safety and metadata refresh for file blobs](https://github.com/GooeyAI/gooey-server/commit/80bad08926acf25fd3726652313dd436c52beacd)
+* [Update contact URL from help.gooey.ai to gooey.ai](https://github.com/GooeyAI/gooey-server/commit/34300a8be8416536d3cd38d7fa5655534a323219)
+* [Correct InsufficientCredits error price reporting](https://github.com/GooeyAI/gooey-server/commit/fb514cfb87b82897ef8f190277baef771ba9c1ce)
+* [Fix LiveKit import and duplicate delete() call](https://github.com/GooeyAI/gooey-server/commit/02b443874980cfd32258547273fcbca5acea080b)
+
+## 27-April-2026
+
+**Added**
+
+* [Gemini Live 3.1 support in LiveKit Voice deployments](https://github.com/GooeyAI/gooey-server/commit/f262feed11fad4c3c2dec84a875e528e3a6768fe)
+
+**Fixed**
+
+* [Handle Gemini 3.1 initial greeting correctly with session.say](https://github.com/GooeyAI/gooey-server/commit/31e9167b27a31a7307cd44c419ddda13ddbd13cd)
+* [Add prompt validation in Bulk Eval to ensure user input is provided](https://github.com/GooeyAI/gooey-server/commit/9e15ad075f718e894dbc09971cf767a8725eb394)
+
+## 23-April-2026
+
+**Added**
+
+* [Deploy Workflow as an LLM Tool, with WhatsApp country code selector](https://github.com/GooeyAI/gooey-server/commit/1f21165f4288ded57bce01f53613f8f7a3b13a98)
+
+**Fixed**
+
+* [Deployment no longer duplicates the published run before validating Telegram bot token](https://github.com/GooeyAI/gooey-server/commit/7d1ecb814f2014354d57afb709124e4d6c2b553b)
+* [Fix "last saved version" link in the integrations tab](https://github.com/GooeyAI/gooey-server/commit/7d1ecb814f2014354d57afb709124e4d6c2b553b)
+
+## 22-April-2026
+
+**Added**
+
+* [GPT Image 2 model support](https://github.com/GooeyAI/gooey-server/commit/0f439a4e0e3e1d4ddaab0c061afd1d71b3b09773)
+
+## 21-April-2026
+
+**Added**
+
+* [Code editor for Bulk Eval prompts, graph captions, and "lower is better" grading option](https://github.com/GooeyAI/gooey-server/commit/bafeb119b2124567726af992b5e54d884358e54f)
+
+## 20-April-2026
+
+**Added**
+
+* [Dynamic LLM tool search via dynamicLLMToolLoader](https://github.com/GooeyAI/gooey-server/commit/be2185ee7881ec205879a9a1a3b899156e2aa7d1)
+
+**Fixed**
+
+* [Video and audio model enum schema generator](https://github.com/GooeyAI/gooey-server/commit/c982d7364eb4154ab3f4a13a51703813b9e3547e)
+
+## 16-April-2026
+
+**Fixed**
+
+* [Properly center "Processing…" text on the processing page](https://github.com/GooeyAI/gooey-server/commit/c1ed099625857b22a4df46ecee8c4be7ea29babf)
+* [Current plan card rendering on mobile view](https://github.com/GooeyAI/gooey-server/commit/a66e824a26696a91fc1ea4499a89969d75528c3e)
+* [Downgrade Pro plan correctly and show downgrade info for tier](https://github.com/GooeyAI/gooey-server/commit/2f6ca78f04de57b60a860083e44940caa41c2634)
+* [Clear all pending Stripe subscription changes before cancellation](https://github.com/GooeyAI/gooey-server/commit/267181c09d9ee383fa91d98469f4dd175a1b1368)
+* [Don't send low balance email for Team workspaces](https://github.com/GooeyAI/gooey-server/commit/8113f7682bdef947be0e775a7cd5c28b3d581eea)
+* [Default seat count to next highest option when not in plan options](https://github.com/GooeyAI/gooey-server/commit/d21a74d61f089c461b3a7d68b5ad67c51f85da11)
+* [PayPal users can now see seat selection](https://github.com/GooeyAI/gooey-server/commit/c20aacd2c00776224fef6758d192ceceba16b082)
+* [Clear pending Stripe changes before upgrade or downgrade](https://github.com/GooeyAI/gooey-server/commit/f19b6633179bff44dfe5045f37f473a9fa3e8ab7)
+
+## 14-April-2026
+
+**Added**
+
+* ["Last login" column in the workspace members view](https://github.com/GooeyAI/gooey-server/commit/08ac231bb13599446cc5456883aca3a89f25f46b)
+
+**Fixed**
+
+* [Invite accept logic now correctly creates admin seats](https://github.com/GooeyAI/gooey-server/commit/cdcfedfa55dfadd3de3343f32cd34a0bde2b001e)
+* [Payment method detach now called before redirect](https://github.com/GooeyAI/gooey-server/commit/017fade77922a582c2e0acde4ebbcc418eb208c5)
+
+## 10-April-2026
+
+**Fixed**
+
+* [Files uploaded via API are now correctly marked as user-uploaded](https://github.com/GooeyAI/gooey-server/commit/23c80ec1b599f9e7a4485ccc2941e504d29a32d4)
+
+## 07-April-2026
+
+**Fixed**
+
+* [Show "Upgrade to invite members" only to admins on a free team](https://github.com/GooeyAI/gooey-server/commit/378337ec395cf666c5cdebfb0dfd92a310c3fcd0)
+* [Schedule plan change correctly for all downgrades](https://github.com/GooeyAI/gooey-server/commit/1c26d79fca3e7649214fe12805996821906a87b4)
+* [Rounding error in Pro plan pricing](https://github.com/GooeyAI/gooey-server/commit/f23dabe79d8c40f385f69b7cfe32a23b3fe3b4c2)
+
+## 05-April-2026
+
+**Fixed**
+
+* [Stale workspace no longer passed to auto-assign team members](https://github.com/GooeyAI/gooey-server/commit/d283a505faba533937ffa85e702ba75a1e85be47)
+
+## 02-April-2026
+
+**Fixed**
+
+* [Balance correctly set to zero when cancelling a subscription](https://github.com/GooeyAI/gooey-server/commit/2cc6c681bb228d2827d6406c6bf1592adb6cd907)
+* [Redirect to Stripe correctly after creating a workspace](https://github.com/GooeyAI/gooey-server/commit/55639cc6bee5c98d41fd4d6181b9a4ed495267f5)
+
+## 01-April-2026
+
+**Added**
+
+* [Show "Upgrade to invite members" prompt on free workspace Members tab](https://github.com/GooeyAI/gooey-server/commit/f16a4119a4bb4cbef5940a6edb56379896c1d599)
+* [Link to team plans from the Create Workspace popup](https://github.com/GooeyAI/gooey-server/commit/00b61b68d2969905b3754b97dad60876cf6eb813)
+
+**Fixed**
+
+* [Seats are now unassigned when members are soft-deleted](https://github.com/GooeyAI/gooey-server/commit/acbaf35c941ad84529b41bfee3f5cf1253333964)
+* [Invite option now only shown in workflow-share dialog for paid workspaces](https://github.com/GooeyAI/gooey-server/commit/a497dfc241162ca8a7ed1395441a827182c4c927)
+* [Prevent non-team/enterprise workspaces from sending invites](https://github.com/GooeyAI/gooey-server/commit/3d5712152cacfcd3e5adce634d3cb8be5c6307e0)
+
 ## 30-March-2026
 
 **Added**
 
 * [Message structure transformation for Fireworks chat](https://github.com/GooeyAI/gooey-server/commit/09b357657bb0f92b6f92f57b82208fdd4b308ca8)
+* [Pre-create file upload entries before background task runs to prevent data loss](https://github.com/GooeyAI/gooey-server/commit/e602bfcc4b031c35c969224b0fb330bc2b8b31b8)
 
 **Fixed**
 
