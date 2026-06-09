@@ -8,6 +8,120 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 07-June-2026
+
+Fixed
+
+* [Improve Composio error handling](https://github.com/GooeyAI/gooey-server/commit/a83fcaf9d07bfbb0d320fa5d1ea2cb7556304a1d)
+
+## 05-June-2026
+
+Fixed
+
+* [Hide Gooey Builder runs from non-admin users](https://github.com/GooeyAI/gooey-server/commit/20817d665e8dfec6333648ac0ce5e0b13f617fbc)
+* [Restore real-time updates from both workflow and builder channels](https://github.com/GooeyAI/gooey-server/commit/42215fd02177a13e49aaace9889a00ed2d7d1697)
+* [Fix document JSON parsing](https://github.com/GooeyAI/gooey-server/commit/40a2fefc7493a10c29d9c81c897329d6d482b403)
+* [Restore error metadata so custom error widgets render correctly](https://github.com/GooeyAI/gooey-server/commit/4a5b10352d272b0e98db256851aa5f39ccf18023)
+
+## 02-June-2026
+
+Added
+
+* [Close dialogs by pressing the Esc key](https://github.com/GooeyAI/gooey-server/commit/989ef6b0b107fd738cdacf526cef8654dc2a1b7f)
+
+## 29-May-2026
+
+Fixed
+
+* [Prevent stale Bulk Eval columns from producing phantom evaluation results](https://github.com/GooeyAI/gooey-server/commit/f174d8eb81be2f963c361f918db99ff95b77c215)
+* [Align workflow URL action buttons correctly](https://github.com/GooeyAI/gooey-server/commit/9b2e287131f85dec763a8c437ea33d409aa7d0fb)
+
+## 28-May-2026
+
+Fixed
+
+* [Improve error handling in workflows](https://github.com/GooeyAI/gooey-server/commit/c76941232916862a78b38a7598311d32a08131fc)
+
+## 26-May-2026
+
+Fixed
+
+* [Show API runs only under History → "All", not under "Just me"](https://github.com/GooeyAI/gooey-server/commit/e065b170f0c67dbffa73eacfd24f83be76727b3e)
+
+## 19-May-2026
+
+Added
+
+* [Support for Fal billable units and improved pricing handling](https://github.com/GooeyAI/gooey-server/commit/db0c37d5937cf1870194e9584295c4654cfe1e96)
+
+Fixed
+
+* [Ensure pricing is correctly saved after model changes](https://github.com/GooeyAI/gooey-server/commit/51497e3978242d9a2747aaa720cfc60c008ced3d)
+
+## 15-May-2026
+
+Added
+
+* [Pagination on the workflow search page](https://github.com/GooeyAI/gooey-server/commit/5e455911c41600e7857faedf58046995008cfd4c)
+* [A7, A30, R7, R30 retention columns in messages CSV export](https://github.com/GooeyAI/gooey-server/commit/17bdbabc71a0ba71e19023ec1c2b092380b63db0)
+
+Fixed
+
+* [Resolve infinite redirect loop on invalid pagination cursor](https://github.com/GooeyAI/gooey-server/commit/db3bd49883547eb362e3ab9726823d32d546a6e9)
+* [Redirect to first page when pagination URL is malformed](https://github.com/GooeyAI/gooey-server/commit/ac8bdcd163d0d0b1b462f2f9f6f62fd6293a06bf)
+* [Handle invalid URL parameters for pagination gracefully](https://github.com/GooeyAI/gooey-server/commit/96e906ff3d08eb0b2ebb804521468d316b006f62)
+* [Prioritise the user's own workflows in the featured list](https://github.com/GooeyAI/gooey-server/commit/a73427fa30885b94b1352bf283ca0dfe280c83bc)
+* [Show detailed feedback toggle in admin panel](https://github.com/GooeyAI/gooey-server/commit/5937ad8562282d2032c6da6dd9eaa5a9ef6eb0a2)
+* [Allow the detailed feedback toggle to be changed independently](https://github.com/GooeyAI/gooey-server/commit/f2cb98e3a177f1e61623ae9fa245e162f25a9496)
+* [Make the "Let's Talk" link work on Enterprise pages](https://github.com/GooeyAI/gooey-server/commit/1bd676c6dc60f8fc760dcda7f46050a7ed1a2de6)
+
+## 12-May-2026
+
+**Fixed**
+
+* [Retry on 504 timeout errors from Intron ASR](https://github.com/GooeyAI/gooey-server/commit/b13933dba65a205284b0d50e06cc5025c667ada1)
+
+## 8-May-2026
+
+**Fixed**
+
+* [use call transfer tool for voice bots](https://github.com/GooeyAI/gooey-server/commit/ded22b70ec23161945ed1aa48b90303150419503)
+* [avoid TypeError on ShortenedURL admin Add/Duplicate page](https://github.com/GooeyAI/gooey-server/commit/c43b5d1a85ed2bdb2205037f6a09467bd5647cb6)
+
+## 7-May-2026
+
+**Fixed**
+
+* [IndexError: list index out of range](https://github.com/GooeyAI/gooey-server/commit/b7b76b26efada3f4e7c677222c578bebdc9bde13)
+* [integrity error for yt-dlp metadata with unknown file size](https://github.com/GooeyAI/gooey-server/commit/2c7f3e84b27518676728d7af98598bae6682ee5d)
+* [raw\_tts\_text cleanup for thinking traces](https://github.com/GooeyAI/gooey-server/commit/5afbd2415a5a26ee33a9b9c0a2ed76653c8aa060)
+
+**Added**
+
+* [Release Bot Builder for All](https://github.com/GooeyAI/gooey-server/commit/f6a4152c42da8f08119731158d07e68c659c8659)
+
+## 5-May-2026
+
+**Fixed**
+
+* [keep file upload ON by default for new web integration](https://github.com/GooeyAI/gooey-server/commit/317c71d448aa135fd6ca68d14d3a03b4a02ff2ef)
+
+## 4-May-2026
+
+**Fixed**
+
+* [set LiveKit Gemini Vertex requests to global region](https://github.com/GooeyAI/gooey-server/commit/5834d5dfc590f062725af893eeb5c8b37d0c3f05)
+
+## 1-May-2026
+
+**Added**
+
+* [when filtering by workspace default sort should be last\_updated](https://github.com/GooeyAI/gooey-server/commit/130100bca2d70581614abbb94ddee0b99e5387df)
+
+**Fixed**
+
+* [handle openai swallowing task cancellation](https://github.com/GooeyAI/gooey-server/commit/c8b1611ab1dda5584ffd9b8344c4b96e728b95f1)
+
 ## 30-April-2026
 
 **Added**
