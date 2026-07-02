@@ -8,6 +8,88 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 25-June-2026
+
+Added
+
+* [New /account/memory view to browse saved memory entries](https://github.com/GooeyAI/gooey-server/commit/4b39f90e905ac3df34db9b16b31b0b6a63ba52f6)
+* [Filters for the /account/memory view](https://github.com/GooeyAI/gooey-server/commit/4466146a2201330438fa8538382d0ccc2c4d6f1c)
+* [Scope and relationship fields added to MemoryEntry model](https://github.com/GooeyAI/gooey-server/commit/4e881b2645a0cf3ad14e45bb56077c56dddea9c7)
+* [Language-based filtering for TTS providers and voices](https://github.com/GooeyAI/gooey-server/commit/7749ba73426dad24927438e7be4b20a655f025bb)
+
+Fixed
+
+* [Correct button alignment in list view editor](https://github.com/GooeyAI/gooey-server/commit/c102612532acf45cc79356a35d0871d921b1f3d9)
+* [Fix TTS/ASR filter selector key in VideoBots](https://github.com/GooeyAI/gooey-server/commit/3c335279863edd447d7920b5bd5674b5ebeaa872)
+* [Guard Google TTS language lookup when credentials are missing](https://github.com/GooeyAI/gooey-server/commit/195ceacca0b15db22fa1fcd60661051a651f19cb)
+* [Refresh stale Google TTS voice cache after shape change](https://github.com/GooeyAI/gooey-server/commit/837e7cc1f147b1c42094c2bea62e8cd67001cbc6)
+* [Update language filter label for clarity](https://github.com/GooeyAI/gooey-server/commit/349ac37bf65288a3b4f67069669a763468da9899)
+* [Fix home saved card — clamp description and cap thumbnail height](https://github.com/GooeyAI/gooey-server/commit/1270fb0d844e024729861c0d8a5b87720b84d4a9)
+
+## 23-June-2026
+
+Fixed
+
+* [Healthcheck fix](https://github.com/GooeyAI/gooey-server/commit/2f17ad52b06c8ac6a2d33b67fb49d5b27d5a885d)
+* [Fix Composio meta tools running in an in-process tool-router session](https://github.com/GooeyAI/gooey-server/commit/8ad2e4c1eea320f5d24e8e2e397aee98cf942dd5)
+
+## 22-June-2026
+
+Added
+
+* [New /home page launched for logged-in users](https://github.com/GooeyAI/gooey-server/commit/ebbe88c7c5982871473fe2701b221f74e6dbe900)
+
+## 19-June-2026
+
+Fixed
+
+* [Truncate long workflow card titles in history view](https://github.com/GooeyAI/gooey-server/commit/7af9e62c0aa2a521f74203fa549ea76acc07aed0)
+* [Show Home page link in mobile menu](https://github.com/GooeyAI/gooey-server/commit/6479d90c67f5cc2f85c43ae8bd848fc900238c23)
+* [Allow workflow tab selector to scroll](https://github.com/GooeyAI/gooey-server/commit/1443ee40e3c4d6df88c19d4ee5a0c699a3d2a50a)
+* [Fix text clamping and mobile grid layout for recent workflows](https://github.com/GooeyAI/gooey-server/commit/27e7d3a7bdf1901170441f9f6c07aeae91a5b1ba)
+
+## 18-June-2026
+
+Fixed
+
+* [Correctly save run transaction and price data](https://github.com/GooeyAI/gooey-server/commit/8de9bd55b91fc0240c6d20cb0ae8eedc22f11bd8)
+* [Show all workflows in Gooey Builder conversations](https://github.com/GooeyAI/gooey-server/commit/7b7d76d86d2c2b72aadbda2616d4d278fa8d759e)
+* [Persist run price correctly in SavedRun and clean up bulk progress UI](https://github.com/GooeyAI/gooey-server/commit/80674ddc881936d3d5a7419020366ccf46bcf66b)
+* [Map cancelled bulk runs to stopped state after completion](https://github.com/GooeyAI/gooey-server/commit/76add6c1614974d51effc6d404b7916e57803052)
+* [Report correct starting row number in bulk progress display](https://github.com/GooeyAI/gooey-server/commit/4a422221e720967da6afcf8e0d339534d976e08a)
+
+## 16-June-2026
+
+Added
+
+* [Support for local file storage](https://github.com/GooeyAI/gooey-server/commit/83f29e42ddde12da30f4650de338f975ca026948)
+
+Fixed
+
+* [Fix local file uploads from the web widget](https://github.com/GooeyAI/gooey-server/commit/bb79fbbef9295d93da0406e6c0f254fdea31c2fe)
+
+## 13-June-2026
+
+Added
+
+* [Track call site with a new surface field on SavedRun; filter history and builder conversations by surface](https://github.com/GooeyAI/gooey-server/commit/4cd6c24dccd6a7330a725e710a6e7ccc45f5a28a)
+
+Fixed
+
+* [Scope OpenAI TTS voice options to the selected model (adds Marin & Cedar voices)](https://github.com/GooeyAI/gooey-server/commit/90ae57966d154d825fde7adc9544cae7cad86ff1)
+* [Migrate OpenAI Realtime WebSocket to GA interface](https://github.com/GooeyAI/gooey-server/commit/d61ce0f8287ca411fb575515adbd69f02fb5f500)
+* [Remove temperature from OpenAI Realtime audio path](https://github.com/GooeyAI/gooey-server/commit/1a1e0d7a90752c5f594cf5929d36851989630a33)
+
+## 10-June-2026
+
+Added
+
+* [Bulk runner progress display](https://github.com/GooeyAI/gooey-server/commit/07db9669b27e99f6b2b76688222704fdb121d570)
+* [Reordered bulk run complete stats and added per-workflow elapsed timer](https://github.com/GooeyAI/gooey-server/commit/9ef0e40d002ab2181d341da24fe33af8ebcbc940)
+* [Font Awesome icon and color support for Tags on the home page](https://github.com/GooeyAI/gooey-server/commit/18fd207deb027c9e0e92bd63694be212404371a9)
+* [Font Awesome icon and color support for WorkflowMetadata; wired to home page icons](https://github.com/GooeyAI/gooey-server/commit/4bf9778904b71f38af98986b64fa1d38d4bbaf1f)
+* [Link CMS workflow tabs to WorkflowMetadata](https://github.com/GooeyAI/gooey-server/commit/d09bee9038bbc558c554f25d8b4412b85ebd418e)
+
 ## 07-June-2026
 
 Fixed
