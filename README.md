@@ -1,5 +1,23 @@
 ---
 description: Low-code AI orchestration platform to empower people everywhere.
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: false
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 🗃️ Gooey.AI Docs
