@@ -8,6 +8,140 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 17-August-2026
+
+**Fixed**
+
+* [Use a plain logout link](https://github.com/GooeyAI/gooey-server/commit/84a7dd8a17a276dffffd8c39aec696de12279602)
+
+## 16-August-2026
+
+**Fixed**
+
+* [Harden SraVaani Modal inference](https://github.com/GooeyAI/gooey-server/commit/0a3190f0c8a0ea10e867c9d2f12f78620c8d5c96)
+
+## 12-August-2026
+
+**Fixed**
+
+* [Keep LiteLLM initialization provider-scoped](https://github.com/GooeyAI/gooey-server/commit/b194a37c3531e9dff99091602b8aeab70e6fdf61)
+* [Gate document intelligence providers](https://github.com/GooeyAI/gooey-server/commit/1f722afb9d69e259c40bd880272a441c55843964)
+
+## 11-August-2026
+
+**Fixed**
+
+* [Stop the chat preview showing an empty assistant bubble](https://github.com/GooeyAI/gooey-server/commit/5eac2d9008f2f61beb9f6034abf9f1237dbce11d)
+
+## 10-August-2026
+
+**Added**
+
+* [Use builder and whatsapp themes](https://github.com/GooeyAI/gooey-server/commit/0c4bb2b2eacb9476a7ed43389676cd5deaed926a)
+
+**Fixed**
+
+* [Exclude Outlook from verified email credits](https://github.com/GooeyAI/gooey-server/commit/fc2cdfdea574308d1fd2e0c993a04b83ecd58c0c)
+
+## 08-August-2026
+
+**Fixed**
+
+* [Align chat widget history tests](https://github.com/GooeyAI/gooey-server/commit/7f5086543569abc54729e366cc9d7733d8b861b0)
+
+## 07-August-2026
+
+**Added**
+
+* [Preserve input documents / audio / images on chat window](https://github.com/GooeyAI/gooey-server/commit/bb3a36617b1e7b73d0f2af757c08b31d9591583f)
+* [Carry run metadata on chat history messages for widget export](https://github.com/GooeyAI/gooey-server/commit/3d5c13cf193f5031b4591b30781d6fc71ba553ba)
+
+**Fixed**
+
+* [Preserve gemini thought signature](https://github.com/GooeyAI/gooey-server/commit/640243bfb07de47ae0ebc2cd6fc3b7d04b748eea)
+
+## 05-August-2026
+
+**Added**
+
+* [Add `to_llm_body` utility for message field validation and refactor message handling](https://github.com/GooeyAI/gooey-server/commit/69de9b0ae0f6d9d5752d5890b0e93c58fdd26d80)
+* [Add New item to navigation sidebar](https://github.com/GooeyAI/gooey-server/commit/ac505339772afb382b1ad4528194c602d7c1634b)
+
+**Fixed**
+
+* [Make message threads searchable in admin](https://github.com/GooeyAI/gooey-server/commit/2d60155d9ffa985f46f5eca705d9b98d944e1ac2)
+* [Add support for `additional_properties` in workflow tools and LLM tool definitions](https://github.com/GooeyAI/gooey-server/commit/e55d46b5cbf1376f0cbea06bbb5c130c22d6606a)
+* [Add `message_thread` to autocomplete fields in admin panel](https://github.com/GooeyAI/gooey-server/commit/7783222c5d9ea4dfe0aee8843cb94a8fe2a309a4)
+* [Improve workflow state serialization in update workflow tool](https://github.com/GooeyAI/gooey-server/commit/ff059f44da659d7f67ea8354d6f6caa4997cad28)
+* [Update redirection logic in `bind` to handle builder prompt surface explicitly](https://github.com/GooeyAI/gooey-server/commit/df33142e5c13dce5dba7e786507f01f48815a2f5)
+* [Centralize login redirection logic with `get_login_url` across routers](https://github.com/GooeyAI/gooey-server/commit/da2fe92730e293f092d92272d73c719ad76b8c3e)
+* [Redirect unauthenticated users to login on AskGooeyNew page access](https://github.com/GooeyAI/gooey-server/commit/25e3be4a1f10743d36d815aca9899dbb5e5cdf32)
+* [Preserve single Bulk Eval metric labels](https://github.com/GooeyAI/gooey-server/commit/604888fd00db4e4b5c3a45b2e24063a92a826daf)
+* [Home landing page links](https://github.com/GooeyAI/gooey-server/commit/9453c03e8d6892981f17df7a16dcfb524356bc37)
+* [Show standalone builder conversations in the navigation sidebar](https://github.com/GooeyAI/gooey-server/commit/9921ddafb4072f5cf17b9eb5bf41171af38c8dd9)
+* [Invalidate workspace cache once per sidebar render](https://github.com/GooeyAI/gooey-server/commit/d2b93163b799a67f2f85238b2acb8d488e2ab82c)
+* [Address PR 1040 review comments](https://github.com/GooeyAI/gooey-server/commit/0afb68b1755400af09d8ee04beb564a8695ffae3)
+* [Ask Gooey full-width + responsive layout](https://github.com/GooeyAI/gooey-server/commit/7988264bb9839bf018172d13605cf429f3087a3f)
+* [Remove footer for now](https://github.com/GooeyAI/gooey-server/commit/efa768453edfe2e2d35ea2ff2200dc502b846eec)
+* [Skip missing Bulk Eval aggregations](https://github.com/GooeyAI/gooey-server/commit/138dcba5c97860c2954d61499077c701dacb9495)
+
+## 04-August-2026
+
+**Added**
+
+* [Integrate live transcription into AskGooeyNew with mic UI and backend API support](https://github.com/GooeyAI/gooey-server/commit/9990d936113daffee0e265f86ed5c7da851fdb70)
+* [Add file attachment support to AskGooeyNew with upload handling](https://github.com/GooeyAI/gooey-server/commit/fdf105d6dfb1d9e1a09df363cef544b3126abd1a)
+* [Update AskGooeyNew UI with contextual placeholder, refined styles, and scrollable suggestions](https://github.com/GooeyAI/gooey-server/commit/6b6e82d73216dc4a9356d923ec6b79051f0d3cc1)
+* [Add /new/title-run\_id to render standalone ask gooey without associated workflow](https://github.com/GooeyAI/gooey-server/commit/d51f4fd3ef767a03b4023ab97dfa5ca4170ddea4)
+* [Add Sarvam speech generation and recognition](https://github.com/GooeyAI/gooey-server/commit/71fa241c728c0fc0c8b2083abf2cb53cde5ab3d5)
+
+**Fixed**
+
+* [Update AskGooeyNew text color logic based on input presence](https://github.com/GooeyAI/gooey-server/commit/bb31898acddd85d3a7979c8536de3b66fa5275e2)
+* [Support explicit Bulk Eval skips](https://github.com/GooeyAI/gooey-server/commit/e14fae344a079e2ea0f46fed005bbeb94b34520f)
+* [Resolve Bulk Eval models before evaluation jobs](https://github.com/GooeyAI/gooey-server/commit/5c51b2d25e734add9d89062e735c5a5399b9659c)
+* [Chunk Mayura translation inputs](https://github.com/GooeyAI/gooey-server/commit/dc8a55acfabe1db68af4550025ef48774e037ff3)
+* [Validate Sarvam TTS audio response](https://github.com/GooeyAI/gooey-server/commit/a095799e031c013ea18124c5281e609efce929d4)
+* [Address navigation sidebar review feedback](https://github.com/GooeyAI/gooey-server/commit/dd82a3b5fa76d9fad53c6036e4fa9da021c6f9ab)
+
+
+
+## 03-August-2026
+
+**Added**
+
+* [Add Sarvam Mayura translation](https://github.com/GooeyAI/gooey-server/commit/267b8aa866615055a0e9d58306ca91a6d6fd173d)
+
+## 01-August-2026
+
+**Added**
+
+* [Add UpdateConversationTitle tool and integrate it into Gooey.AI (#1042)](https://github.com/GooeyAI/gooey-server/commit/6319896ad004eb5af98bb1eebda4e0f5583e7d26)
+
+## 31-July-2026
+
+**Fixed**
+
+* [Let Bulk Eval judges correct invalid tool calls](https://github.com/GooeyAI/gooey-server/commit/ae398205252d51764a5c3b8a62d9888b7e902021)
+
+## 30-July-2026
+
+**Fixed**
+
+* [Handle missing Azure moderation endpoint in `is_image_nsfw` gracefully](https://github.com/GooeyAI/gooey-server/commit/3a82575120e9e17aa812df090e68391c95cb6df0)
+
+## 28-July-2026
+
+**Added**
+
+* [Add LiteLLM Responses provider](https://github.com/GooeyAI/gooey-server/commit/9a980b0212dc54553730409324341ffde9df628f)
+
+## 27-July-2026
+
+**Fixed**
+
+* [Avoid Modal initialization for TTS language options](https://github.com/GooeyAI/gooey-server/commit/c75def3a9d9c02334b5137a5200df216a96c9087)
+
 ## 24-July-2026&#x20;
 
 **Added**
