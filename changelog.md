@@ -8,6 +8,98 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 24-July-2026&#x20;
+
+**Added**
+
+* [Optimize conversation fetching by limiting fields retrieved](https://github.com/GooeyAI/gooey-server/commit/b61ceba6342a6b97c5dfe9378e5125aad686b0b5)
+
+**Fixed**
+
+* [Check message thread ownership via first\_run/last\_run to avoid slow query](https://github.com/GooeyAI/gooey-server/commit/0f707de10c274825a7c23b27af18612baa7ba54a)
+
+## 22-July-2026&#x20;
+
+**Added**
+
+* [Convert MessageThread's last\_run to OneToOneField, filter by latest run in listings](https://github.com/GooeyAI/gooey-server/commit/721246766e7720aa9385b77e07ee5f41a22aa5bb)
+
+## 21-July-2026&#x20;
+
+**Added**
+
+* [Enhance MessageThread admin display and refine thread selection logic](https://github.com/GooeyAI/gooey-server/commit/2d433f2cd7941ec3b2f5252444b75abc36aae7fc)
+* [Re-add MessageThread migration after correcting dependency](https://github.com/GooeyAI/gooey-server/commit/c2b2fdd30b870268d530bb1ea97776249d72086e)
+
+**Fixed**
+
+* [Fix Silk duplicate key](https://github.com/GooeyAI/gooey-server/commit/9a659309268058dc9534504d57e20ea3eb10f852)
+
+## 20-July-2026&#x20;
+
+**Added**
+
+* [Record MessageThread from agent saved runs](https://github.com/GooeyAI/gooey-server/commit/a217572b9356dc1a3e700fb2bf404bafb4b45001)
+
+**Removed**
+
+* [Revert "support multi-select tag filters"](https://github.com/GooeyAI/gooey-server/commit/56a729c8215df2314d683b8779a7c0c03fd0fcc7)
+* [Revert "show tag filters with text search"](https://github.com/GooeyAI/gooey-server/commit/d7581e8836a13a43ce511fd57ff79c553b0c4ac8)
+
+## 18-July-2026&#x20;
+
+**Added**
+
+* [Make `run_id` unique in `saved_run` model](https://github.com/GooeyAI/gooey-server/commit/973610d8afa3ddf033922d0293d5f4cc8547d087)
+
+## 17-July-2026&#x20;
+
+**Added**
+
+* [Support multi-select tag filters](https://github.com/GooeyAI/gooey-server/commit/2a1d3314b0eb57ced387951f49c787b0865ef3af)
+
+**Fixed**
+
+* [Fix spacing and pill borders](https://github.com/GooeyAI/gooey-server/commit/cada356526b7a7a562665dd45c170c2b7a82da58)
+* [Show tag filters with text search](https://github.com/GooeyAI/gooey-server/commit/dd754701e0c88c6198e0dc52e563433d9c2d2543)
+
+## 16-July-2026&#x20;
+
+**Added**
+
+* [Add tag filter to explore search](https://github.com/GooeyAI/gooey-server/commit/65c9cd79a29f0373dd18e5f9e78ea2cee130d188)
+
+## 14-July-2026&#x20;
+
+**Added**
+
+* [New /history page](https://github.com/GooeyAI/gooey-server/commit/6f542694d6f7041d54eaac436ff9832b575ded7f)
+
+## 13-July-2026&#x20;
+
+**Fixed**
+
+* [Refresh dynamic tools in reused Realtime sessions](https://github.com/GooeyAI/gooey-server/commit/7ba6c47ad9cac5558cdf18511d8e0cd4c6b58e58)
+
+## 09-July-2026&#x20;
+
+**Added**
+
+* [Replace Deno with Cloudflare Workers](https://github.com/GooeyAI/gooey-server/commit/625003c0b360f5bdf43c60d28a9cdc98ac76f659)
+
+## 07-July-2026&#x20;
+
+**Fixed**
+
+* [Fix analysis page showing 404 without access](https://github.com/GooeyAI/gooey-server/commit/7bbebce142536562d14d4bbc442704e933bc130b)
+
+## 01-July-2026&#x20;
+
+**Fixed**
+
+* [Fix db\_middleware overriding endpoint signature and breaking FastAPI](https://github.com/GooeyAI/gooey-server/commit/c1705f835070e633d9e8d546559eb27a8414bf90)
+* [Handle blank WhatsApp body text](https://github.com/GooeyAI/gooey-server/commit/ec3815de90c5e4db62bb2c92e0eabb0b0f424682)
+
 ## 25-June-2026
 
 Added
