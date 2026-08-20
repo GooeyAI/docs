@@ -203,7 +203,3 @@ You're on the Docker path; `Dockerfile.local` omits both. Use [Manual Installati
 Rebuild from scratch with `docker compose -f docker-compose.local.yml build --no-cache`. Only resort to `down -v` if you're willing to lose your local database.
 
 </details>
-
----
-
-Still stuck? Ask in [Discord](https://gooey.ai/discord).

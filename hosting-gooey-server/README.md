@@ -53,18 +53,6 @@ flowchart TD
 All four backing services are open source, and a default install needs no cloud account at all. See [Platform Independence](platform-independence.md) for the full accounting.
 {% endhint %}
 
-## Should you self-host?
-
-Let's be direct: **for most developers, we do not recommend running or forking Gooey Server.** Use the [Gooey.AI API](https://gooey.ai/api/) or the [Python SDK](https://github.com/GooeyAI/python-sdk) instead — no servers, no API keys to juggle, no infrastructure to babysit.
-
-Self-hosting is the right call when you need something the hosted service can't give you:
-
-* **You want to create a new recipe**, rather than change the parameters on an existing one.
-* **You want to add an AI model we don't support** — including a model running entirely on your own hardware.
-* **You have specific data-practice requirements** — a particular cloud provider, a particular jurisdiction, or no cloud at all.
-* **You want to run your own server cluster** for your organisation, your country, or your customers.
-* **You want to add functionality** that the hosted platform doesn't offer.
-
 ## Why local and sovereign hosting matters
 
 Running Gooey on your own infrastructure isn't only a developer convenience — for a lot of our users it's the whole point.
@@ -106,5 +94,3 @@ Full detail, including code references for each swap point, is in [Platform Inde
 ## Where to go next
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Installation Guide</h4></td><td>Get a server running, with Docker or a full manual install</td><td><a href="installation/">installation</a></td></tr><tr><td><h4>Adding Local AI Models</h4></td><td>Point Gooey at Ollama, vLLM, or any OpenAI-compatible server</td><td><a href="adding-local-ai-models.md">adding-local-ai-models.md</a></td></tr><tr><td><h4>Configuration Reference</h4></td><td>Every environment variable, with defaults</td><td><a href="configuration.md">configuration.md</a></td></tr><tr><td><h4>Platform Independence</h4></td><td>How each proprietary dependency is made optional</td><td><a href="platform-independence.md">platform-independence.md</a></td></tr></tbody></table>
-
-Still stuck? Ask in [Discord](https://gooey.ai/discord).
