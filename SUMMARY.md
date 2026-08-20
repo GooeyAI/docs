@@ -84,6 +84,16 @@
 * [How to use Version History?](help-desk/how-to-use-version-history.md)
 * [🍟 How can I get free credits?](help-desk/how-can-i-get-free-credits.md)
 
+## 🖥️ Hosting Gooey.AI Server
+
+* [What is Gooey Server?](hosting-gooey-server/README.md)
+* [Installation Guide](hosting-gooey-server/installation/README.md)
+  * [Quickstart with Docker](hosting-gooey-server/installation/quickstart-with-docker.md)
+  * [Manual Installation](hosting-gooey-server/installation/manual-installation.md)
+* [Adding Local AI Models](hosting-gooey-server/adding-local-ai-models.md)
+* [Configuration Reference](hosting-gooey-server/configuration.md)
+* [Platform Independence](hosting-gooey-server/platform-independence.md)
+
 ## 😇 CONTRIBUTING
 
 * [Contributing](contributing/contributing.md)
