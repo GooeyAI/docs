@@ -1,8 +1,8 @@
 ---
-icon: server
 description: >-
   What Gooey Server is, how the pieces fit together, and why you might want to
   run it on your own infrastructure.
+icon: server
 ---
 
 # What is Gooey Server?
@@ -38,32 +38,20 @@ flowchart TD
 
 ### The components
 
-| Component | What it does | Port |
-| --------- | ------------ | ---- |
-| **gooey-gui** (`gooey-gui/`) | Remix/React frontend. Asks the Python server to render each page as a JSON component tree, renders that in React, and subscribes to Redis pub/sub so pages update live while a recipe runs. | `3000` |
-| **Python API + GUI Server** (`server.py`) | FastAPI app that serves the public API and the page-render endpoints used by gooey-gui. | `8080` |
-| **Celery Workers** (`celeryapp/`) | Run the actual recipes: consume jobs from RabbitMQ, call the GenAI providers, save results to Postgres, and publish progress to Redis. | — |
-| **Django Admin** (`gooeysite/`) | Admin UI over the same Postgres database — where you manage users, credits, and AI model specs. | `8000` |
-| **PostgreSQL 15** | Application database. | `5432` |
-| **Redis 8** | Cache and realtime pub/sub. | `6379` |
-| **RabbitMQ** | Celery broker. | `5672` |
-| **Vespa** | Vector and full-text search, powering document search / RAG. | `8085` |
+| Component                                 | What it does                                                                                                                                                                                | Port   |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| **gooey-gui** (`gooey-gui/`)              | Remix/React frontend. Asks the Python server to render each page as a JSON component tree, renders that in React, and subscribes to Redis pub/sub so pages update live while a recipe runs. | `3000` |
+| **Python API + GUI Server** (`server.py`) | FastAPI app that serves the public API and the page-render endpoints used by gooey-gui.                                                                                                     | `8080` |
+| **Celery Workers** (`celeryapp/`)         | Run the actual recipes: consume jobs from RabbitMQ, call the GenAI providers, save results to Postgres, and publish progress to Redis.                                                      | —      |
+| **Django Admin** (`gooeysite/`)           | Admin UI over the same Postgres database — where you manage users, credits, and AI model specs.                                                                                             | `8000` |
+| **PostgreSQL 15**                         | Application database.                                                                                                                                                                       | `5432` |
+| **Redis 8**                               | Cache and realtime pub/sub.                                                                                                                                                                 | `6379` |
+| **RabbitMQ**                              | Celery broker.                                                                                                                                                                              | `5672` |
+| **Vespa**                                 | Vector and full-text search, powering document search / RAG.                                                                                                                                | `8085` |
 
 {% hint style="info" %}
 All four backing services are open source, and a default install needs no cloud account at all. See [Platform Independence](platform-independence.md) for the full accounting.
 {% endhint %}
-
-## Should you self-host?
-
-Let's be direct: **for most developers, we do not recommend running or forking Gooey Server.** Use the [Gooey.AI API](https://gooey.ai/api/) or the [Python SDK](https://github.com/GooeyAI/python-sdk) instead — no servers, no API keys to juggle, no infrastructure to babysit.
-
-Self-hosting is the right call when you need something the hosted service can't give you:
-
-* **You want to create a new recipe**, rather than change the parameters on an existing one.
-* **You want to add an AI model we don't support** — including a model running entirely on your own hardware.
-* **You have specific data-practice requirements** — a particular cloud provider, a particular jurisdiction, or no cloud at all.
-* **You want to run your own server cluster** for your organisation, your country, or your customers.
-* **You want to add functionality** that the hosted platform doesn't offer.
 
 ## Why local and sovereign hosting matters
 
@@ -79,25 +67,25 @@ Self-hosted Gooey Server is a practical answer to that:
 * **Workflows are portable.** Recipes built on a sovereign deployment can be shared with, and forked by, anyone else running the same open stack.
 
 {% hint style="success" %}
-Our founders wrote about this at length in **[How Middle Powers Cooperate for AI Sovereignty](https://gooey.ai/sovereignty)** — the case that middle-power nations gain more from cooperating on open benchmarks, datasets, commoditised models, and shared workflows than from each building an isolated stack. Self-hosted Gooey Server is the piece of that argument you can actually run.
+Our founders wrote about this at length in [**How Middle Powers Cooperate for AI Sovereignty**](https://gooey.ai/sovereignty) — the case that middle-power nations gain more from cooperating on open benchmarks, datasets, commoditised models, and shared workflows than from each building an isolated stack. Self-hosted Gooey Server is the piece of that argument you can actually run.
 {% endhint %}
 
 ### Running with zero proprietary services
 
 A default local install already avoids every closed-source dependency. Nothing in this table needs configuring to reach the "Default locally" column — that is what you get out of the box.
 
-| Concern | Default locally | Turned on by |
-| ------- | --------------- | ------------ |
-| Auth | Local Django email/password (`routers/local_auth.py`) | `ENABLE_FIREBASE_AUTH` |
-| File storage | Local filesystem under `MEDIA_ROOT` (`./media`) | `GS_BUCKET_NAME` |
-| LLMs | Any OpenAI-compatible server via `AIModelSpec.base_url` | Provider API keys |
-| STT / TTS / embeddings | Self-hosted Whisper, Seamless, MMS, Bark, E5/GTE on the GPU Celery worker | Provider API keys |
-| Document OCR | Standard text extraction, no OCR | `AZURE_FORM_RECOGNIZER_KEY` or `MISTRAL_API_KEY` |
-| Payments | Disabled; billing UI degrades gracefully and credits are granted via the admin | `STRIPE_SECRET_KEY` |
-| Image moderation | Skipped | `AZURE_IMAGE_MODERATION_ENDPOINT` |
-| Managed secrets | Disabled; pass keys to functions as env vars | `AZURE_KEY_VAULT_ENDPOINT` |
-| Analytics | No script served | GTM ID |
-| Messaging connectors | Disabled | `FB_APP_ID`, `TWILIO_ACCOUNT_SID`, `SLACK_CLIENT_ID` |
+| Concern                | Default locally                                                                | Turned on by                                         |
+| ---------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------- |
+| Auth                   | Local Django email/password (`routers/local_auth.py`)                          | `ENABLE_FIREBASE_AUTH`                               |
+| File storage           | Local filesystem under `MEDIA_ROOT` (`./media`)                                | `GS_BUCKET_NAME`                                     |
+| LLMs                   | Any OpenAI-compatible server via `AIModelSpec.base_url`                        | Provider API keys                                    |
+| STT / TTS / embeddings | Self-hosted Whisper, Seamless, MMS, Bark, E5/GTE on the GPU Celery worker      | Provider API keys                                    |
+| Document OCR           | Standard text extraction, no OCR                                               | `AZURE_FORM_RECOGNIZER_KEY` or `MISTRAL_API_KEY`     |
+| Payments               | Disabled; billing UI degrades gracefully and credits are granted via the admin | `STRIPE_SECRET_KEY`                                  |
+| Image moderation       | Skipped                                                                        | `AZURE_IMAGE_MODERATION_ENDPOINT`                    |
+| Managed secrets        | Disabled; pass keys to functions as env vars                                   | `AZURE_KEY_VAULT_ENDPOINT`                           |
+| Analytics              | No script served                                                               | GTM ID                                               |
+| Messaging connectors   | Disabled                                                                       | `FB_APP_ID`, `TWILIO_ACCOUNT_SID`, `SLACK_CLIENT_ID` |
 
 The backing services are PostgreSQL (PostgreSQL License), RabbitMQ (MPL-2.0), Vespa (Apache-2.0), and Redis 8 (used under its AGPL-3.0 option; [Valkey](https://valkey.io) is a drop-in alternative with no code changes). Gooey Server itself is Apache-2.0.
 
