@@ -8,7 +8,7 @@ There are use cases for many companies to use Audio files instead of Text-to-Spe
 
 1. Already have a large content library of high quality voice overs
 2. Want a specific voice that AI can't produce currently
-3. Have a higher need for a realistic voice for your brand loyalty&#x20;
+3. Have a higher need for a realistic voice for your brand loyalty
 
 ### Audio files vs AI generated Audio <a href="#cu1xpothtpzq" id="cu1xpothtpzq"></a>
 
@@ -48,11 +48,9 @@ For this example, we have used Alfred Hitchcock! :bird:
 
 #### Step 2 <a href="#id-5v4axqcj5yym" id="id-5v4axqcj5yym"></a>
 
-Upload your audio file. This can be in .wav/.mp3 format.&#x20;
+Upload your audio file. This can be in .wav/.mp3 format.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-01-03 120430.png" alt=""><figcaption></figcaption></figure>
-
-
 
 {% hint style="info" %}
 Note: Use shorter pieces of audio, to ensure high quality lipsync with low-latency and minimum distortion.
@@ -78,4 +76,4 @@ Try it here:
 
 You can use the “Face Padding” settings to improve the accuracy of the detected face in the image/video. This ensures that the Lip Sync video looks more realistic.
 
-![](<../../.gitbook/assets/2 (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/2 (3).png>)

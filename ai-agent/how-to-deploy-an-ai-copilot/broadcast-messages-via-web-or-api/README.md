@@ -11,7 +11,7 @@ description: >-
 
 Navigate to the [integrations tab](https://gooey.ai/copilot/integrations) on the published run that you've connected. Expand "Configure Settings 🛠️" and scroll to the bottom of the settings. For supported deployment types like Slack and WhatsApp, you should see the following input widget:
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>The Broadcast Widget. Allows entering text and uploading audio, video, and miscellaneous file attachments. Hit "Send Broadcast" and subsequently click "confirm" to send a message to all your users!</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>The Broadcast Widget. Allows entering text and uploading audio, video, and miscellaneous file attachments. Hit "Send Broadcast" and subsequently click "confirm" to send a message to all your users!</p></figcaption></figure>
 
 Enter your message and upload audio, video, and other documents as desired. Make sure the file type is supported by the relevant platform. WhatsApp currently supports `audio/aac`, `audio/mp4`, `audio/mpeg`, `audio/amr`, and `audio/ogg`. Slack has the best support for `audio/mp4` or `audio/mpeg`. Once you're ready to send the messages, click "Send Broadcast" and you'll be prompted for confirmation. Upon confirmation, the messages will start sending. Depending on how many users you have, it can take a few minutes for all of them to be notified.
 
@@ -97,7 +97,7 @@ curl 'https://gooey.ai/copilot/farmerchat-with-vision/?example_id=nuwsqmzp' \
 
 ### Filtering Users
 
-To only broadcast messages to certain subsets of users, we provide some filter options. These include&#x20;
+To only broadcast messages to certain subsets of users, we provide some filter options. These include
 
 * "wa\_phone\_number\_\_in": list\[string],
 * "slack\_user\_id\_\_in": list\[string],
@@ -115,4 +115,4 @@ payload = {
 }
 ```
 
-More details on [Sending Targeted Messages](sending-targeted-messages-with-the-broadcast-api.md).&#x20;
+More details on [Sending Targeted Messages](sending-targeted-messages-with-the-broadcast-api.md).

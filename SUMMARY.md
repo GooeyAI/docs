@@ -2,6 +2,7 @@
 
 * [🗃️ Gooey.AI Docs](README.md)
 * [Changelog](changelog.md)
+* [Model Deprecations](model-deprecations.md)
 
 ## AI Agent
 
@@ -17,7 +18,8 @@
   * [Deploy to Web](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-web.md)
   * [Deploy to Telegram](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-telegram.md)
   * [Deploy to Voice](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-voice.md)
-  * [Deploy to WhatsApp](ai-agent/how-to-deploy-an-ai-copilot/deploy-on-whatsapp.md)
+  * [Deploy to WhatsApp](ai-agent/how-to-deploy-an-ai-copilot/deploy-on-whatsapp/README.md)
+    * [WhatsApp Rate Change Oct 2026](ai-agent/how-to-deploy-an-ai-copilot/deploy-on-whatsapp/whatsapp-rate-change-oct-2026.md)
   * [Deploy to Slack](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-slack/README.md)
     * [Siri Deployment](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-slack/siri-deployment.md)
   * [Deploy to Facebook](ai-agent/how-to-deploy-an-ai-copilot/deploy-to-facebook.md)

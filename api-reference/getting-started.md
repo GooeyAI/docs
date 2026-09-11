@@ -86,7 +86,7 @@ Try it out here:
 
 ### Create an API Key
 
-Gooey.AI allows single API key for several workflows. So whether you are including AI images in your app or making a highly customized AI Copilot, you can access our whole suite of workflows through a single API key.&#x20;
+Gooey.AI allows single API key for several workflows. So whether you are including AI images in your app or making a highly customized AI Copilot, you can access our whole suite of workflows through a single API key.
 
 CREATE API KEYS HERE:
 
@@ -94,13 +94,13 @@ CREATE API KEYS HERE:
 
 You can click on "Create new secret key"
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-02 231541--- (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-11-02 231541--- (1).png" alt=""><figcaption></figcaption></figure>
 
 A new API KEY will appear
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-01-04 155308.png" alt=""><figcaption></figcaption></figure>
 
-Copy the key and use it for your API Requests.&#x20;
+Copy the key and use it for your API Requests.
 
 {% hint style="info" %}
 Make sure you don't share your API KEY with anyone! 🚫

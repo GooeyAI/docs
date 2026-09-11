@@ -1,8 +1,8 @@
 # 🕵️‍♀️ How to set up Evaluations?
 
-In this example scenario, we are comparing and evaluating the quality of the answers of various AI Agents that have all the same settings and functionalities except for different LLMs.&#x20;
+In this example scenario, we are comparing and evaluating the quality of the answers of various AI Agents that have all the same settings and functionalities except for different LLMs.
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Check out the example run here: Evaluation only</strong> </td><td><a href="https://gooey.ai/eval/copilot-evaluator-artpuhzwvily/">https://gooey.ai/eval/copilot-evaluator-artpuhzwvily/</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Check out the example run here: Evaluation only</strong></td><td><a href="https://gooey.ai/eval/copilot-evaluator-artpuhzwvily/">https://gooey.ai/eval/copilot-evaluator-artpuhzwvily/</a></td></tr></tbody></table>
 
 ### Step 1: Select Gooey Workflows to evaluate <a href="#mj1hmvoaayxg" id="mj1hmvoaayxg"></a>
 
@@ -18,13 +18,11 @@ Prepare your golden QnA set:
 2. Make sure the Excel sheet/Google Sheets table has a “header” section
 3. Add all your questions and golden answer in the column below it
 
-
-
 <figure><img src="../../.gitbook/assets/10.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **You must provide the Golden Answers. Golden answers are the most suitable and accurate answers provided by humans with expertise on the subject.**
 
-1. Paste the link of your Google sheet or upload your data&#x20;
+1. Paste the link of your Google sheet or upload your data
 
 <figure><img src="../../.gitbook/assets/11.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -54,14 +52,14 @@ _**With the evaluation option, you will also get output for “Rationale”, “
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-08-19 at 4.53.02 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-08-19 at 11.30.43 PM (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-08-19 at 11.30.43 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Best Practices <a href="#oucznt5a94xk" id="oucznt5a94xk"></a>
 
 * Keep it simple - try to use an input spreadsheet with limited columns
 * Don’t leave any empty data points in the second row - there is a bug and the column does not read
 * Make sure to name your “Saved” workflows with relatable titles so that it is easy to set up the run
-*   We recommend collecting user messages from your saved agent's “Analytics” section. Head to Your agent link> Deploy tab > View Analytics, scroll to the bottom, and **export** the “Messages” tab CSV. <br>
+*   We recommend collecting user messages from your saved agent's “Analytics” section. Head to Your agent link> Deploy tab > View Analytics, scroll to the bottom, and **export** the “Messages” tab CSV.<br>
 
     <figure><img src="../../.gitbook/assets/16.png" alt=""><figcaption></figcaption></figure>
 

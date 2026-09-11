@@ -44,8 +44,8 @@ Example output
 
 ## Best Practices for Choosing Images
 
-Have a look at some good practices for Lipsync images&#x20;
+Have a look at some good practices for Lipsync images
 
-<figure><img src="../../.gitbook/assets/lipsync-hd-tips (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/lipsync-hd-tips.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/lipsync-hd-tips (1) (1).png" alt=""><figcaption></figcaption></figure>

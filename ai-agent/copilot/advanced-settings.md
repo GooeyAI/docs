@@ -6,11 +6,11 @@ description: Customise your Agent settings to fit your business use case
 
 ### Settings
 
-We offer a wide range of settings to customize the AI Agent.&#x20;
+We offer a wide range of settings to customize the AI Agent.
 
 ### Document Search Settings
 
-When a user asks a question, the first task is to search all the relevant documentation. There are several instructions that can be added at this stage that ensure search results are accurate and serve the Language Model with the right snippets to summarize. A basic set of "Guidelines" are already populated, you can change out your website link and other information as needed. &#x20;
+When a user asks a question, the first task is to search all the relevant documentation. There are several instructions that can be added at this stage that ensure search results are accurate and serve the Language Model with the right snippets to summarize. A basic set of "Guidelines" are already populated, you can change out your website link and other information as needed.
 
 <div align="center"><figure><img src="../../.gitbook/assets/Screenshot 2025-01-02 at 8.13.41 PM.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -27,13 +27,13 @@ When a user asks a question, the first task is to search all the relevant docume
 
 ### Citation style
 
-Based on where the agent is hosted and your need, several citation styles have been provided.&#x20;
+Based on where the agent is hosted and your need, several citation styles have been provided.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-01-02 at 8.14.42 PM.png" alt=""><figcaption></figcaption></figure>
 
-### Document Embeddings  Weightage - Dense to Sparse
+### Document Embeddings Weightage - Dense to Sparse
 
-Usually, we default the weightage setting to 0.5. If you have a agent that needs to answer with details and with several steps, you can increase the weightage to towards 1. If your agent must extract hyper-specific keywords or data from tables, we recommend tending the weightage to 0.&#x20;
+Usually, we default the weightage setting to 0.5. If you have a agent that needs to answer with details and with several steps, you can increase the weightage to towards 1. If your agent must extract hyper-specific keywords or data from tables, we recommend tending the weightage to 0.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-03-22 at 12.41.58 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -41,9 +41,9 @@ Usually, we default the weightage setting to 0.5. If you have a agent that needs
 
 #### Summarization
 
-For many AI agents, it will be important to have a context of the conversation history so it can give contextual details and maintain consistency in the answers. In the summarization instructions, we have added a default instruction. You can change this as per your requirement.&#x20;
+For many AI agents, it will be important to have a context of the conversation history so it can give contextual details and maintain consistency in the answers. In the summarization instructions, we have added a default instruction. You can change this as per your requirement.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 5.08.05 PM (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 5.08.05 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### Keyword Extraction
 
@@ -55,11 +55,11 @@ If your AI Agent has a lot of tabular data, specific model numbers, addresses, p
 If your AI Agent does not require conversation history context or keyword searches, you can keep the sections empty. This will decrease the overall prompt size and improve latency.
 {% endhint %}
 
-### Knowledge Base Speech Recognition&#x20;
+### Knowledge Base Speech Recognition
 
 Choose the relevant language for your Knowledge Base Documents (your prepared documents)
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 5.08.17 PM (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-10-27 at 5.08.17 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Language Model Settings
 
@@ -69,7 +69,7 @@ Gooey hosted a range of Language Models that are open source and paid. Please ch
 
 ### Capabilities
 
-Once your core prompt and knowledge base is ready, you can add capabilities like:&#x20;
+Once your core prompt and knowledge base is ready, you can add capabilities like:
 
 * **Speech Recognition and Translation** - useful for end users who can't type or read well
 * **Text to Speech & Lipsync** - can be used to "read aloud" the Agent's answer, and also add an AI Avatar for your Agent
@@ -80,13 +80,11 @@ Once your core prompt and knowledge base is ready, you can add capabilities like
 
 ### Fine Tuned Language Understanding with Custom Glossaries
 
-Once a user language is selected, two glossaries can be provided.&#x20;
+Once a user language is selected, two glossaries can be provided.
 
 1\) The input glossary which the LLM will use to translate/understand the incoming user messages and 2) The output glossary which the LLM will use to translate its responses back to the user language. These can be CSV, TSV, excel, or Google Sheets files either uploaded manually or via URL (the latter will automatically update when translating if the URL content has changed):
 
-&#x20;
-
-<figure><img src="../../.gitbook/assets/image (19).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt="" width="375"><figcaption></figcaption></figure>
 
 The glossary files follow the format specified by the Google Translate API's Equivalent Term Sets ([https://cloud.google.com/translate/docs/advanced/glossary#equivalent\_term\_sets\_csv](https://cloud.google.com/translate/docs/advanced/glossary#equivalent_term_sets_csv)). First row should be [ISO-639](https://wikipedia.org/wiki/ISO_639) or [BCP-47](https://tools.ietf.org/html/bcp47) language codes. Two extra columns are allowed: “pos” to specify part of speech and “description” (these columns are currently ignored by the Google Translate API but may be used in the future):<br>
 

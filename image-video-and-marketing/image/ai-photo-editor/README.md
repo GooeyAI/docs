@@ -7,19 +7,19 @@ description: Create amazing and vivid effects and styles on your images
 ### What can Gooey's Photo Editor do:
 
 * It can add amazing styles and effects to your base image
-* Use the base image as a reference to create images&#x20;
+* Use the base image as a reference to create images
 * Help you imagine many ideas on your simple sketch or older image
 
 ### What it can't do:
 
-* Remove your background. Try this AI Workflow instead:&#x20;
+* Remove your background. Try this AI Workflow instead:
 
 {% embed url="https://docs.gooey.ai/guides/ai-photo-editor/flux.1-kontext-pro" %}
 
 * Change or correct just a tiny bit in the image
-* Remove your ex!!&#x20;
+* Remove your ex!!
 
-&#x20;_**This tool is great for artist to create iterations on top of their sketches!**_&#x20;
+_**This tool is great for artist to create iterations on top of their sketches!**_
 
 ### Step 1 : Choose your image
 
@@ -29,11 +29,11 @@ Choose an image that you want to improve or change See the example below:
 
 ### Step 2: Upload
 
-Upload the image to the Edit an Image with AI tool.&#x20;
+Upload the image to the Edit an Image with AI tool.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-19 at 1.01.16 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-01-19 at 1.01.16 PM.png" alt=""><figcaption></figcaption></figure>
 
-### Step 3: Add a prompt&#x20;
+### Step 3: Add a prompt
 
 Think of the style and look that you want for your picture and add it to the prompt section:
 
@@ -47,7 +47,7 @@ an art deco house near a beach, beautiful sunset, A beautiful anime drawing full
 
 ### Step 4: Hit Submit
 
-Hit submit and watch your image change magically!&#x20;
+Hit submit and watch your image change magically!
 
 <figure><img src="https://storage.googleapis.com/dara-c1b52.appspot.com/daras_ai/media/df4925ba-b6af-11ee-953b-02420a00013c/gooey.ai%20-%20an%20art%20deco%20house%20near%20a%20beach%20beauti...ibli%20ponyo%20anime%20excited%20anime%20saturated%20colorsn.png" alt=""><figcaption></figcaption></figure>
 
@@ -59,7 +59,7 @@ TRY IT HERE:
 
 #### Models
 
-Choose the model you would like to use. We recommend use the default "DreamShaper" model for crisp and detailed images.&#x20;
+Choose the model you would like to use. We recommend use the default "DreamShaper" model for crisp and detailed images.
 
 {% hint style="info" %}
 More about the various models is available [here](https://docs.google.com/presentation/d/1RaoMP0l7FnBZovDAR42zVmrUND9W5DW6eWet-pi6kiE/edit#slide=id.p)
@@ -67,15 +67,13 @@ More about the various models is available [here](https://docs.google.com/presen
 
 #### Control Net
 
-Control Net adds an additional layer of control over the image that is uploaded for AI editing. You can chose multiple controlnet based on the look you need.&#x20;
+Control Net adds an additional layer of control over the image that is uploaded for AI editing. You can chose multiple controlnet based on the look you need.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-01-19 at 1.27.06 PM.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-01-19 at 1.27.18 PM.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-01-19 at 1.27.24 PM.png" alt=""><figcaption></figcaption></figure>
-
-
 
 #### Additional References
 

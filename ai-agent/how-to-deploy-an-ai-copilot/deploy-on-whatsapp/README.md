@@ -15,10 +15,10 @@ description: One-click integration for your AI Agent
 
 Click on the [Deploy tab](https://gooey.ai/copilot/integrations/) in the agent workflow
 
-![](<../../.gitbook/assets/Screenshot 2025-11-07 at 6.08.10 PM.png>)
+![](<../../../.gitbook/assets/Screenshot 2025-11-07 at 6.08.10 PM.png>)
 
 * Use the “WhatsApp” button
-* You’ll be redirected to Facebook Login Page&#x20;
+* You’ll be redirected to Facebook Login Page
 
 > NOTE: Gooey connects to a Facebook profile, it will not connect to a Facebook Page. If you don't have access to the Facebook profile/account of your organization, we suggest making a special Facebook profile for this.
 
@@ -26,23 +26,21 @@ Click on the [Deploy tab](https://gooey.ai/copilot/integrations/) in the agent w
 
 ### Step 1 - Fill Business Information
 
-<figure><img src="../../.gitbook/assets/1 (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Choose your business account (or create a new one)
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-29 at 3.35.21 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-29 at 3.35.21 PM.png" alt=""><figcaption></figcaption></figure>
 
-### Step 3 - Add a phone number for your Whatsapp agent&#x20;
+### Step 3 - Add a phone number for your Whatsapp agent
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-29 at 3.36.41 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-29 at 3.36.41 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 4 - Verify the phone number
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-05-29 at 3.37.25 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-05-29 at 3.37.25 PM.png" alt=""><figcaption></figcaption></figure>
 
-### **YOUR AI AGENT IS NOW READY!**&#x20;
-
-
+### **YOUR AI AGENT IS NOW READY!**
 
 **Test**
 
@@ -64,14 +62,14 @@ A: There could be a few reasons why this isn't working, please AVOID these steps
 * You have registered the phone number directly on Facebook
 * You have registered the phone number directly on Whatsapp Manager
 
-Please avoid this, you will not be able to integrate Gooey AI Agent on that number until you deactivate all these things.&#x20;
+Please avoid this, you will not be able to integrate Gooey AI Agent on that number until you deactivate all these things.
 
 **Q: The deployment worked successfully, but it's not working now. Why is this?**
 
-A: We have commonly found that after successful deployment users/organizations try to use the connected phone number on the WhatsApp client for messages sent by human experts. Once you have integrated the WhatsApp agent with your AI Agent, you can't have additional human-sent messages like other WhatsApp Business Accounts.&#x20;
+A: We have commonly found that after successful deployment users/organizations try to use the connected phone number on the WhatsApp client for messages sent by human experts. Once you have integrated the WhatsApp agent with your AI Agent, you can't have additional human-sent messages like other WhatsApp Business Accounts.
 
 **Q: The deployment worked successfully, why did the agent stop working after the first day?**
 
-A: If you don't connect a credit card to your Facebook Account for the agent, it will deactivate in 24 hours.  There won't be any additional charge from Facebook but they require a credit card to activate the account. Once you add a card there will be a business verification process.
+A: If you don't connect a credit card to your Facebook Account for the agent, it will deactivate in 24 hours. There won't be any additional charge from Facebook but they require a credit card to activate the account. Once you add a card there will be a business verification process.
 
 Get a WhatsApp number from Gooey by upgrading to a business plan at [https://gooey.ai/pricing](https://gooey.ai/pricing) or book us for a sales call at [https://gooey.ai/contact](https://gooey.ai/contact) if they have questions.
