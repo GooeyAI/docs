@@ -6,9 +6,7 @@ description: Connect an AI coding agent (Claude Code, Cursor, Copilot, etc.) to 
 
 ## What is this?
 
-If you build with an AI coding agent — [Claude Code](https://claude.com/claude-code), Cursor, GitHub Copilot, Windsurf, or similar — you can point it at Gooey.AI and have it set up the API integration in your project for you: creating an API key env var, picking the right recipe endpoint, and writing working request/response code. No copy-pasting curl snippets by hand.
-
-This works the same way as Cloudflare's ["agent setup"](https://developers.cloudflare.com/agent-setup/) flow: there's a plain-text [Setup Prompt](prompt.md) hosted at a stable URL. You give your agent one line, it fetches that URL and follows the instructions itself.
+If you build with an AI coding agent — Claude Code, Cursor, GitHub Copilot, Windsurf, or similar — you can point it at Gooey.AI and have it set up the API integration in your project for you: creating an API key env var, picking the right recipe endpoint, and writing working request/response code. No copy-pasting curl snippets by hand.
 
 ## How to use it
 
@@ -34,3 +32,15 @@ Prefer to do it yourself? Open the [Setup Prompt](prompt.md) page directly — i
 * Working examples grounded in the live [OpenAPI spec](https://api.gooey.ai/openapi.json), not guessed field names.
 
 For the full API contract, see [Getting Started](../getting-started.md).
+
+## Key concepts
+
+A quick vocabulary of how Gooey.AI models things server-side — useful context for an agent writing integration code, or for making sense of the OpenAPI spec.
+
+* **Recipe (Workflow)** — a type of AI pipeline, like Copilot, Compare LLMs, or Lipsync. Each recipe has a stable identity (`Workflow`) and one or more URL slugs (e.g. `agent`, `video-bots`, `copilot` all point at the same Copilot recipe) — see [Popular recipe slugs](prompt.md#id-3.-popular-recipe-slugs).
+* **Run** — one execution of a recipe. Every `/v2/<slug>` or `/v3/<slug>/async` call creates a run with a unique `run_id` and stores its inputs + outputs as JSON.
+* **Published Run** — a named, saved, shareable *configuration* of a recipe — e.g. a specific Copilot persona with its own knowledge base and prompt. This is what URLs like `gooey.ai/copilot/<published-run-id>/` point to; it's not the same as a single run.
+* **Integration** — a Published Run (typically Copilot) deployed to a specific channel — web, WhatsApp, Slack, Telegram, voice. Its `integration_id` is what you pass to the [streaming endpoint](prompt.md#id-5.-advanced-streaming-copilot-responses).
+* **Workspace** — the billing and access-control unit. API keys, credits balance, and team members belong to a workspace, not an individual user — one key gives access to every recipe in that workspace.
+* **Credits** — each run deducts credits from the workspace balance, priced by the recipe/model chosen and the number of outputs requested. Check the balance anytime with `GET /v1/balance/`.
+* **Retention policy** — every request accepts a `settings.retention_policy` field: `keep` (default — output stays saved) or `delete` (output is returned once when you poll an async run's status, then wiped server-side) — useful for sensitive data.
