@@ -104,6 +104,7 @@
 ## 🤓 API REFERENCE
 
 * [Getting started](api-reference/getting-started.md)
+* [AI Coding Agent Setup](api-reference/ai-coding-agent-setup.md)
 * [API Generator](https://gooey.ai/api/)
 * [Rate Limits](api-reference/rate-limits.md)
 * [Error Codes](api-reference/error-codes.md)
