@@ -1,19 +1,11 @@
 ---
-description: A copy-pasteable prompt that lets an AI coding agent (Claude Code, Cursor, Copilot, etc.) set up the Gooey.AI API in your project automatically.
+description: The raw prompt an AI coding agent fetches and executes to set up the Gooey.AI API in your project.
 ---
 
-# AI Coding Agent Setup
-
-Using an AI coding agent? Paste this into it and it will fetch and follow the instructions on this page automatically:
-
-{% code overflow="wrap" %}
-```
-Fetch and execute the appropriate instructions to set me up for Gooey.AI from https://docs.gooey.ai/api-reference/ai-coding-agent-setup.md
-```
-{% endcode %}
+# Setup Prompt
 
 {% hint style="info" %}
-The rest of this page **is** that prompt — written for an AI agent to read and act on. If you're a human, read on, it works just as well as a quickstart.
+This page **is** the prompt — written for an AI agent to read and act on. See [AI Coding Agents](./) for how to use it. If you're a human, read on, it works just as well as a quickstart.
 {% endhint %}
 
 ***
@@ -90,7 +82,7 @@ Pass a URL you already host, or POST `multipart/form-data` to `/v2/<slug>/form` 
 
 ### Errors
 
-See the full [Error Codes](error-codes.md) and [Rate Limits](rate-limits.md) guides. The short version: `401`/`403` = bad or missing key, `402` = out of credits, `429` = rate limited (back off and retry), `500` = the recipe run itself failed (see `detail.error`).
+See the full [Error Codes](../error-codes.md) and [Rate Limits](../rate-limits.md) guides. The short version: `401`/`403` = bad or missing key, `402` = out of credits, `429` = rate limited (back off and retry), `500` = the recipe run itself failed (see `detail.error`).
 
 ## 3. Popular recipe slugs
 
@@ -184,7 +176,7 @@ while True:
 
 ## 5. Advanced: streaming Copilot responses
 
-If the developer has already deployed a Copilot agent (via the Gooey.AI Integrations tab) and wants to stream its replies token-by-token into their own app — see the [Getting Started](getting-started.md#quickstart) streaming example. This specific endpoint needs no `GOOEY_API_KEY` and is safe to call from a browser:
+If the developer has already deployed a Copilot agent (via the Gooey.AI Integrations tab) and wants to stream its replies token-by-token into their own app — see the [Getting Started](../getting-started.md#quickstart) streaming example. This specific endpoint needs no `GOOEY_API_KEY` and is safe to call from a browser:
 
 ```
 POST https://api.gooey.ai/v3/integrations/stream/
@@ -198,6 +190,6 @@ The response's `Location` header (and JSON `stream_url`) is a Server-Sent Events
 * Interactive API docs: [https://api.gooey.ai/docs](https://api.gooey.ai/docs)
 * OpenAPI spec: [https://api.gooey.ai/openapi.json](https://api.gooey.ai/openapi.json)
 * Explore all recipes (with a live API code generator per recipe): [https://gooey.ai/explore](https://gooey.ai/explore)
-* [Rate Limits](rate-limits.md) · [Error Codes](error-codes.md)
+* [Rate Limits](../rate-limits.md) · [Error Codes](../error-codes.md)
 * Manage API keys / billing: [https://gooey.ai/account/api-keys/](https://gooey.ai/account/api-keys/)
 * Support: [support@gooey.ai](mailto:support@gooey.ai)
