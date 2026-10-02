@@ -8,6 +8,421 @@ All notable changes to this project will be documented in this file. It keeps tr
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 29-September-2026
+
+**Fixed**
+
+* [Add a fallback request method for status code 405 in the `_get_media_mimetype` function](https://github.com/GooeyAI/gooey-server/commit/e2d71530efa7f702f624a86e7a6c04d57a882bbb)
+
+## 28-September-2026
+
+**Fixed**
+
+* [Print full traceback for eco cost failures](https://github.com/GooeyAI/gooey-server/commit/738aa745aa5ab90cd86b46fbcedb0f603c763bab)
+* [Fix the publish dot on the top bar](https://github.com/GooeyAI/gooey-server/commit/5c140a924e667f501a0f4665bb32ba007c416457)
+* [Let the Ask Gooey button wear the mark or nothing at all](https://github.com/GooeyAI/gooey-server/commit/a8eed0e48bda4780ca34a8c14291c80b867cbd5c)
+
+## 25-September-2026
+
+**Added**
+
+* [Show usage in USD instead of credits](https://github.com/GooeyAI/gooey-server/commit/2ee0d0daf9070b6ce37bab44242298d8a28dd389)
+* [Custom hover band, tooltip and legend for the usage chart](https://github.com/GooeyAI/gooey-server/commit/e428fe77f8c5b4c796763a75358d2f9acf53a68f)
+* [/account/usage page with monthly credit usage by recipe](https://github.com/GooeyAI/gooey-server/commit/90339521a26378a51d658a95b4f2de09103ae7e3)
+
+**Fixed**
+
+* [Harden the eco sheet swipe against interrupts and motion settings](https://github.com/GooeyAI/gooey-server/commit/6da1f804425ef7b2001842ae4309f0597699a1f4)
+* [Capture eco cost failures in Sentry](https://github.com/GooeyAI/gooey-server/commit/b3ed12bc5456449dac4933dfc708eb5e641b8e55)
+
+## 24-September-2026
+
+**Added**
+
+* [Swipe the eco cost sheet down to close it](https://github.com/GooeyAI/gooey-server/commit/b270481edcd6c1f0239c16b01335ead120a10a32)
+* [Read the turns slider as monthly users at 8 messages a month](https://github.com/GooeyAI/gooey-server/commit/ae761ba98368894dfef9d90f4fca7055a4cafe24)
+
+**Fixed**
+
+* [Centre the eco cost modal vertically on desktop](https://github.com/GooeyAI/gooey-server/commit/0ae4ec96531054727c72a748fd2a39952b684145)
+* [Never let an eco cost failure break the page](https://github.com/GooeyAI/gooey-server/commit/b43603bc611977ba626eb909b0e3846d55b395d8)
+* [Keep workflows saved after login private](https://github.com/GooeyAI/gooey-server/commit/34fef2733d8c0688c4c05533c294852d0f3d4d13)
+* [Keep Bot Builder workflow copies private](https://github.com/GooeyAI/gooey-server/commit/bb6a8898f8424ff8616250d62f32301873b3cb26)
+* [Keep duplicated workflows private](https://github.com/GooeyAI/gooey-server/commit/932df1ea542ced6b78ce603b2e15117fb11bb221)
+* [Stop the two side tracks insisting on being the same width](https://github.com/GooeyAI/gooey-server/commit/02af5322870ce572199f59c081c1c927300559b3)
+* [Measure what the bar wants, not what it was already squeezed into](https://github.com/GooeyAI/gooey-server/commit/1ce3dd16458ce02b2237eddb0093e83e5178817e)
+* [Fall back to the workflow's name when no wordmark is sent](https://github.com/GooeyAI/gooey-server/commit/fb77c1eb829f374334a16e782c7c64517a3bfac1)
+
+## 23-September-2026
+
+**Added**
+
+* [Per-run eco cost in the top bar and a cost & environment impact modal](https://github.com/GooeyAI/gooey-server/commit/3869056f3523b95b176949d80221d8227dbc109f)
+* [Use datetime + workflow title filenames for all VideoGenPage videos](https://github.com/GooeyAI/gooey-server/commit/ea007c600fb6861956b152030e5726ad91915590)
+* [Name agent-generated videos with a UTC timestamp and agent title](https://github.com/GooeyAI/gooey-server/commit/63a5bcbd91c1be758ef07f3a05e29ee542b54077)
+* [Allow overriding the filename of re-uploaded fal assets](https://github.com/GooeyAI/gooey-server/commit/7ad349f48ee0bb2d1bdd224d227685b80efe8a66)
+
+**Fixed**
+
+* [Explain low confidence with ecocost's reason codes](https://github.com/GooeyAI/gooey-server/commit/6985875d31b2c94252445706e312b33fd9a3515b)
+* [Review fixes, mobile access, and a stable phone layout](https://github.com/GooeyAI/gooey-server/commit/cfb179993eea5b4f458b6da8b9e7adccd909babb)
+* [Keep the file extension when a fal filename stem contains a dot](https://github.com/GooeyAI/gooey-server/commit/afcf18dc28ca8f324517eb4e8f097d43fe35ddd0)
+
+## 22-September-2026
+
+**Fixed**
+
+* [Deferred pane shouldn't load after its switched away from](https://github.com/GooeyAI/gooey-server/commit/8ca902da27ab5c46cefb2e281387108d9f9a6f0d)
+
+## 21-September-2026
+
+**Added**
+
+* [Let sliders be empty and unset optional model fields](https://github.com/GooeyAI/gooey-server/commit/d42a3e89eea1c4f3932cd136831e40056c3d8180)
+* [Add erase button to image/video model sliders](https://github.com/GooeyAI/gooey-server/commit/dee0875fc72e37fd0e378191c67ffa40c6e98bb7)
+* [Shed the bar's labels by measuring, not by breakpoint](https://github.com/GooeyAI/gooey-server/commit/147a32f808ae480be1e291a30076746ae32ab27c)
+
+**Fixed**
+
+* [Run safety checker on the rendered prompt](https://github.com/GooeyAI/gooey-server/commit/a0bfcd74d2e7a902b2d694ed0550ff50f68e2c6f)
+* [Make the fully-labelled bar prove it has room for one more chip](https://github.com/GooeyAI/gooey-server/commit/ae1a664a84fde346ee5a05b0d37ea74699684594)
+* [Pair the view-transition name to the transitioning instance, not a startup counter](https://github.com/GooeyAI/gooey-server/commit/78257b49646c879e7c2f71dcebd92fd8dcbe1d11)
+* [Stop a tooltip outliving the control it points at](https://github.com/GooeyAI/gooey-server/commit/85e3853b633b58ce417ff947884713a5eb818b56)
+
+## 19-September-2026
+
+**Added**
+
+* [Hold tooltips back 1.2s](https://github.com/GooeyAI/gooey-server/commit/d44ef37fed25bf2407ec52f8dc0b34eb29015306)
+* [Name the bar's controls with the tooltip v2 uses elsewhere](https://github.com/GooeyAI/gooey-server/commit/fae56663fd359f52029e1728c0bc79747a9dad5b)
+
+**Fixed**
+
+* [Let a tooltip out of the box that laid out the thing it points at](https://github.com/GooeyAI/gooey-server/commit/d65ae2c8e194de2084ca56a6f2cbd6fd637fdf36)
+* [Gate the bar's labels on a 1440px window, not 1512](https://github.com/GooeyAI/gooey-server/commit/6e6a45786aa59c5be4bb345b94de0cf19baa9221)
+* [Collapse the bar's labels before its controls overlap](https://github.com/GooeyAI/gooey-server/commit/97168b5ea5c5ae682c6db5804e43d5cf1accabbb)
+* [Lighten the header rule and give it room](https://github.com/GooeyAI/gooey-server/commit/e9d8617d14d4615b858e9a1ddf98bda32a7724ce)
+* [Rule the header, not the whole bar](https://github.com/GooeyAI/gooey-server/commit/35666ad270fbad4d20d7ca405fa51128ced6e132)
+* [Stop Duplicate and the publish control sharing one label](https://github.com/GooeyAI/gooey-server/commit/74fb22e97a24dd552d0298b3ffcd7ef60bd51202)
+* [Give New Chat and the way back to a published run a home again](https://github.com/GooeyAI/gooey-server/commit/0a7f95cfbbbf3584f09d77320e96bdcaa13cefa1)
+* [Do not offer Close Preview where it would leave no tab selected](https://github.com/GooeyAI/gooey-server/commit/09f26c8c64d4b1f9281aac4cbaa461d92a9a628f)
+* [The mobile header's wordmark, title width and Ask Gooey mark](https://github.com/GooeyAI/gooey-server/commit/192bac1e0047353bcb09eaad9c6cf24b89e46a40)
+
+## 18-September-2026
+
+**Added**
+
+* [Match the mobile header and tab strip to the Figma flow](https://github.com/GooeyAI/gooey-server/commit/e625a2b27b23aa46be36d5b184840d34751fbc86)
+
+**Fixed**
+
+* [Bound upload metadata filenames](https://github.com/GooeyAI/gooey-server/commit/1be0c076ac96acab7c9fe0b43fa8cfad0927f97f)
+
+## 16-September-2026
+
+**Added**
+
+* [Shimmer loading indicator, fix its SSR readiness race](https://github.com/GooeyAI/gooey-server/commit/ad499e3df8942abc283b0963bcd26f4e1c9d1535)
+* [Use previewImg as a blurred loading placeholder for expandable video](https://github.com/GooeyAI/gooey-server/commit/8a978fe0aeec4797a4c14c1b2283402d83263074)
+
+**Fixed**
+
+* [Keep translated raw_tts_text when it matches output_text](https://github.com/GooeyAI/gooey-server/commit/f209b656074d40a02e29ff5703858a2d72c52ba9)
+* [Clear stale raw_tts_text between streamed chunks](https://github.com/GooeyAI/gooey-server/commit/d13a18cb7a001fdb7d9a92d472ddb3be9b256380)
+* [Letter spacings](https://github.com/GooeyAI/gooey-server/commit/ea4e4aab66d0046ac4012c283620b81cc0c9a3b3)
+* [Open About's meta cards in the split, not the editor alone](https://github.com/GooeyAI/gooey-server/commit/1419beed760978bcf6bca179dcd62f43fb8326df)
+* [Let a picked view outrank the run reveal, so Usage to Edit lands on Edit](https://github.com/GooeyAI/gooey-server/commit/7394df8fa4b3e5096b9c2da56aeddc45ef2949f3)
+* [Underline only on hover](https://github.com/GooeyAI/gooey-server/commit/5f4b3365fdba0977da6ab8c2927c5f622f10ef6f)
+* [Keep the view you pick when leaving Usage](https://github.com/GooeyAI/gooey-server/commit/5b4317454cb3261c78a72473804f38b5c642f72c)
+
+## 15-September-2026
+
+**Added**
+
+* [Enable fullscreen preview dialog for generated images](https://github.com/GooeyAI/gooey-server/commit/6e220460abed0fb66a183901d2c77e48bbe44d56)
+* [Run metadata in the v2 debug pane](https://github.com/GooeyAI/gooey-server/commit/7ddfb727becef18d9bba03887bdf0e9d538e1ccf)
+* [Forward trailing text after extension number to the bot](https://github.com/GooeyAI/gooey-server/commit/2b5dfff4fdf52ad0cf35e778f560d00096e8563d)
+* [Give a logged out visitor the browser's own share sheet on About](https://github.com/GooeyAI/gooey-server/commit/1f37b785ea42a8ab2a698fc4015f3b28355d8173)
+* [Close the About surface with Privacy, Terms and a Report form](https://github.com/GooeyAI/gooey-server/commit/4c5e2c5420190205c55610d5b9877534c65996f0)
+* [Animate the thumbnail-to-lightbox transition with View Transitions](https://github.com/GooeyAI/gooey-server/commit/e80da998fcc1e9cf0d61af21000443795c3f0bac)
+* [Run metadata in the v2 debug pane](https://github.com/GooeyAI/gooey-server/commit/d83fdd6a739412e1346696c79c79666c9a08435f)
+* [Custom play/pause/mute overlay for inline video, fix dialog action bar overlap](https://github.com/GooeyAI/gooey-server/commit/a96e7ea0e4a9d0cfc2c7b90220e2f6b04dd5cd55)
+
+**Fixed**
+
+* [Two layout regressions and a video-open transition snap](https://github.com/GooeyAI/gooey-server/commit/6f6e83ea87a8845074e482e9ea896dd9d6c4ef99)
+* [Sever window.opener before navigating the download fallback window](https://github.com/GooeyAI/gooey-server/commit/1222579de11ca77feabd0c5dfbe98c8a38a4e508)
+* [Unique per-instance view-transition-name, reorder helpers](https://github.com/GooeyAI/gooey-server/commit/6dfdc151fbe6c48d62c2f520213b427e2c7bd7c4)
+* [Drop the /usage/ endpoint expectation from the v1 layout tests](https://github.com/GooeyAI/gooey-server/commit/d34a3e1d26bf39b16cf0dd266505af86a1d98b94)
+* [Flag workflow dialog icon](https://github.com/GooeyAI/gooey-server/commit/300eca762220992b618bfa66cc37f5918f6e8e78)
+* [Stop the Debug pane demanding a workspace, which 500'd every public page](https://github.com/GooeyAI/gooey-server/commit/4d8b513cb287c9e3dbddac4fc6cf4c2e49d2b2cf)
+* [Give the Builder's panel one key, from one place](https://github.com/GooeyAI/gooey-server/commit/15bb7bd4bde8a71c329710b662e314cc5c6ff842)
+* [Read the debug pane's author through current_sr_user](https://github.com/GooeyAI/gooey-server/commit/675d0322886fc91cd0a96ca38a27df67fddd31a9)
+* [Stop the Builder closing itself whenever the page it sits beside changes](https://github.com/GooeyAI/gooey-server/commit/a2c04d6cd6706b2e384a4c552849d4299918ea7d)
+* [Shrink the Debug pane's type on a phone](https://github.com/GooeyAI/gooey-server/commit/faf0f31803d14b77d2fa2748dc42e10ffb3bc444)
+* [Offer the share url wherever there is no dialog, /agent/ included](https://github.com/GooeyAI/gooey-server/commit/416162ae537fe3031605321fde4f36e2449e12ed)
+* [Give the page a real h1, and hang the About surface off it](https://github.com/GooeyAI/gooey-server/commit/8f66cb314a243d355fcff6716b881b023c5a4f43)
+* [Keep the download fallback within Safari/iOS user activation](https://github.com/GooeyAI/gooey-server/commit/e7b6c29f82a8db26a689296777d68ba114924a16)
+* [Move image expand button to top-left, matching video](https://github.com/GooeyAI/gooey-server/commit/867ad5bdb1218d5a556205f88a65e04a8483ad95)
+* [Media preview review findings from PR #1097](https://github.com/GooeyAI/gooey-server/commit/54874b10f6112df5d6d49951e1ca73b3b70086c3)
+* [Expand button fade grouping and icon direction](https://github.com/GooeyAI/gooey-server/commit/04817f791ed318b72aa02d58a19fbded05fe6af1)
+
+## 14-September-2026
+
+**Added**
+
+* [Add click-to-fullscreen preview for generated images/videos](https://github.com/GooeyAI/gooey-server/commit/83e1090d3d5a41a0fe2d573a18d6f325dd3c5292)
+
+**Fixed**
+
+* [Let the preview dialog backdrop reach the notch/Dynamic Island](https://github.com/GooeyAI/gooey-server/commit/1c641a8efa241ae6b1c5d0f6b83f5ab72aa2fe1d)
+* [Suppress Safari's AirPlay icon overlapping the media expand button](https://github.com/GooeyAI/gooey-server/commit/105e20db1eccfc88054bc0252f6eabf468e598fd)
+* [Trap and restore keyboard focus in media preview dialog](https://github.com/GooeyAI/gooey-server/commit/57cbde05a73ecbceb9f60818b770a90e9d406748)
+* [Prevent media preview expand buttons from submitting the form](https://github.com/GooeyAI/gooey-server/commit/514c6a3a959fbf3109536b59e04ed987b7780b40)
+* [Stop a form post counting as arriving somewhere new, and resetting the view](https://github.com/GooeyAI/gooey-server/commit/defb29bbe5ccc8364bf82fd2f9f1e09ec5a8ba9d)
+
+## 11-September-2026
+
+**Added**
+
+* [Enhance chat widget with replay and accurate timestamping features](https://github.com/GooeyAI/gooey-server/commit/0aa1f318fdc3d132f4dfa79c01038e7b01f48087)
+* [Enable editing controller-managed chat messages](https://github.com/GooeyAI/gooey-server/commit/3ba52b7269474f92bfc2ec4cbe97f7529b3c016f)
+* [Rebuild the v2 mobile chrome on the new screens](https://github.com/GooeyAI/gooey-server/commit/8585e71325373ca4632f9f15dad36b7dc6def1ea)
+* [Extend the design system's type to the converted pages, and load it from CSS](https://github.com/GooeyAI/gooey-server/commit/9913d052717ccbbd25d4844e0d022946fe1a4fa9)
+
+**Fixed**
+
+* [Take Share out of the bar's publish control on a view-only page](https://github.com/GooeyAI/gooey-server/commit/e3178fe26b4e6ef1ac643bf9bf60a3bfaa06b515)
+* [Stop the mobile crumb repeating the view pill](https://github.com/GooeyAI/gooey-server/commit/17a2a41943800a1b0ccb7549d5bab9dfa5354ef3)
+* [Centre the About switcher, and drop the header pill it duplicates](https://github.com/GooeyAI/gooey-server/commit/b8ddf904f7e3662a95056729887d6b3a07a6558d)
+* [Move the mobile switcher out of the header, and fix the swap that never fired](https://github.com/GooeyAI/gooey-server/commit/3ca462e57ab2cca9752e91544ccc69946d4d8450)
+* [Stop the mobile header showing the switcher twice](https://github.com/GooeyAI/gooey-server/commit/1d630e798c93d0183ef156e6d1542ca1b7724323)
+* [Bring the pane slide back, subtler, and stop a run laying out the wrong view first](https://github.com/GooeyAI/gooey-server/commit/59357d91f57ba4bd08c2511e15534ad61e2512a1)
+* [Drop the pane slide, which turned every transient layout into a visible round trip](https://github.com/GooeyAI/gooey-server/commit/5d18bb386eba6e8b99ac3537657e5f3bf16d2900)
+* [Scope the heading reset to the titles that need it, and give the editor its sizes back](https://github.com/GooeyAI/gooey-server/commit/4687425df0a8977bbc742f1ead4ee67b7d1abd80)
+* [Let the About meta heading name only the kinds it holds](https://github.com/GooeyAI/gooey-server/commit/902d66a1cd3cea26879648d03b2c7e75570d5525)
+* [Put the Description heading back on About](https://github.com/GooeyAI/gooey-server/commit/5e0c8a2f4fd63a503499c9fcb876fc34de64bb6e)
+* [Drop the workflow card title to the design system's UI weight](https://github.com/GooeyAI/gooey-server/commit/3d6f1d9ee24f132c8fe0588d8aa749af6c9ca41d)
+* [Reach the bold utilities, and give Ask Gooey's title the display face](https://github.com/GooeyAI/gooey-server/commit/dcd475a99017b539ff443cf4438de80e3f5838c2)
+* [Give a card label three lines, and the card one height](https://github.com/GooeyAI/gooey-server/commit/296552f2ced5b1491a21864e36d3d2a373c86a73)
+* [Lay the About cards out on a grid, six to a row](https://github.com/GooeyAI/gooey-server/commit/6176e0c5056a7133790680177f6c5c654860482c)
+* [Hold the About surface to the design's type and card size](https://github.com/GooeyAI/gooey-server/commit/595d40eea53ce9fd7164751c2f7225fb85f0ff4c)
+* [Keep the view a run was started from, instead of imposing the work view](https://github.com/GooeyAI/gooey-server/commit/a94f9a195d8bfc1fe69f5f15ca5652af2716efd8)
+
+## 10-September-2026
+
+**Added**
+
+* [Put the v2 surfaces on the design system's own typefaces](https://github.com/GooeyAI/gooey-server/commit/21a1cf2f17821a67c273fc33879ba52181465a00)
+
+**Fixed**
+
+* [Stop the sidebar forcing the split on every workflow it opens](https://github.com/GooeyAI/gooey-server/commit/cac0ae08bd21ea1df7d4091b27bcc15fb3cda2e0)
+* [Settle three details of the v2 chrome](https://github.com/GooeyAI/gooey-server/commit/8c3158da4d9a84f8f1d36edd58276a7dab35c846)
+* [Keep the page-load bar out of the app talking to itself](https://github.com/GooeyAI/gooey-server/commit/8649234dc70c018e45c51fc41180bbf7271b7e2b)
+* [Take the v2 workspace's width off Bootstrap's container](https://github.com/GooeyAI/gooey-server/commit/04deb60d1f865b34f718834bf7aaca4e286eafcb)
+* [Open a published run on About, a saved run on the work view, and drop the editor's dotted ring](https://github.com/GooeyAI/gooey-server/commit/e2bfc238a1ae3d4a1969698635d41cf5ff32809c)
+* [Let the instruction editor own its scroll, and open every workspace on About](https://github.com/GooeyAI/gooey-server/commit/5a6bee055adaa5841010d71b881ba5ad8ce567df)
+* [Correct the top bar's gates on a root recipe and a view-only page](https://github.com/GooeyAI/gooey-server/commit/1134b80da1c80434f352a78c573d836c317b78de)
+* [Give layout v2 a heading outline a crawler can read](https://github.com/GooeyAI/gooey-server/commit/75fc91765b4aad9aca8cc769f627b4509b53ac6c)
+* [Upgrade Azure Speech SDK for CRL compatibility](https://github.com/GooeyAI/gooey-server/commit/8403e9ad495cd98245008cfa0fdad5cd066a933d)
+
+## 09-September-2026
+
+**Added**
+
+* [Turn on showRunTime for /agent and the builder](https://github.com/GooeyAI/gooey-server/commit/05e156db825c4a07e4c25fd2f6c3344dfab1fd30)
+* [Add GPT Image Sunburst and Flare](https://github.com/GooeyAI/gooey-server/commit/8e45aedc3e769379f4a7b732392517c0f846f60f)
+
+**Fixed**
+
+* [Renumber image generation migrations for master](https://github.com/GooeyAI/gooey-server/commit/969af49ac3ef53426283a9ac03bd685ebc451422)
+* [Ignore avoid repetition for all runs](https://github.com/GooeyAI/gooey-server/commit/346a26908544f79b1621e2e4f26f2c54cff42572)
+* [Send the Examples tab to explore from a published run too](https://github.com/GooeyAI/gooey-server/commit/4202b6f7adc958d8f2c0ffccfcbe463ca3545092)
+* [Keep a shared example link pointing at the run it named](https://github.com/GooeyAI/gooey-server/commit/2bf17b7532e867e879478044b4dd4f8e85a3c2f5)
+* [Let a keyboard close the top bar's menus, and stop the shell re-rendering everything](https://github.com/GooeyAI/gooey-server/commit/03f90f030e1698ed2676580a921f5b29afda7b8d)
+* [Correct GPT Image 2.5 token pricing](https://github.com/GooeyAI/gooey-server/commit/9878a226741f9cfd4d9d46bc7ad689bdea4bda23)
+* [Use GPT Image 2.5 model identifiers and labels](https://github.com/GooeyAI/gooey-server/commit/6f19eb370b4774cb64f0c48791ac78f4a5e43892)
+
+## 08-September-2026
+
+**Added**
+
+* [Quote the interrupting message when a streamed WhatsApp reply is replaced](https://github.com/GooeyAI/gooey-server/commit/95fec8e91b9adee06e7929d34400355b79b41580)
+
+## 07-September-2026
+
+**Fixed**
+
+* [Authorize builder runs before submission](https://github.com/GooeyAI/gooey-server/commit/28505d0530f79b5822ead854cf059bf959c32b6e)
+
+## 06-September-2026
+
+**Added**
+
+* [Stream Fireworks chat completions](https://github.com/GooeyAI/gooey-server/commit/841fd5f76151128aa695ac54398d06edbfba7a75)
+
+## 04-September-2026
+
+**Added**
+
+* [Add run time in the assistant message](https://github.com/GooeyAI/gooey-server/commit/8fff223b4175b78ed32229970a7324b94e79fc20)
+* [Report how long the answer took on the response message](https://github.com/GooeyAI/gooey-server/commit/6d24c8292f1f0693565ba15da8d304d3a4d390f4)
+* [Add RunTimeline component and integrate debug pane refactor](https://github.com/GooeyAI/gooey-server/commit/91e4c586371ff6a6be64636dd1945863de213bfd)
+* [Open layout v2 to everyone, scoped to the recipes forked to it](https://github.com/GooeyAI/gooey-server/commit/41276e5a3c2af4349e07e1e674767ef1867bb05b)
+* [Name a workflow's run count in About, not its owner's output](https://github.com/GooeyAI/gooey-server/commit/b28debb363238b4673e4ed9f607e8f5c3f3f71e5)
+
+**Fixed**
+
+* [Send created_at in the assistant entry too](https://github.com/GooeyAI/gooey-server/commit/5135ede30a8b89f08d78d339d6cd1fcd034b621f)
+* [Avoid duplicate agent knowledge controls](https://github.com/GooeyAI/gooey-server/commit/f9d2c6e264e457ce18a41d1800389019891d8afb)
+* [Scope agent pane tab styles](https://github.com/GooeyAI/gooey-server/commit/3a93428eca0261715cb4853bb3879ba20615e189)
+* [Polish new-page suggestions](https://github.com/GooeyAI/gooey-server/commit/36868bbad3b041c0320adc1774b08d6dddb97a9b)
+* [Relativize the rail's Ask Gooey href before navigating](https://github.com/GooeyAI/gooey-server/commit/cc81ada4050e3324dcfcab0018033f3cf1096288)
+* [Only leave the editor for the split when a run starts](https://github.com/GooeyAI/gooey-server/commit/7873f17f57dd261b571677635fc030d81c4ab4c7)
+
+## 03-September-2026
+
+**Added**
+
+* [Give the mobile sheet a menu per state](https://github.com/GooeyAI/gooey-server/commit/a962f800ede29ee090809e47ef4dd1521573039f)
+
+**Fixed**
+
+* [Stop the insufficient-credits card from scrolling](https://github.com/GooeyAI/gooey-server/commit/1e98d8294af87706aec6334f4f4a620caf8956d0)
+* [Rerun insufficient-credit workflows in fallback workspace](https://github.com/GooeyAI/gooey-server/commit/2b0bc2dc3a370390063aae30eb49763036200ef7)
+* [Preserve partial reply display content](https://github.com/GooeyAI/gooey-server/commit/52d73d9a9ddc21ab6e5f0ec8d1eaf111f77e2431)
+* [Switch agent panes without refetching](https://github.com/GooeyAI/gooey-server/commit/a8cb01050ca972a4094a74abf6d9087c78e55fe6)
+* [Keep the Builder panel off the tabs with no workspace](https://github.com/GooeyAI/gooey-server/commit/5f713c073d457bd8521958abf8cea1352814d3c0)
+* [Put Update back in the Usage tab's bar](https://github.com/GooeyAI/gooey-server/commit/8a8a24f8e92fd7fa7ce33d2fedc16013c3ec1481)
+* [Keep Run and Update out of the Usage tab's bar](https://github.com/GooeyAI/gooey-server/commit/b38198cba97e66ccc8cbd04c7b230277d3925f0c)
+* [Send a v2 recipe's Examples tab to the explore gallery](https://github.com/GooeyAI/gooey-server/commit/724a32e726ad6b3c38e1f035221ee93e3fe3acb5)
+* [Anonymous user runs should be saved but not started until after login](https://github.com/GooeyAI/gooey-server/commit/a0aa7a00115163dd885cc694f568b156cf0f4b71)
+
+## 01-September-2026
+
+**Fixed**
+
+* [Handle insufficient credits in builder](https://github.com/GooeyAI/gooey-server/commit/95b849910b01c93481d0609ec57ff22859d60f69)
+* [Avoid freezing admin on large JSON fields](https://github.com/GooeyAI/gooey-server/commit/7d5775e1cfbd7b4fcd92a69b1b1be055c016e089)
+* [About margins](https://github.com/GooeyAI/gooey-server/commit/2fcd5a76ebd61af5027824d87fc16fb90438f5b4)
+
+## 31-August-2026
+
+**Added**
+
+* [Give About an owner, its tags, and one panel to hold them](https://github.com/GooeyAI/gooey-server/commit/1c5a4c085c56b3dd0bafb59aea2f510c82437ca0)
+
+**Fixed**
+
+* [About cards alignments](https://github.com/GooeyAI/gooey-server/commit/bb2310abded9f94b228e4a90f214850e68abbc22)
+* [Remove addtitional padding](https://github.com/GooeyAI/gooey-server/commit/65a32aa8b0c7b0ad801a1aed0ee7dda58bec9ac2)
+* [Make About readable on a phone](https://github.com/GooeyAI/gooey-server/commit/cec022fcc6f9628554a5ea5fbe10ab444451edf8)
+* [Read the tab set from edit permission, not authorship](https://github.com/GooeyAI/gooey-server/commit/0b713bf01d2690f8bf87b13efbc4d26967ce0aa0)
+
+## 30-August-2026
+
+**Fixed**
+
+* [Make saved run surface editable in admin](https://github.com/GooeyAI/gooey-server/commit/11f5e946b01eb86b281995aba469d909717673f7)
+* [Fix the layout v2 tests](https://github.com/GooeyAI/gooey-server/commit/fd6237b5496fe6c6c6614b42b327668565bd26bb)
+* [Duplicate run bars!](https://github.com/GooeyAI/gooey-server/commit/65c4368a1c90cab2a25c2da7c432590008cf66e8)
+* [Correct font size](https://github.com/GooeyAI/gooey-server/commit/58d4cdcb0c30d17e653de63510ecb21e52bac898)
+* [Keep the mobile nav drawer open while a run streams](https://github.com/GooeyAI/gooey-server/commit/0372382749aaceb9575f10ffca441029a2396974)
+* [Move the editor's run bar into the editor pane](https://github.com/GooeyAI/gooey-server/commit/5e1bd27b65bde7a6822756b6072160d3214f2547)
+* [Point the sidebar's API link at the workspace's own keys](https://github.com/GooeyAI/gooey-server/commit/e561085e08773bc3742d80336fc8f1b13afee5d8)
+
+## 29-August-2026
+
+**Added**
+
+* [Enable layout v2 by default](https://github.com/GooeyAI/gooey-server/commit/64170ec2a1f2c67b0e28b3c8769fe33c6e35a660)
+
+**Fixed**
+
+* [Underline recipe title link](https://github.com/GooeyAI/gooey-server/commit/f44d2f337286ade20749da463d0fe1330c4c052a)
+* [About deployements cards link](https://github.com/GooeyAI/gooey-server/commit/b9f48670acf2464f40edce47fd2e13806730bf62)
+* [Layout v2 mobile navigation and view defaults](https://github.com/GooeyAI/gooey-server/commit/7f43fe6524db6673fa8a8d63b06d9ddd0eb878c0)
+* [Correct formatting](https://github.com/GooeyAI/gooey-server/commit/3c079ac1b68bff8c3c1fe025f8aade9216a5b083)
+
+## 28-August-2026
+
+**Added**
+
+* [History page and per-app Usage tab](https://github.com/GooeyAI/gooey-server/commit/3b9c807376f0971a24706f548b59703c9ba36a1b)
+
+**Fixed**
+
+* [Strip thinking traces for non WEB deployments](https://github.com/GooeyAI/gooey-server/commit/21d621b676e5808dc9c1b36818dcadf1787634d7)
+
+## 27-August-2026
+
+**Added**
+
+* [Title menu with version history, duplicate and delete](https://github.com/GooeyAI/gooey-server/commit/b38faf34209a144059824c567b7ed4375becc634)
+
+**Fixed**
+
+* [Keep top bar actions available during requests](https://github.com/GooeyAI/gooey-server/commit/9e34c776b580e94528e22ecff941f99a3bc16e32)
+* [Suppress regenerate for agent workspace](https://github.com/GooeyAI/gooey-server/commit/0dfec120af14121f22c000e008ce007d5f898084)
+* [Preserve workspace pane scroll ownership](https://github.com/GooeyAI/gooey-server/commit/723d00480ac45a50fdb9fdfca646e29ead4018fe)
+* [Preserve builder state across layouts](https://github.com/GooeyAI/gooey-server/commit/31775fc2a5ea87ef955d04348391d796f680e3a5)
+* [Keep layout v2 execution on legacy page](https://github.com/GooeyAI/gooey-server/commit/48bae6c1eaadcbe69d1df12fc6b237abb69b4d8c)
+* [Styling tighness](https://github.com/GooeyAI/gooey-server/commit/22f6daf8be2b8e8896c940baa28bc7f3113d6548)
+* [Close an unterminated css comment](https://github.com/GooeyAI/gooey-server/commit/e0f764d074bcc765847100fbccd386a73a607321)
+* [Stop a notice above the chat preview clipping the bottom of it](https://github.com/GooeyAI/gooey-server/commit/17ad54bbd5e000a31fac5ed668cce562002f54ff)
+* [Give the top bar's controls one height](https://github.com/GooeyAI/gooey-server/commit/daf5ddcfe40f4a9cce2f03e2ab380a9314b5c881)
+
+## 26-August-2026
+
+**Fixed**
+
+* [Persist a superseded WhatsApp run's partial reply](https://github.com/GooeyAI/gooey-server/commit/8b9b504f0ea17c461869a5167c02793a32c24b89)
+* [Coordinate WhatsApp event batching on a row lock](https://github.com/GooeyAI/gooey-server/commit/36957b2f6507a928079e548368c6359061c79045)
+* [Stop the narrow-viewport fold eating the layout the user picked](https://github.com/GooeyAI/gooey-server/commit/9ed28f582b23842837c949c27d135b11c672a599)
+
+## 23-August-2026
+
+**Added**
+
+* [Use GPT Transcribe as default ASR](https://github.com/GooeyAI/gooey-server/commit/d579e9f6f370afc1b094034a4d7bd9ffa1133737)
+* [Add GPT Transcribe ASR model](https://github.com/GooeyAI/gooey-server/commit/26c1f796119cc6c20a85e823cc04822e7362ff8f)
+
+**Fixed**
+
+* [Retry transient Chirp operation polling failures](https://github.com/GooeyAI/gooey-server/commit/89bd1e3b4d6d38286ca825fe2dabf9429249fd95)
+
+## 22-August-2026
+
+**Added**
+
+* [Add Google Chirp 3 ASR](https://github.com/GooeyAI/gooey-server/commit/34214ef858e7b4b4f82ec297bbe75c605e5d75ab)
+
+## 20-August-2026
+
+**Added**
+
+* [One mobile header, and Ask Gooey as the root of the stack](https://github.com/GooeyAI/gooey-server/commit/8c8d8e983de54389b84d3d5ae0197ecb359e35d0)
+
+**Fixed**
+
+* [Fix usability bugs](https://github.com/GooeyAI/gooey-server/commit/94e36ddc5f3a20683601158fb7f1efbc336221e3)
+* [Bottom padding for modal](https://github.com/GooeyAI/gooey-server/commit/ed9b69da1cc41452c0e276f8aa0b36ccf77e0986)
+* [Bound the v2 shell at every width, and let the Builder announce its own state](https://github.com/GooeyAI/gooey-server/commit/697f2aec6f86a43f32401c171258c242a0e7419f)
+* [Shorten placeholder](https://github.com/GooeyAI/gooey-server/commit/ab6a6d9306cdd25e8579ad56535ee7d43f8d9443)
+* [Stop the mobile drawer scrim from staining Safari's edge strips](https://github.com/GooeyAI/gooey-server/commit/104dc5dc60f20e60bd58814049221f0120f17462)
+* [Avoid zoom on focus for mobile devices](https://github.com/GooeyAI/gooey-server/commit/1b3316a75adedf6cabba08f11a0500b7b03b8cfd)
+
+## 19-August-2026
+
+**Added**
+
+* [Allow credit topups for personal workspaces](https://github.com/GooeyAI/gooey-server/commit/cecfd1af861737bec68096f085974db90c64b2c6)
+
+**Fixed**
+
+* [Close the mobile nav drawer on navigation](https://github.com/GooeyAI/gooey-server/commit/70a0db9e6babd1030ba78791a259ea87492a7e8f)
+* [Reduce control sizes](https://github.com/GooeyAI/gooey-server/commit/06c6f3001ec9831b11a560fe7efc15137829e56b)
 ## 17-August-2026
 
 **Fixed**
